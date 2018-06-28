@@ -1,113 +1,90 @@
+///
+/// Big Picture by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
 /* Header */
 
-	$accent: accent2;
-
-	body {
-		
-		padding-top: _size(header-height);
-
-		&:before {
-			content: ' ';
-			background-image: url(../../images/bg.jpg);
-			background-size: cover;
-			background-repeat: no-repeat;
-			background-attachment: fixed;
-		    display: block;
-		    position: fixed;
-		    left: 0;
-		    top: 0;
-		    width: 100%;
-		    height: 100%;
-		    z-index: -1;
-		    opacity: 0.05;
-		}
-	}
-
 	#header {
-		@include vendor('align-items', 'center');
-		@include vendor('display', 'flex');
-		@include vendor('justify-content', 'space-between');
-		background: _palette($accent, bg);
-		color: _palette($accent, fg);
-		cursor: default;
-		height: _size(header-height);
-		left: 0;
-		line-height: _size(header-height);
 		position: fixed;
+		z-index: 10000;
+		left: 0;
 		top: 0;
 		width: 100%;
-		z-index: _misc(z-index-base) + 1;
+		background: transparentize(_palette(bg), 0.05);
+		height: 3em;
+		line-height: 3em;
+		box-shadow: 0 0 0.15em 0 rgba(0,0,0,0.1);
 
-		> .logo {
-			color: _palette($accent, fg-bold);
-			font-size: 1rem;
-			font-weight: _font(weight-bold);
-			height: inherit;
-			line-height: inherit;
-			padding: 0 1.25rem;
-			text-decoration: none;
+		h1 {
+			position: absolute;
+			left: 1em;
+			top: 0;
+			height: 3em;
+			line-height: 3em;
+			cursor: default;
+
+			a {
+				font-size: 1.25em;
+			}
 		}
 
-		> nav {
-			> a {
-				color: inherit;
-				display: inline-block;
-				padding: 0 0.75rem;
-				text-decoration: none;
+		nav {
+			position: absolute;
+			right: 0.5em;
+			top: 0;
+			height: 3em;
+			line-height: 3em;
 
-				&:hover {
-					color: _palette($accent, fg-bold);
-				}
+			ul {
+				margin: 0;
 
-				&[href="#menu"] {
-					@include icon;
-					-webkit-tap-highlight-color: rgba(0,0,0,0);
+				li {
+					display: inline-block;
+					margin-left: 0.5em;
+					font-size: 0.9em;
 
-					&:before {
-						content: '\f0c9';
-						margin: 0 0.5rem 0 0;
-					}
-				}
-
-				& + a[href="#menu"]:last-child {
-					border-left: solid 1px _palette($accent, border);
-					margin-left: 0.5rem;
-					padding-left: 1.25rem;
-				}
-
-				&:last-child {
-					padding-right: 1.25rem;
-				}
-
-				@include breakpoint('<=small') {
-					padding: 0 0.5rem;
-
-					& + a[href="#menu"]:last-child {
-						margin-left: 0.25rem;
-						padding-left: 1rem;
-					}
-
-					&:last-child {
-						padding-right: 1rem;
+					a {
+						display: block;
+						color: inherit;
+						text-decoration: none;
+						height: 3em;
+						line-height: 3em;
+						padding: 0 0.5em 0 0.5em;
+						outline: 0;
 					}
 				}
 			}
 		}
+
+		@include breakpoint('<=small') {
+			height: 2.5em;
+			line-height: 2.5em;
+
+			h1 {
+				text-align: center;
+				position: relative;
+				left: 0;
+				top: 0;
+				height: 2.5em;
+				line-height: 2.5em;
+
+				a {
+					font-size: 1em;
+				}
+			}
+
+			nav {
+				display: none;
+			}
+		}
 	}
 
-	@include breakpoint('<=medium') {
-		body {
-			padding-top: 44px;
-		}
+	body {
+		padding-top: 3em;
 
-		#header {
-			height: 44px;
-			line-height: 44px;
-		}
-	}
-
-	@include breakpoint('<=xsmall') {
-		#header {
-			min-width: 320px;
+		@include breakpoint('<=small') {
+			padding-top: 2.5em;
 		}
 	}

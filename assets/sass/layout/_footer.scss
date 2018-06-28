@@ -1,77 +1,74 @@
+///
+/// Big Picture by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
 /* Footer */
 
 	#footer {
-		@include color(accent2);
-		@include padding(8rem, 0);
+		@include vendor('display', 'flex');
+		@include vendor('align-items', 'center');
+		@include vendor('justify-content', 'space-between');
+		position: relative;
+		margin: 0;
+		line-height: 1em;
+		padding: 1.5em;
+		background: _palette(accent3, bg);
+		color: _palette(accent3, fg);
+		overflow: hidden;
+
+		> * {
+			margin-bottom: 0;
+		}
 
 		a {
-			color: _palette(accent2, fg);
-			text-decoration: none;
+			color: inherit;
 
 			&:hover {
-				color: _palette(accent1, bg);
+				color: _palette(accent3, fg-bold);
 			}
 		}
 
-		.content {
-			@include vendor('display', 'flex');
+		ul {
+			&.menu {
+				margin: 0;
 
-			section {
-				width: 25%;
-
-				&:first-child {
-					width: 50%;
-					padding-right: _size(element-margin) * 2;
-				}
-
-				&:last-child {
-					padding-left: _size(element-margin) * 2;
+				li {
+					border-left-color: _palette(accent3, border);
+					font-size: 0.9em;
 				}
 			}
-		}
-
-		.copyright {
-			border-top: 1px solid;
-			font-size: 0.8rem;
-			opacity: 0.5;
-			padding: _size(element-margin) 0;
-			text-align: center;
-		}
-
-		@include breakpoint('<=large') {
-			@include padding(4rem, 0);
 		}
 
 		@include breakpoint('<=medium') {
-			.content {
-				@include vendor('flex-wrap', 'wrap');
+			@include vendor('flex-direction', 'column');
+			@include vendor('justify-content', 'center');
+			line-height: 1.5em;
+			text-align: center;
+			padding: 2em 1em 2em 1em;
 
-				section {
-					width: 50%;
-
-					&:first-child {
-						width: 100%;
-						padding-right: 0;
-					}
-				}
+			> * {
+				margin: 0 0 1em 0;
 			}
 		}
 
 		@include breakpoint('<=small') {
-			@include padding(3rem, 0);
+			ul {
+				&.menu {
+					li {
+						border-left: none;
+						display: block;
+						line-height: inherit;
+						margin: 0.25em 0 0 0;
+						padding: 0.25em 0 0 0;
 
-			.content {
-				section {
-					width: 100%;
-
-					&:last-child {
-						padding-left: 0;
+						&:first-child {
+							margin-top: 0;
+							padding-top: 0;
+						}
 					}
 				}
 			}
-		}
-
-		@include breakpoint('<=xsmall') {
-			@include padding(2rem, 0);
 		}
 	}

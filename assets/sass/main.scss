@@ -3,64 +3,108 @@
 @import 'libs/mixins';
 @import 'libs/vendor';
 @import 'libs/breakpoints';
-@import 'libs/grid';
-@import 'libs/flexgrid';
-@import 'font-awesome.min.css';
-@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900');
+@import url('font-awesome.min.css');
 
 /*
-	Industrious by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+	Big Picture by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
 // Breakpoints.
+
 	@include breakpoints((
-		default:   (1681px,   null     ),
-		xlarge:    (1281px,   1680px   ),
-		large:     (981px,    1280px   ),
-		medium:    (737px,    980px    ),
-		small:     (481px,    736px    ),
-		xsmall:    (361px,    480px    ),
-		xxsmall:   (null,     360px    )
+		xxlarge: ( 1681px,  1920px ),
+		xlarge:  ( 1281px,  1680px ),
+		large:   ( 1001px,  1280px ),
+		medium:  ( 737px,   1000px ),
+		small:   ( 481px,   736px  ),
+		xsmall:  ( null,    480px  )
 	));
 
-// Color.
-	@mixin color($p) {
-		@include color-typography($p);
-		@include color-button($p);
-		@include color-form($p);
-		@include color-list($p);
-		@include color-table($p);
-		@include color-highlights($p);
-		@include color-testimonials($p);
-	}
-
 // Base.
-	@import 'base/page';
+
 	@import 'base/reset';
+	@import 'base/page';
 	@import 'base/typography';
 
 // Component.
-	@import 'components/inner';
+
+	@import 'components/box';
 	@import 'components/button';
 	@import 'components/form';
-	@import 'components/list';
-	@import 'components/table';
-	@import 'components/highlights';
-	@import 'components/testimonials';
-	@import 'components/actions';
-	@import 'components/grid';
 	@import 'components/icon';
-	@import 'components/icons';
 	@import 'components/image';
-	@import 'components/wrapper';
+	@import 'components/list';
+	@import 'components/actions';
+	@import 'components/icons';
+	@import 'components/section';
+	@import 'components/table';
+	@import 'components/poptrox-popup';
+	@import 'components/gallery';
 
 // Layout.
-	@import 'layout/banner';
-	@import 'layout/cta';
-	@import 'layout/footer';
+
 	@import 'layout/header';
-	@import 'layout/heading';
 	@import 'layout/main';
-	@import 'layout/menu';
+	@import 'layout/footer';
+
+/* Intro */
+
+	#intro {
+		background: url('images/overlay.png'), url('../../images/intro.jpg');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
+	}
+
+/* One */
+
+	#one {
+		background: url('images/overlay.png'), url('../../images/one.jpg');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+/* Two */
+
+	#two {
+		background: url('images/overlay.png'), url('../../images/two.jpg');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+/* Contact */
+
+	#contact {
+		overflow: hidden;
+		padding-bottom: 0;
+
+		.box {
+			@include vendor('transition', 'transform #{_duration(fade-in)} ease');
+			@include vendor('transform', 'translateY(0)');
+			position: relative;
+		}
+
+		&.inactive {
+			.box {
+				@include vendor('transform', 'translateY(100%)');
+			}
+		}
+
+		@include breakpoint('<=small') {
+			.box {
+				padding: 1.5em 1.5em 2em 1.5em;
+			}
+		}
+
+		@include breakpoint('<=xsmall') {
+			.box {
+				padding: 1em 1em 2em 1em;
+			}
+		}
+	}

@@ -1,227 +1,165 @@
 <!DOCTYPE HTML>
 <!--
-	Industrious by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+	Big Picture by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+	Final Website Template
+
 -->
 <html>
 	<head>
-		<title>David Jiashu Wu</title>
+		<title>Davia Jiashu Wu</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
 			<header id="header">
-				<a class="logo" href="index.html">David Jiashu Wu</a>
+				<h1>David Jiashu Wu</h1>
 				<nav>
-					<a href="#menu">Menu</a>
+					<ul>
+						<li><a href="#one">Info</a></li>
+						<li><a href="#two">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<li>
+							<select>
+								<option value="style1">Style1</option>
+								<option value="style2">Style2</option>
+							</select>
+						</li>
+					</ul>
 				</nav>
 			</header>
 
-		<!-- Nav -->
-			<nav id="menu">
-				<ul class="links">
-					<li><a href="index.html">Information</a></li>
-					<li><a href="elements.html">Projects</a></li>
-					<li><a href="generic.html">Contact</a></li>
-				</ul>
-			</nav>
-
-		<!-- Banner -->
-			<section id="banner">
-				<div class="inner">
-					<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-					<div id="heading_greeting" style="display:block;"><h1>Hello</h1></div>
-					<div id="heading_name" style="display:block;"><h2>I am David Jiashu Wu</h2></div>
-					<script type="text/javascript">
-						$(function(){
-							count = 0;
-							greeting = ["Hello", "你好", "Bonjour", "Hola", "Hallo"];
-							name = ["I am David Jiashu Wu", "我是吴嘉澍"，"Je suis David Jiashu Wu", "Yo soy David Jiashu Wu", "Ich bin David Jiashu Wu"];
-							
-							setInterval(function(){
-								count = count + 1;
-								$("#heading_greeting").fadeOut(400, function(){
-									$(this).text(greeting[count % greeting.length]).fadeIn(400)
-								});
-							}, 3300);
-						});
-					</script>
-					
-				</div>
-				<video autoplay loop muted playsinline src="images/banner.mp4"></video>
-			</section>
-		
-			
-
-		<!-- Highlights -->
-			<section class="wrapper">
-				<div class="inner">
-					<header class="special">
-						<h2>Welcome to my personal website</h2>
-						<p>Here you can see some of the basic information about me, the projects that I previosuly done, and you can contact me. </p>
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content">
+					<header>
+						<font size="-1"><h2>Hello</h2></font>
 					</header>
-					<div class="highlights">
-						<section>
-							<div class="content">
-								<header>
-									<a href="#" class="icon fa-vcard-o"><span class="label">Icon</span></a>
-									<h3>Personal Information and Resume</h3>
-								</header>
-								<p>My personal information and resume. </p>
-								<a href="elements.html"><button type = "button">Learn More</button></a>
-							</div>
-						</section>
-						<section>
-							<div class="content">
-								<header>
-									<a href="#" class="icon fa-files-o"><span class="label">Icon</span></a>
-									<h3>Projects<br> <br></h3>
-								</header>
-								<p>Here you can see the project that I previously done. </p>
-								<a href="elements.html"><button type = "button">Learn More</button></a>
-							</div>
-						</section>
-						<section>
-							<div class="content">
-								<header>
-									<a href="#" class="icon fa-floppy-o"><span class="label">Icon</span></a>
-									<h3>Contact me<br> <br></h3>
-								</header>
-								<p>Feel free to contact me, leave some comments or feedbacks. </p>
-								<a href="elements.html"><button type = "button">Learn More</button></a>
-							</div>
-						</section>
-						<!--
-						<section>
-							<div class="content">
-								<header>
-									<a href="#" class="icon fa-line-chart"><span class="label">Icon</span></a>
-									<h3>Interdum gravida</h3>
-								</header>
-								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
-							</div>
-						</section>
-						<section>
-							<div class="content">
-								<header>
-									<a href="#" class="icon fa-paper-plane-o"><span class="label">Icon</span></a>
-									<h3>Faucibus consequat</h3>
-								</header>
-								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
-							</div>
-						</section>
-						<section>
-							<div class="content">
-								<header>
-									<a href="#" class="icon fa-qrcode"><span class="label">Icon</span></a>
-									<h3>Accumsan viverra</h3>
-								</header>
-								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
-							</div>
-						</section>
-						-->
-					</div>
+					<font size="+2"><p>I am David Jiashu Wu</p></font>
+					<footer>
+						<!--<a href="#one" class="button style2 down">More</a> -->
+					</footer>
 				</div>
 			</section>
 
-		<!-- CTA -->
-			<section id="cta" class="wrapper">
-				<div class="inner">
-					<h2>Curabitur ullamcorper ultricies</h2>
-					<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
-				</div>
-			</section>
-
-		<!-- Testimonials -->
-			<section class="wrapper">
-				<div class="inner">
-					<header class="special">
-						<h2>Faucibus consequat lorem</h2>
-						<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor.</p>
+		<!-- One -->
+			<section id="one" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Who I Am</h2>
 					</header>
-					<div class="testimonials">
-						<section>
-							<div class="content">
-								<blockquote>
-									<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
-								</blockquote>
-								<div class="author">
-									<div class="image">
-										<img src="images/pic01.jpg" alt="" />
-									</div>
-									<p class="credit">- <strong>Jane Doe</strong> <span>CEO - ABC Inc.</span></p>
+					<p>Hi, I am Jiashu Wu, I am now an undergraduate student studying Bachelor of Science at the University of Sydney, majoring in Computer Science and Financial Mathematics & Statictics</p>
+					<a href="info.html"><button>Learn More</button></a>
+				</div>
+				<!--<a href="#two" class="button style2 down anchored">Next</a> -->
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>My projects</h2>
+					</header>
+					<p>During my undergraduate study, I participated in several projects, including building websites to broaden people's knowledge about Stroke, a talented student project aimed to build an Android app to help diagnose Parkinson's disease, a Sudoku Solver which can solve the Sudoku pazzle etc. </p>
+				</div>
+				<!-- <a href="#work" class="button style2 down anchored">Next</a> -->
+			</section>
+
+		<!-- Work -->
+			<section id="work" class="main style3 primary">
+				<div class="content">
+					<header>
+						<h2>My Projects</h2>
+						<p>There are the intros of several projects that I have previously done. </p>
+					</header>
+
+					<!-- Gallery  -->
+						<div class="gallery">
+							<article class="from-left">
+								<a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" title="The Anonymous Red" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" title="Airchitecture II" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" title="Air Lounge" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" title="Carry on" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" title="The sparkling shell" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a>
+							</article>
+						</div>
+
+				</div>
+			</section>
+
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content">
+					<header>
+						<h2>Say Hello.</h2>
+						<p>Please feel free to leave me comments ot feedbacks. </p>
+					</header>
+					<div class="box">
+						<form method="post" action="#">
+							<div class="fields">
+								<div class="field half"><p style="text-align: left">Name</p><input type="text" name="name" placeholder="Name" /></div>
+								<div class="field half"><p style="text-align: left">Email</p><input type="email" name="email" placeholder="Email" /></div>
+								<div class="field half"><p style="text-align: left">Type</p>
+								<select>
+									<option value="volvo">---SELECT---</option>
+									<option value="select_comment">Comment</option>
+									<option value="select_fedback">Feedback</option>
+								</select>
 								</div>
+								<div class="field"><p style="text-align: left">Comments and Feedbacks</p><textarea name="message" placeholder="Message" rows="6"></textarea></div>
 							</div>
-						</section>
-						<section>
-							<div class="content">
-								<blockquote>
-									<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
-								</blockquote>
-								<div class="author">
-									<div class="image">
-										<img src="images/pic03.jpg" alt="" />
-									</div>
-									<p class="credit">- <strong>John Doe</strong> <span>CEO - ABC Inc.</span></p>
-								</div>
-							</div>
-						</section>
-						<section>
-							<div class="content">
-								<blockquote>
-									<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
-								</blockquote>
-								<div class="author">
-									<div class="image">
-										<img src="images/pic02.jpg" alt="" />
-									</div>
-									<p class="credit">- <strong>Janet Smith</strong> <span>CEO - ABC Inc.</span></p>
-								</div>
-							</div>
-						</section>
+							<ul class="actions special">
+								<li><input type="submit" value="Send Message" /></li>
+								<li><input type="reset" value="Reset Form" /></li>
+							</ul>
+						</form>
 					</div>
 				</div>
 			</section>
 
 		<!-- Footer -->
 			<footer id="footer">
-				<div class="inner">
-					<div class="content">
-						<section>
-							<h3>Thank you for visiting my website</h3>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
-						</section>
-						<section>
-							<h4>Sem turpis amet semper</h4>
-							<ul class="alt">
-								<li><a href="#">Dolor pulvinar sed etiam.</a></li>
-								<li><a href="#">Etiam vel lorem sed amet.</a></li>
-								<li><a href="#">Felis enim feugiat viverra.</a></li>
-								<li><a href="#">Dolor pulvinar magna etiam.</a></li>
-							</ul>
-						</section>
-						<section>
-							<h4>Contact</h4>
-							<ul class="plain">
-								<li><a href="https://www.facebook.com/profile.php?id=100011313344876"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
-								<li><a href="https://github.com/JiashuWu"><i class="icon fa-github">&nbsp;</i>Github</a></li>
-							</ul>
-						</section>
-					</div>
-					<div class="copyright">
-						&copy; David Jiashu Wu 2018.
-					</div>
-				</div>
+
+				<!-- Icons -->
+					<ul class="icons">
+						<!--<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>-->
+						<li><a href="https://www.facebook.com/profile.php?id=100011313344876" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<!--<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>-->
+						<li><a href="https://github.com/JiashuWu" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+						<li><a href="mailto:usydwjs@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						<!--<li><a href="#" class="icon fa-mail"><span class="label">Dribbble</span></a></li>-->
+						<!--<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>-->
+					</ul>
+
+				<!-- Menu -->
+					<ul class="menu">
+						<li>&copy; David Jiashu Wu 2018</li><li>All rights reserved</li>
+					</ul>
+
 			</footer>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
