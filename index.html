@@ -42,9 +42,51 @@
 			<section id="intro" class="main style1 dark fullscreen">
 				<div class="content">
 					<header>
-						<font size="-1"><h2>Hello</h2></font>
+						<font size="-1"><h2 id="hello">Hello</h2></font>
 					</header>
-					<font size="+2"><p>I am David Jiashu Wu</p></font>
+					<font size="+2"><p id="name">I am David Jiashu Wu</p></font>
+					<script type="text/javascript">
+						count = 0;
+						setInterval("change()", 3000);
+						function change()
+						{
+							if (count == 0)
+								{
+									count = 1;
+									document.getElementById("hello").innerHTML="Hello";
+									document.getElementById("name").innerHTML="I am David Jiashu Wu";
+								}
+							else if (count == 1)
+								{
+									count = 2;
+									document.getElementById("hello").innerHTML="你好";
+									
+									document.getElementById("name").innerHTML="我是吴嘉澍";
+								}
+							else if (count == 2)
+								{
+									count = 3;
+									document.getElementById("hello").innerHTML="Bonjour";
+									
+									document.getElementById("name").innerHTML="Je suis David Jiashu Wu";
+								}
+							else if (count == 3)
+								{
+									count = 4;
+									document.getElementById("hello").innerHTML="Hallo";
+									
+									document.getElementById("name").innerHTML="Ich bin David Jiashu Wu";
+								}
+							else if (count == 4)
+								{
+									count = 0;
+									document.getElementById("hello").innerHTML="Hola";
+									
+									document.getElementById("name").innerHTML="Yo soy David Jiashu Wu";
+								}
+							
+						}
+					</script>
 					<footer>
 						<!--<a href="#one" class="button style2 down">More</a> -->
 					</footer>
