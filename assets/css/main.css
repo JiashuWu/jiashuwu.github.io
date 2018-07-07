@@ -1403,6 +1403,20 @@ input, select, textarea {
 
 /* Gallery */
 
+	.gallery0 {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		width: 45em;
+		max-width: 100%;
+		margin: 0 auto 2em auto;
+	}
+
 	.gallery {
 		display: -moz-flex;
 		display: -webkit-flex;
