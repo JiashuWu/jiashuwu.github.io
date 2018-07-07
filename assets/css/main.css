@@ -2244,6 +2244,15 @@ input, select, textarea {
 		background-repeat: repeat, no-repeat;
 	}
 
+/* Intro in 404.html*/
+	#intro_404 {
+		background: url("images/overlay.png"), url("../../images/57d1ea51986289.5900ac9a99510.png");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
+	}
+
 /* One */
 
 	#one {
