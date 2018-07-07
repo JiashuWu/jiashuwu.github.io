@@ -70,81 +70,89 @@
 						
 						count0 = 0;
 						count = 0;
+						counter0 = 0;
 						counter = 0;
 						setInterval("change()", 100);
 						length = string0.length;
 						function change()
 						{
-							document.getElementById("name").innerHTML=string0.substring(0, count0)
-							if (count0 != length + 20)
+							if (counter0 != 18)
 							{
-								count0 = count0 + 1;
+								counter0 = counter0 + 1;
 							}
-							else
+							if (counter0 == 18)
 							{
-								if (counter == 0)
+								document.getElementById("name").innerHTML=string0.substring(0, count0)
+								if (count0 != length + 20)
 								{
-									if (count == 0)
-									{
-										count = 1;
-										document.getElementById("hello").innerHTML="Hello";
-
-										document.getElementById("name").innerHTML="I am David Jiashu Wu";
-										string0 = "I am David Jiashu Wu";
-									}
-									else if (count == 1)
-									{
-										count = 2;
-										document.getElementById("hello").innerHTML="你好";
-
-										document.getElementById("name").innerHTML="我是吴嘉澍";
-										
-										string0 = "我是吴嘉澍";
-									}
-									else if (count == 2)
-									{
-										count = 3;
-										document.getElementById("hello").innerHTML="Bonjour";
-
-										document.getElementById("name").innerHTML="Je suis David Jiashu Wu";
-										
-										string0 = "Je suis David Jiashu Wu";
-									}
-									else if (count == 3)
-									{
-										count = 4;
-										document.getElementById("hello").innerHTML="Hallo";
-
-										document.getElementById("name").innerHTML="Ich bin David Jiashu Wu";
-										
-										string0 = "Ich bin David Jiashu Wu";
-									}
-									else if (count == 4)
-									{
-										count = 5;
-										document.getElementById("hello").innerHTML="Hola";
-
-										document.getElementById("name").innerHTML="Yo soy David Jiashu Wu";
-										
-										string0 = "Yo soy David Jiashu Wu";
-									}
-									else if (count == 5)
-									{
-										count = 0;
-										document.getElementById("hello").innerHTML="Ciao";
-
-										document.getElementById("name").innerHTML="Sono David";
-										
-										string0 = "Sono David";
-									}
+									count0 = count0 + 1;
 								}
-								counter = counter + 1;
-								if (counter == 30)
+								else
 								{
-									counter = 0;
-								}
+									if (counter == 0)
+									{
+										if (count == 0)
+										{
+											count = 1;
+											document.getElementById("hello").innerHTML="Hello";
 
-								
+											document.getElementById("name").innerHTML="I am David Jiashu Wu";
+											string0 = "I am David Jiashu Wu";
+										}
+										else if (count == 1)
+										{
+											count = 2;
+											document.getElementById("hello").innerHTML="你好";
+
+											document.getElementById("name").innerHTML="我是吴嘉澍";
+
+											string0 = "我是吴嘉澍";
+										}
+										else if (count == 2)
+										{
+											count = 3;
+											document.getElementById("hello").innerHTML="Bonjour";
+
+											document.getElementById("name").innerHTML="Je suis David Jiashu Wu";
+
+											string0 = "Je suis David Jiashu Wu";
+										}
+										else if (count == 3)
+										{
+											count = 4;
+											document.getElementById("hello").innerHTML="Hallo";
+
+											document.getElementById("name").innerHTML="Ich bin David Jiashu Wu";
+
+											string0 = "Ich bin David Jiashu Wu";
+										}
+										else if (count == 4)
+										{
+											count = 5;
+											document.getElementById("hello").innerHTML="Hola";
+
+											document.getElementById("name").innerHTML="Yo soy David Jiashu Wu";
+
+											string0 = "Yo soy David Jiashu Wu";
+										}
+										else if (count == 5)
+										{
+											count = 0;
+											document.getElementById("hello").innerHTML="Ciao";
+
+											document.getElementById("name").innerHTML="Sono David";
+
+											string0 = "Sono David";
+										}
+									}
+									counter = counter + 1;
+									if (counter == 30)
+									{
+										counter = 0;
+									}
+
+
+								}
 							}
 						}
 						

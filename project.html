@@ -37,44 +37,77 @@
 			<section id="intro" class="main style1 dark fullscreen" margin-top="1em">
 				<div class="content">
 					<header>
-						<font size="-1"><h2 id="hello"> </h2></font>
+						<font size="-1"><h2 id="projects"> </h2></font>
 					</header>
-					<font size="+3"><p id="name"> </p></font>
+					<font size="+3"><p id="welcome"> </p></font>
 					<script type="text/javascript">
 						
 						var time = new Date();
 						var hour = time.getHours();
 						
+						string_projects = "Projects";
+						length_string_projects = string_projects.length;
 						
-						string = "Good morning, nice to meet you there, thank you for visiting my website";
+						string0 = "Good morning, welcome to the project showcase";
 						
 						
 						if (hour < 12)
 						{
-							string0 = "Good morning, nice to meet you there, thank you for visiting my website";
+							string0 = "Good morning, welcome to the project showcase";
 						}
 						else if (hour >= 12 && hour < 18)
 						{
-							string0 = "Good afternoon, nice to meet you there, thank you for visiting my website";
+							string0 = "Good afternoon, welcome to the project showcase";
 						}
 						else if (hour >=18)
 						{
-							string0 = "Good evening, nice to meet you there, thank you for visiting my website";
+							string0 = "Good evening, welcome to the project showcase";
 						}
 						
 						
 						count0 = 0;
-						count = 0;
+						count1 = 0;
 						counter = 0;
 						setInterval("change()", 100);
 						length = string0.length;
 						function change()
 						{
-							document.getElementById("name").innerHTML=string0.substring(0, count0)
-							if (count0 != length + 20)
+							if (counter != 16)
+							{
+								counter = counter + 1;
+							}
+							if (counter == 16)
+							{
+								document.getElementById("projects").innerHTML=string_projects.substring(0, count0);
+								if (count0 != length_string_projects + 10)
+								{
+									count0 = count0 + 1;
+								}
+								else
+								{
+									document.getElementById("welcome").innerHTML=string0.substring(0, count1);
+									if (count1 != length)
+									{
+										count1 = count1 + 1;
+									}
+								}
+							}
+							/*
+							if (count0 != length_string_projects + 10)
 							{
 								count0 = count0 + 1;
 							}
+							else
+							{
+								document.getElementById("welcome").innerHTML=string0.substring(0, count1);
+								if (count1 != length)
+								{
+									count1 = count1 + 1;
+								}
+							}
+							*/
+							
+							/*
 							else
 							{
 								if (counter == 0)
@@ -140,7 +173,7 @@
 								}
 
 								
-							}
+							}*/
 						}
 						
 						
