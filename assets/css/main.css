@@ -2067,6 +2067,16 @@ input, select, textarea {
 					background-image: url("images/dark-arrow.svg");
 				}
 
+		.projectstable {
+			padding-left: 6em;
+			padding-right: 6em;
+		}
+
+		.projectsection {
+			text-align: center;
+			padding: 1em 0 6em 0;
+		}
+
 		body.is-touch .main {
 			background-attachment: scroll !important;
 		}
