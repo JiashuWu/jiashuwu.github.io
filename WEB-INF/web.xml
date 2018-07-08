@@ -7,12 +7,12 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
 	
 	<error-page>
 		<error-code>404</error-code>
-		<location>/404.html</location>
+		<location>/404</location>
 	</error-page>
 	
 	<error-page>
 		<error-code>405</error-code>
-		<location>/405.html</location>
+		<location>/405</location>
 	</error-page>
 	
 	<error-page>
