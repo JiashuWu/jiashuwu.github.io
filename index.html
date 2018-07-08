@@ -174,7 +174,44 @@
 			<section id="one" class="main style2 right dark fullscreen">
 				<div class="content box style2">
 					<header>
-						<h2 style="color:mediumslateblue;">Welcome</h2>
+						<h2 id="welcome" style="color:mediumslateblue;">Welcome</h2>
+						<script>
+							count2 = 0;
+							setInterval("welcome()", 3000);
+							function welcome()
+							{
+								if (count2 == 0)
+								{
+									count2 = 1;
+									document.getElementById("welcome").innerHTML="Welcome";
+								}
+								else if (count2 == 1)
+								{
+									count2 = 2;
+									document.getElementById("welcome").innerHTML="欢迎";
+								}
+								else if (count2 == 2)
+								{
+									count2 = 3;
+									document.getElementById("welcome").innerHTML="Bienvenue";
+								}
+								else if (count2 == 3)
+								{
+									count2 = 4;
+									document.getElementById("welcome").innerHTML="Willkommen";
+								}
+								else if (count2 == 4)
+								{
+									count2 = 5;
+									document.getElementById("welcome").innerHTML="Bienvenida";
+								}
+								else if (count2 == 5)
+								{
+									count2 = 0;
+									document.getElementById("welcome").innerHTML="Benvenuto";
+								}
+							}
+						</script>
 					</header>
 					<p>Hi, I am Jiashu Wu, I am now an undergraduate student studying Bachelor of Science at the University of Sydney, majoring in Computer Science and Financial Mathematics & Statictics</p>
 					<a href="info.html"><button>Learn More</button></a>
