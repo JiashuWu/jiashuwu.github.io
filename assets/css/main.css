@@ -1985,6 +1985,14 @@ input, select, textarea {
 				background: #ffffff;
 			}
 
+		.main.style5 {
+			text-align: left;
+			padding: 0em 3em 3em 3em;
+		}
+			.main.style5.primary {
+				background: #ffffff;
+			}
+
 		.main.style2 {
 			-moz-align-items: center;
 			-webkit-align-items: center;
