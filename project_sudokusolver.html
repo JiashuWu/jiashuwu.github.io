@@ -37,9 +37,31 @@
 		<section id="intro" class="main style1 dark fullscreen">
 			<div class="content">
 				<header>
-					<font size="-1"><h2>Sudoku Solver</h2></font>
+					<font size="-1"><h2 id="title_word"> </h2></font>
 				</header>
-				<font size="+2"><p>A program created using Qt which can solve Sudoku</p></font>
+				<font size="+2"><p id="intro_word"> </p></font>
+				<script>
+					count1 = 0;
+					setInterval("change()", 180);
+					string_introduction = "A program created using Qt which can solve Sudoku";
+					string_title = "Luckydays";
+					strings = ["Puzzle", "Mathematics", "Deduction", "Interface", "C++", "Number", "Solution", "Game", "Guess", "Questions", "Qt", "User", "Iteration", "Computation", "Logic", "Puzzle", "Mathematics", "Deduction", "Interface", "C++", "Number", "Solution", "Game", "Guess", "Questions", "Qt", "User", "Iteration", "Computation", "Logic"];
+					length = strings.length;
+					function change()
+					{
+						if (count1 != length)
+						{
+							document.getElementById("title_word").innerHTML=strings[count1];
+							count1 = count1 + 1;
+						}
+						else
+						{
+							document.getElementById("title_word").innerHTML=string_title;
+							document.getElementById("intro_word").innerHTML=string_introduction;
+						}
+					}
+				</script>
+				
 				<footer>
 					<!--<a href="#one" class="button style2 down">More</a> -->
 				</footer>
