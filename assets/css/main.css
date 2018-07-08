@@ -2285,6 +2285,51 @@ input, select, textarea {
 		background-repeat: repeat, no-repeat;
 	}
 
+/* Intro in 405.html*/
+	#intro_405 {
+		background: url("images/overlay.png"), url("../../images/20e18b51986289.5901affc4e9f0.png");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
+	}
+
+/* Intro in 410.html*/
+	#intro_410 {
+		background: url("images/overlay.png"), url("../../images/6b13f651986289.5900ac9a9b0c3.png");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
+	}
+
+/* Intro in 500.html*/
+	#intro_500 {
+		background: url("images/overlay.png"), url("../../images/058d9951986289.5901affc4dccd.png");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
+	}
+
+/* Intro in 501.html*/
+	#intro_501 {
+		background: url("images/overlay.png"), url("../../images/23d03d51986289.5900ac9a98a42.png");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
+	}
+
+/* Intro in 503.html*/
+	#intro_503 {
+		background: url("images/overlay.png"), url("../../images/a99f6651986289.5900ac9a98d74.png");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
+	}
+
 /* One */
 
 	#one {
