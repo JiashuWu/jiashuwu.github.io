@@ -764,6 +764,54 @@ input, select, textarea {
 				background-image: url("images/arrow.svg");
 			}
 
+	.luckydays_button {
+		background-color: #70AD47
+	}
+
+	.luckydays_button:active {
+		background-color: #588D34
+	}
+
+	.luckydays_button:hover {
+		background-color: #588D34
+	}
+
+	.neurograph_button {
+		background-color: #ED7D31
+	}
+
+	.neurograph_button:active {
+		background-color: #EE670C
+	}
+
+	.neurograph_button:hover {
+		background-color: #EE670C
+	}
+
+	.strokewise_button {
+		background-color: #FF0000
+	}
+
+	.strokewise_button:active {
+		background-color: #D80000
+	}
+
+	.strokewise_button:hover {
+		background-color: #D80000
+	}
+
+	.sudokusolver_button {
+		background-color: #982DA3
+	}
+
+	.sudokusolver_button:active {
+		background-color: #7D1D86
+	}
+
+	.sudokusolver_button:hover {
+		background-color: #7D1D86
+	}
+
 /* Form */
 
 	form {
