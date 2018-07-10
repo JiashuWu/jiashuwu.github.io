@@ -71,21 +71,78 @@
 			<section id="contact" class="main style3 secondary">
 				<div class="content">
 					<header>
-						<h2>Say Hello.</h2>
-						<p>Please feel free to leave me comments ot feedbacks. </p>
+						<h2 style="color:cornflowerblue">Say Hello.</h2>
+						<p>Please feel free to leave me comments or feedbacks. </p>
 					</header>
 					<div class="box">
-						<form method="post" action="https://formspree.io/jiwu0083@uni.sydney.edu.au">
+						<form method="post" onsubmit="return validateForm();" action="https://formspree.io/jiwu0083@uni.sydney.edu.au" name="ContactForm">
 							<div class="fields">
 								<div class="field half"><p style="text-align: left">Name</p><input type="text" name="name" placeholder="Name" /></div>
 								<div class="field half"><p style="text-align: left">Email</p><input type="email" name="email" placeholder="Email" /></div>
+								<div class="field half"><p style="text-align: left">Type</p>
+								<select name="selectOptions">
+									<option value="select">---SELECT---</option>
+									<option value="select_comment">Comment</option>
+									<option value="select_fedback">Feedback</option>
+								</select>
+								</div>
 								<div class="field"><p style="text-align: left">Comments and Feedbacks</p><textarea name="message" placeholder="Message" rows="6"></textarea></div>
 							</div>
 							<ul class="actions special">
 								<li><input type="submit" value="Send Message" /></li>
-								<li><input type="reset" value="Reset Form" /></li>
+								<li><input type="reset" value="Reset Form " /></li>
 							</ul>
 						</form>
+						<script>
+							function validateForm()
+							{
+								var name = document.ContactForm.name;
+								var email = document.ContactForm.email;
+								var select = document.ContactForm.selectOptions;
+								var message = document.ContactForm.message;
+								
+								if (name.value == "")
+								{
+									window.alert("Please enter your name. ");
+									name.focus();
+									return false;
+								}
+								else if (email.value == "")
+								{
+									window.alert("Please enter your email. ");
+									email.focus();
+									return false;
+								}
+								else if (email.value.indexOf("@", 0) < 0)
+								{
+									window.alert("Please enter a valid e-mail address.");
+									email.focus();
+									return false;
+								}
+								else if (email.value.indexOf(".", 0) < 0)
+								{
+									window.alert("Please enter a valid e-mail address.");
+									email.focus();
+									return false;
+								}
+								else if (select.selectedIndex < 1)
+								{
+									window.alert("Please select an option. ");
+									select.focus();
+									return false;
+								}
+								else if (message.value == "")
+								{
+									window.alert("Please enter your message. ");
+									message.focus();
+									return false;
+								}
+								else
+								{
+									return true;
+								}
+							}
+						</script>
 					</div>
 				</div>
 			</section>
