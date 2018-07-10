@@ -352,12 +352,12 @@
 						<p>Please feel free to leave me comments or feedbacks. </p>
 					</header>
 					<div class="box">
-						<form method="post" action="https://formspree.io/jiwu0083@uni.sydney.edu.au">
+						<form method="post" action="https://formspree.io/jiwu0083@uni.sydney.edu.au" name="ContactForm" onsubmit="return ValidateContactForm();">
 							<div class="fields">
 								<div class="field half"><p style="text-align: left">Name</p><input type="text" name="name" placeholder="Name" /></div>
 								<div class="field half"><p style="text-align: left">Email</p><input type="email" name="email" placeholder="Email" /></div>
 								<div class="field half"><p style="text-align: left">Type</p>
-								<select>
+								<select name="selectOptions">
 									<option value="select">---SELECT---</option>
 									<option value="select_comment">Comment</option>
 									<option value="select_fedback">Feedback</option>
@@ -370,6 +370,56 @@
 								<li><input type="reset" value="Reset Form " /></li>
 							</ul>
 						</form>
+						<script>
+							function validateForm()
+							{
+								var name = document.ContactForm.name;
+								var email = document.ContactForm.email;
+								var select = document.ContactForm.selectOptions;
+								var message = docuent.ContactForm.message;
+								
+								if (name.value == "")
+								{
+									window.alert("Please enter your name. ");
+									name.focus();
+									return false;
+								}
+								else if (email.value == "")
+								{
+									window.alert("Please enter your email. ");
+									email.focus();
+									return false;
+								}
+								else if (email.value.indexOf("@", 0) < 0)
+								{
+									window.alert("Please enter a valid e-mail address.");
+									email.focus();
+									return false;
+								}
+								else if (email.value.indexOf(".", 0) < 0)
+								{
+									window.alert("Please enter a valid e-mail address.");
+									email.focus();
+									return false;
+								}
+								else if (select.selectedIndex < 1)
+								{
+									window.alert("Please select an option. ");
+									select.focus();
+									return false;
+								}
+								else if (message.value == "")
+								{
+									window.alert("Please enter your message. ");
+									message.focus();
+									return false;
+								}
+								else
+								{
+									return true;
+								}
+							}
+						</script>
 					</div>
 				</div>
 			</section>
