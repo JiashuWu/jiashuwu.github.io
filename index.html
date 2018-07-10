@@ -82,6 +82,7 @@
 						count = 0;
 						counter0 = 0;
 						counter = 0;
+						trigger = 0;
 						setInterval("change()", 100);
 						length = string0.length;
 						function change()
@@ -105,6 +106,16 @@
 										if (count == 0)
 										{
 											count = 1;
+											
+											if (trigger == 0)
+											{
+												document.getElementById("hello").style.display='none';
+												$(document.getElementById("hello")).fadeIn(1000);
+												document.getElementById("name").style.display='none';
+												$(document.getElementById("name")).fadeIn(1000);
+												trigger = trigger + 1;
+											}
+											
 											document.getElementById("hello").innerHTML="Hello";
 											document.getElementById("name").innerHTML="I am David Jiashu Wu";
 											string0 = "I am David Jiashu Wu";
