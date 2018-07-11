@@ -2317,7 +2317,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background-image: url("images/overlay.png"), url("../../images/intro.jpg");
+		background: url("images/overlay.png"), url("../../images/intro.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2357,15 +2357,15 @@ input, select, textarea {
 	}
 
 	#intro_siteinfo {
-		background: url("images/overlay.png"), url("../../images/578571.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat;
+		background-image: url("../../images/728649.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
 	}
 
 	#intro_project {
-		background: url("../../images/20f9c266304087.5b1153b2ce14c.png");
+		background-image: url("../../images/20f9c266304087.5b1153b2ce14c.png");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2373,7 +2373,7 @@ input, select, textarea {
 	}
 
 	#intro_thankyou {
-		background: url("../../images/527747.jpg");
+		background-image: url("../../images/527747.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2381,7 +2381,7 @@ input, select, textarea {
 	}
 
 	#intro_info {
-		background: url("../../images/180875.jpg");
+		background-image: url("../../images/180875.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2435,7 +2435,7 @@ input, select, textarea {
 
 /* Intro in 503.html*/
 	#intro_503 {
-		background: url("../../images/a99f6651986289.5900ac9a98d74.png");
+		background-image: url("../../images/a99f6651986289.5900ac9a98d74.png");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
