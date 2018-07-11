@@ -2365,11 +2365,11 @@ input, select, textarea {
 	}
 
 	#intro_project {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat;
+		background: url("../../images/20f9c266304087.5b1153b2ce14c.png");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
 	}
 
 	#intro_thankyou {
