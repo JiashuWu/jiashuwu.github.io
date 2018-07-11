@@ -625,6 +625,7 @@ input, select, textarea {
 		background: #FFFFFF;
 		color: #39454b;
 		padding: 2em;
+		opacity: 1
 	}
 
 		.box > :last-child {
