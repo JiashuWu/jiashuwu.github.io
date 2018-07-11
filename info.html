@@ -39,7 +39,7 @@
 			</nav>
 		</header>
 		
-		<section id="intro" class="main style1 dark fullscreen">
+		<section id="intro_info" class="main style1 dark fullscreen">
 			<div class="content">
 				<!-- Header -->
 				<header>
@@ -74,6 +74,7 @@
 						count = 0;
 						counter0 = 0;
 						counter = 0;
+						trigger = 0;
 						setInterval("change()", 100);
 						length = string0.length;
 						function change()
@@ -96,7 +97,19 @@
 									{
 										if (count == 0)
 										{
+											
 											count = 1;
+											
+											if (trigger == 0)
+											{
+												document.getElementById("hello").style.display='none';
+												$(document.getElementById("hello")).fadeIn(1500);
+												document.getElementById("greeting").style.display='none';
+												$(document.getElementById("greeting")).fadeIn(1500);
+												
+												trigger = trigger + 1;
+											}
+											
 											document.getElementById("hello").innerHTML="Hello";
 
 											document.getElementById("greeting").innerHTML="I am David Jiashu Wu";
@@ -143,9 +156,9 @@
 											count = 0;
 											document.getElementById("hello").innerHTML="Ciao";
 
-											document.getElementById("greeting").innerHTML="Sono David";
+											document.getElementById("greeting").innerHTML="Sono David Jiashu Wu";
 
-											string0 = "Sono David";
+											string0 = "Sono David Jiashu Wu";
 										}
 									}
 									counter = counter + 1;
