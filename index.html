@@ -268,6 +268,86 @@
 				</div>
 				<!-- <a href="#work" class="button style2 down anchored">Next</a> -->
 			</section>
+		
+			<section id="three" class="main style1 dark fullscreen" margin-top="1em">
+				<div class="content">
+					<header>
+						<font size="-2" style="font-family: 'Paprika', cursive;"><h2 id="entries">About Me</h2></font>
+					</header>
+					
+					
+					
+					<footer>
+					<!-- -->
+						<a href="info.html" class="button style2" id="button_text" text="About Me"><em id="text1">About Me</em></a>
+						<a class="button style2" id="button_next" onclick="executeOnClick()"><em>Try Another One</em></a>
+					</footer>
+					
+					
+					<script>
+						function getRandomInt (min, max)
+						{
+							return Math.floor(Math.random() * (max - min + 1)) + min;
+						}
+						min = 0;
+						
+						count_entries = 0;
+						
+						entries = ["About Me", "Projects", "Curriculum Vitae", "Luckydays", "Neurograph", "Strokewise", "Sudoku Solver", "Contact"];
+						
+						button_text = ["About Me", "Projects", "Download Curriculum Vitae", "Luckydays", "Neurograph", "Strokewise", "Sudoku Solver", "Contact"];
+						
+						links = ["info.html", "project.html", "#", "project_luckydays.html", "project_neurograph.html", "project_strokewise.html", "project_sudokusolver.html", "contact.html"];
+						
+						function executeOnClick()
+						{
+							welcome1();
+							clearInterval(interval1);
+							interval1 = setInterval("welcome1()", 7000);
+						}
+						
+						interval1 = setInterval("welcome1()", 7000);
+						
+						length_entries = entries.length;
+						
+						max = length_entries - 1;
+						
+						function welcome1()
+						{
+							/*
+							if (count_entries != length)
+							{
+								document.getElementById("entries").innerHTML = entries[count_entries];
+								
+								document.getElementById("button_text").text = button_text[count_entries];
+								
+								document.getElementById("button_text").href = links[count_entries];
+								
+								count_entries = count_entries + 1;
+							}
+							else
+							{
+								count_entries = 0;
+								
+								document.getElementById("entries").innerHTML = entries[count_entries];
+								
+								document.getElementById("button_text").value = button_text[count_entries];
+								
+								document.getElementById("button_text").href = links[count_entries];
+							}
+							*/
+							number_entries = getRandomInt(min, max);
+							document.getElementById("entries").innerHTML = entries[number_entries];
+								
+							document.getElementById("button_text").text = button_text[number_entries];
+
+							document.getElementById("button_text").href = links[number_entries];
+						}
+					</script>
+					
+
+				</div>
+			</section>
 
 		
 		<!-- Work -->

@@ -2472,6 +2472,14 @@ input, select, textarea {
 		background-repeat: no-repeat;
 	}
 
+	#intro_contact {
+		background-image: url("../../images/Blue_Ocean.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+	}
+
 /* Intro in 404.html*/
 	#intro_404 {
 		background-image: url("../../images/57d1ea51986289.5900ac9a99510.png");
@@ -2542,6 +2550,14 @@ input, select, textarea {
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: center center;
+	}
+
+	#three {
+		background-image: url("../../images/three.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
 	}
 
 	#one0 {
