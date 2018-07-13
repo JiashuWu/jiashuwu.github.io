@@ -36,6 +36,7 @@
 						<li><a href="#one">Welcome</a></li>
 						<li><a href="#one0">About Me</a></li>
 						<li><a href="#two">Project</a></li>
+						<li><a href="#three">Random Topics</a></li>
 						<li><a href="#my_cv">Curriculum Vitae</a></li>
 						<li><a href="#work">Project Showcase</a></li>
 						<li><a href="#contact">Contact</a></li>
@@ -50,7 +51,25 @@
 				</nav>
 			</header>
 		
-		
+			<script type="text/javascript">
+				var time0 = new Date();
+				var hour0 = time.getHours();
+				night = 0;
+				if (hour0 >= 0 && hour0 < 6)
+				{
+					night = 1;
+				}
+				else if (hour0 >= 18 && hour0 <= 24)
+				{
+					night = 1;
+				}
+				
+				if (night == 1)
+				{
+					// execute changing the theme;
+					
+				}
+			</script>
 
 		
 		
@@ -282,7 +301,7 @@
 					<footer>
 					<!-- -->
 						<a href="info.html" class="button style2" id="button_text" text="About Me"><em id="text1">About Me</em></a>
-						<a class="button style2" id="button_next" onclick="executeOnClick()"><em>Try Another One</em></a>
+						<a class="button style2" id="button_next" onclick="executeOnClick()"><em>Try Another Topic</em></a>
 					</footer>
 					
 					
