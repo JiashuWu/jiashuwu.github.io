@@ -2609,7 +2609,7 @@ input, select, textarea {
 
 /* Night Mode */
 	#one_night {
-		background-image: url("../../images/galaxy_purple1.jpg");
+		background-image: url("../../images/galaxy_purple.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: center center;
@@ -2626,7 +2626,7 @@ input, select, textarea {
 
 /* Night Mode */
 	#two_night {
-		background-image: url("../../images/galaxy_colour3.jpg");
+		background-image: url("../../images/galaxy_colour1.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: center center;
@@ -2658,7 +2658,7 @@ input, select, textarea {
 
 /* Night Mode */
 	#one0_night {
-		background-image: url("../../images/galaxy_colour4.jpg");
+		background-image: url("../../images/galaxy_blue2.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: center center;
