@@ -869,6 +869,18 @@ input, select, textarea {
 		background-color: #7D1D86
 	}
 
+	.personalwebsite_button {
+		background-color: #FF00FF
+	}
+
+	.personalwebsite_button:active {
+		background-color: #CF00CF
+	}
+
+	.personalwebsite_button:hover {
+		background-color: #CF00CF
+	}
+
 /* Form */
 
 	form {
@@ -2498,6 +2510,14 @@ input, select, textarea {
 
 	#intro_sudokusolver {
 		background-image: url("../../images/galaxy.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+	}
+
+	#intro_personalwebsite {
+		background-image: url("../../images/galaxy_blue2.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;

@@ -1,0 +1,242 @@
+<!DOCTYPE HTML>
+
+<!-- Page for Project Personal Website -->
+
+<html>
+	<head>
+		<title>Project Personal Website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" href="images/icon1.ico">
+		<link rel="bookmark" href="images/icon1.ico">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link href="https://fonts.googleapis.com/css?family=Fondamento" rel="stylesheet">
+	</head>
+	
+	<body class="is-preload">
+
+		<!-- Header -->
+		<header id="header">
+			<h1>David Jiashu Wu</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="project.html">Projects</a></li>
+					<li><a href="#intro">My Website</a></li>
+					<li><a href="#intro1">About</a></li>
+					<!--<li><a href="#keywords">Keywords</a></li>-->
+					<li><a href="#information">Information</a></li>
+					<li><a href="#changelog">Changelog</a></li>
+					<li><a href="#gallery">Gallery</a></li>
+					<li><a href="#links">Link</a></li>
+					<li><a href="#github_open_source">GitHub</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		
+		<section id="intro_personalwebsite" class="main style1 dark fullscreen">
+			<div class="content">
+				<header>
+					<font size="-1" style="font-family: 'Fondamento', cursive;"><h2 id="title_word"> </h2></font>
+				</header>
+				<font size="+2" style="font-family: 'Fondamento', cursive;"><p id="intro_word"> </p></font>
+				<script>
+					count1 = 0;
+					setInterval("change()", 180);
+					string_introduction = "My personal website which introduces myself";
+					string_title = "Personal Website";
+					strings = ["Strokewise", "Web", "CSS", "Javascript", "User", "Interface", "Awareness", "Treatment", "HTML", "Health", "Guide", "Design", "Public", "JQuery", "Cookies", "Medicine", "Tutorial", "Video", "Healthy", "Strokewise", "Web", "CSS", "Javascript", "User", "Interface", "Awareness", "Treatment", "HTML", "Health", "Guide", "Design", "Public", "JQuery", "Cookies", "Medicine", "Tutorial", "Video", "Healthy"];
+					length = strings.length;
+					function change()
+					{
+						if (count1 != length)
+						{
+							document.getElementById("title_word").innerHTML=strings[count1];
+							count1 = count1 + 1;
+						}
+						else
+						{
+							document.getElementById("title_word").innerHTML=string_title;
+							document.getElementById("intro_word").innerHTML=string_introduction;
+						}
+					}
+				</script>
+				
+				<footer>
+					<!--<a href="#one" class="button style2 down">More</a> -->
+					<a href="#" class="button style2"><em>Explore</em></a>
+				</footer>
+			</div>
+		</section>
+		
+		
+		<section id="intro1" class="main style4 primary">
+			<div class="content">
+				<font size="-2"><h2 style="color:mediumpurple;">About Strokewise</h2></font>
+				<p><blockquote>Strokewise is a website which can help people to gain a deeper understanding about the stroke disease. By presenting some introduction of the disease, its symptons, its cause, and a introduction to the related treatment, we help people to be aware of this disease and stick to a healthy lifestyle. </blockquote></p>
+			</div>
+		</section>
+		
+	
+		<section id="keywords" class="main style4 primary">
+			<div class="content">
+				<font size="-2"><h2 style="color:mediumpurple;">Key Words</h2></font>
+				<table>
+					<tbody>
+						<tr>
+							<td>Website</td>
+							<td>HTML, CSS, Javascript, JQuery</td>
+							<td>Stroke Disease</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
+	
+		
+		<section id="information" class="main style4 primary">
+			<div class="content">
+				<font size="-2"><h2 style="color:mediumpurple;">Website Information</h2></font>
+				<table>
+					<tbody>
+						<tr>
+							<td>Author</td>
+							<td>Davia Jiashu Wu and my group in INFO1003</td>
+						</tr>
+						
+						<tr>
+							<td>Publish Date</td>
+							<td>June 2016</td>
+						</tr>
+						
+					</tbody>
+				</table>
+			</div>
+		</section>
+	
+		<section id="changelog" class="main style4 primary">
+			<div class="content">
+				<font size="-2"><h2 style="color:mediumpurple;">Changelog</h2></font>
+				<p>
+				<br />
+				<b>An introduction about what stroke is. </b>
+				<br />
+				An introduction about the treatments. 
+				<br />
+				A risk calculator which can calculate user's stroke risk through a set of questions. 
+				<br />
+				A tutorial of the website. 
+				<br />
+				</p>
+			</div>
+		</section>
+	
+	
+		<!-- Gallery Section -->
+		<section id="gallery" class="main style3 primary">
+			<div class="content">
+				<header>
+					<h2>Strokewise Gallery</h2>
+				</header>
+
+				<!-- Gallery  -->
+					<div class="gallery">
+						<article class="from-left">
+							<a href="images/strokewise1.png" class="image fit"><img src="images/strokewise1.png" title="Strokewise Home Page" alt="Strokewise1" /></a>
+						</article>
+					
+						<article class="from-left">
+							<a href="images/strokewise2.png" class="image fit"><img src="images/strokewise2.png" title="Strokewise Risk Calculator" alt="Strokewise2" /></a>
+						</article>
+						
+						<article class="from-left">
+							<a href="images/strokewise3.png" class="image fit"><img src="images/strokewise3.png" title="Strokewise Integrated Medicine" alt="Strokewise3" /></a>
+						</article>
+					
+						<article class="from-left">
+							<a href="images/strokewise4.png" class="image fit"><img src="images/strokewise4.png" title="Strokewise Frequently Asked Questions" alt="Strokewise4" /></a>
+						</article>
+					</div>
+
+			</div>
+		</section>
+	
+	
+		<!-- Download Section -->
+
+		<section id="links" class="main style4 primary">
+			<div class="content">
+				<font size="-2"><h2 style="color:mediumpurple;">Visit Strokewise</h2></font>
+				<p>To visit Strokewise, click the following link: <a href="https://jiashuwu.github.io/jiashuwu.info1003.github.io/index.html">https://jiashuwu.github.io/jiashuwu.info1003.github.io/index.html</a></p>
+				
+				<p>Or click the following button</p>
+				<a href="https://jiashuwu.github.io/jiashuwu.info1003.github.io/index.html" class="button">Strokewise</a>
+				
+			</div>
+		</section>
+	
+		<section id="github_open_source" class="main style4 primary">
+			<div class="content">
+				<font size="-2"><h2 style="color:mediumpurple;">Github Repository</h2></font>
+				<p>
+				<br />
+				<a href="https://github.com/JiashuWu/jiashuwu.info1003.github.io">https://github.com/JiashuWu/jiashuwu.info1003.github.io</a>
+				<br />
+				<a href="https://github.com/JiashuWu" class="icon fa-github alt">GitHub</a>
+				<br />
+				</p>
+			</div>
+		</section>
+		
+		
+		<!-- Footer section -->
+		
+		<footer id="footer">
+
+			<!-- Icons -->
+				<ul class="icons">
+					<!--<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>-->
+					<li><a href="https://www.facebook.com/profile.php?id=100011313344876" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+					<!--<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>-->
+					<li><a href="https://github.com/JiashuWu" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+					<li><a href="http://www.linkedin.com/in/david-wu-785235163/" class="icon fa-linkedin-square"><span class="label">Linkedin</span></a></li>
+					<li><a href="mailto:usydwjs@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+					<!--<li><a href="#" class="icon fa-mail"><span class="label">Dribbble</span></a></li>-->
+					<!--<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>-->
+					<li><a href="contact.html" class="icon fa-comment"><span class="label">Contact</span></a></li>
+				</ul>
+
+				<ul class="menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="info.html">About Me</a></li>
+					<li><a href="project.html">Projects</a></li>
+					<li><a href="site_information.html">Site information & Sitemap</a></li>
+				</ul>
+
+			<!-- Menu -->
+				<ul class="menu">
+					<li>&copy; David Jiashu Wu 2018</li><li>All rights reserved</li>
+				</ul>
+
+		</footer>
+		
+		
+		<!-- Script Section -->
+		
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.poptrox.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		
+		
+		
+	</body>
+	
+</html>
