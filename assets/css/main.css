@@ -649,6 +649,35 @@ input, select, textarea {
 
 		}
 
+	/* CHANGE THE COLOUR OF THE BACKGROUND */
+	.box_night {
+		background: transparent;
+		color: transparent;
+		padding: 2em;
+		opacity: 1
+	}
+
+		.box_night > :last-child {
+			margin-bottom: 0;
+		}
+
+		.box_night.style2 {
+			padding: 3.5em 2.5em 3.5em 2.5em;
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.box_night {
+				padding: 1em;
+			}
+
+				.box_night.style2 {
+					padding: 1.5em 1.25em 1.5em 1.25em;
+					background-color: rgba(255, 255, 255, 0.9);
+				}
+
+		}
+
 /* Button */
 
 	input[type="button"],
@@ -765,6 +794,32 @@ input, select, textarea {
 			button.style2.down {
 				background-image: url("images/arrow.svg");
 			}
+
+	.index_button_1 {
+		background-color: transparent;
+		border: solid 2px #e5e6e7;
+	}
+
+	.index_button_1:active {
+		background-color: rgba(229, 230, 231, 0.375);
+	}
+
+	.index_button_1:hover {
+		background-color: rgba(229, 230, 231, 0.25);
+	}
+
+	.index_button_2 {
+		background-color: transparent;
+		border: solid 2px #e5e6e7;
+	}
+
+	.index_button_2:active {
+		background-color: rgba(229, 230, 231, 0.375);
+	}
+
+	.index_button_2:hover {
+		background-color: rgba(229, 230, 231, 0.25);
+	}
 
 	.luckydays_button {
 		background-color: #70AD47
@@ -2408,6 +2463,15 @@ input, select, textarea {
 		background-repeat: repeat, no-repeat;
 	}
 
+	/* Night Mode */
+	#intro_night {
+		background: url("../../images/galaxy_blue1.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+	}
+
 	#intro_luckydays {
 		background-image: url("../../images/aurora.jpg");
 		background-size: cover;
@@ -2543,10 +2607,26 @@ input, select, textarea {
 		background-position: center center;
 	}
 
+/* Night Mode */
+	#one_night {
+		background-image: url("../../images/galaxy_purple1.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center center;
+	}
+
 /* Two */
 
 	#two {
 		background-image: url("../../images/two.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center center;
+	}
+
+/* Night Mode */
+	#two_night {
+		background-image: url("../../images/galaxy_colour3.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: center center;
@@ -2560,8 +2640,25 @@ input, select, textarea {
 		background-repeat: no-repeat;
 	}
 
+/* Night Mode */
+	#three_night {
+		background-image: url("../../images/galaxy_colour2.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+	}
+
 	#one0 {
 		background-image: url("../../images/one0.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center center;
+	}
+
+/* Night Mode */
+	#one0_night {
+		background-image: url("../../images/galaxy_colour4.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: center center;
