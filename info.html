@@ -24,20 +24,21 @@
 
 		<!-- Header -->
 		<header id="header">
-			<h1>David Jiashu Wu</h1>
+			<h1 id="menu01">David Jiashu Wu</h1>
 			<nav>
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="#info1">Who I Am</a></li>
-					<li><a href="#info3">Experience</a></li>
-					<li><a href="#info4">Academic</a></li>
-					<li><a href="#info6">Projects</a></li>
-					<li><a href="#info8">Programming</a></li>
-					<li><a href="#info9">Links</a></li>
-					<li><a href="#info10">Computer Skills</a></li>
-					<li><a href="#info11">Languages</a></li>
-					<li><a href="#info13">Interests</a></li>
-					<li><a href="#info14">Download CV</a></li>
+					<li><a href="index.html" id="menu02">Home</a></li>
+					<li><a href="#whoiam" id="menu03">Who I Am</a></li>
+					<li><a href="#info3" id="menu04">Experience</a></li>
+					<li><a href="#info4" id="menu05">Academic</a></li>
+					<li><a href="#info6" id="menu06">Projects</a></li>
+					<li><a href="#info8" id="menu07">Programming</a></li>
+					<li><a href="#info9" id="menu08">Links</a></li>
+					<li><a href="#info10" id="menu09">Computer Skills</a></li>
+					<li><a href="#info11" id="menu10">Languages</a></li>
+					<li><a href="#info13" id="menu11">Interests</a></li>
+					<li><a href="#info14" id="menu12">Download CV</a></li>
+					<li><a href="javascript:void(0)" onClick="manuallyChangeMode()" id="menu13">Night Mode</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -56,30 +57,30 @@
 						var hour = time.getHours();
 						
 						
-						string = "Good morning, I am David Jiashu Wu, glad to see you here";
+						var string = "Good morning, I am David Jiashu Wu, glad to see you here";
 						
 						
 						if (hour < 12)
 						{
-							string0 = "Good morning, I am David Jiashu Wu, glad to see you here";
+							var string0 = "Good morning, I am David Jiashu Wu, glad to see you here";
 						}
 						else if (hour >= 12 && hour < 18)
 						{
-							string0 = "Good afternoon, I am David Jiashu Wu, glad to see you here";
+							var string0 = "Good afternoon, I am David Jiashu Wu, glad to see you here";
 						}
 						else if (hour >=18)
 						{
-							string0 = "Good evening, I am David Jiashu Wu, glad to see you here";
+							var string0 = "Good evening, I am David Jiashu Wu, glad to see you here";
 						}
 						
 						
-						count0 = 0;
-						count = 0;
-						counter0 = 0;
-						counter = 0;
-						trigger = 0;
+						var count0 = 0;
+						var count = 0;
+						var counter0 = 0;
+						var counter = 0;
+						var trigger = 0;
 						setInterval("change()", 100);
-						length = string0.length;
+						var length = string0.length;
 						function change()
 						{
 							if (counter0 != 20)
@@ -181,7 +182,7 @@
 					</script>
 				
 				<footer>
-					<a href="#info0" class="button style2" style="font-family: 'Merienda', cursive;"><em>About Me</em></a>
+					<a href="#my_info" class="button style2" style="font-family: 'Merienda', cursive;"><em>About Me</em></a>
 					<a href="cv/David Jiashu Wu.pdf" class="button style2" target="_blank" style="font-family: 'Merienda', cursive;"><em>Download CV</em></a>
 				</footer>
 			</div>
@@ -191,48 +192,48 @@
 		
 		
 		
-		<section id="info0" class="main style3 primary">
+		<section id="my_info" class="main style3 primary">
 			<div class="content">
 				<header>
 					<font><h2 style="color:coral;">My Info</h2></font>
-					<p>Welcome to my self-introduction page. Here you can find some introduction of myself. </p>
+					<p id="text01">Welcome to my self-introduction page. Here you can find some introduction of myself. </p>
 				</header>
 			</div>
 		</section>
 		
-		<section id="info1" class="main style4 primary">
+		<section id="whoiam" class="main style4 primary">
 			<div class="content">
 				<font size="-2"><h2 style="color:mediumpurple;">Who I Am</h2></font>
-				<p>I am an undergraduate student who is now studying Bachelor of Science at the University of Sydney, major in Computer Science & Financial Mathematics and Statistics. </p>
+				<p id="text02">I am an undergraduate student who is now studying Bachelor of Science at the University of Sydney, major in Computer Science & Financial Mathematics and Statistics. </p>
 			</div>
 		</section>
 		
 		<section id="info2" class="main style4 primary">
 			<div class="content">
 				<font size="-2"><h2 style="color:mediumpurple;">Personal Details and Contact</h2></font>
-				<p>Date of Birth: 13th June 1997</p>
-				<p>Phone Number: +0061 0401960919</p>
-				<p>Email Address: jiwu0083 -at- uni -dot- sydney -dot- edu -dot- au</p>
+				<p id="text03">Date of Birth: 13th June 1997</p>
+				<p id="text04">Phone Number: +0061 0401960919</p>
+				<p id="text05">Email Address: jiwu0083 -at- uni -dot- sydney -dot- edu -dot- au</p>
 			</div>
 		</section>
 		
 		<section id="info3" class="main style4 primary">
 			<div class="content">
 				<font size="-2"><h2 style="color:mediumpurple;">Experience</h2></font>
-				<p>Both social and technical experiences are indispensable, during my undergraduate study I participated in several programs and job to improve myelf. </p>
+				<p id="text06">Both social and technical experiences are indispensable, during my undergraduate study I participated in several programs and job to improve myelf. </p>
 				
 				<ol type="I">
 					<li><strong style="color:deepskyblue;">Mentorship</strong>
 						<p>I am keen to participate in the mentor program at the university, offering helping hands to the first year students. I participated in the mentorship program of these three IT-related unit of studies. </p>
 						<ul>
 							<li>
-								<a href="https://cusp.sydney.edu.au/students/view-unit-page/uos_id/81210/vid/315029">INFO1003</a>Foundations to Information Technology
+								<p><a href="https://cusp.sydney.edu.au/students/view-unit-page/uos_id/81210/vid/315029" id="link01">INFO1003</a> Foundations to Information Technology</p>
 							</li>
 							<li>
-								<a href="https://cusp.sydney.edu.au/students/view-unit-page/uos_id/79807/vid/315031">INFO1103</a> Introduction to Programming
+								<p><a href="https://cusp.sydney.edu.au/students/view-unit-page/uos_id/79807/vid/315031" id="link02">INFO1103</a> Introduction to Programming</p>
 							</li>
 							<li>
-								<a href="https://cusp.sydney.edu.au/students/view-unit-page/uos_id/79883/vid/315033">INFO1105</a> Data Structure
+								<p><a href="https://cusp.sydney.edu.au/students/view-unit-page/uos_id/79883/vid/315033" id="link03">INFO1105</a> Data Structure</p>
 							</li>
 						</ul>
 					</li>
@@ -240,8 +241,8 @@
 					<li><strong style="color:deepskyblue">Casual job</strong></li>
 						<ul>
 							<li>
-								Tutoring at New Oriental Education & Technology Group
-								Including
+								<p>Tutoring at New Oriental Education & Technology Group
+								Including</p>
 								<p>
 								&nbsp &nbsp &nbsp &nbsp Assisting teacher to organize the class<br />
 								&nbsp &nbsp &nbsp &nbsp Communicating with students’parent<br />
@@ -310,119 +311,119 @@
 				<table>
 					<tbody>
 						<tr>
-							<td><a href="https://cusp.sydney.edu.au/students/view-unit-page/uos_id/81210/vid/312753">INFO1003</a></td>
+							<td><a href="https://cusp.sydney.edu.au/students/view-unit-page/uos_id/81210/vid/312753" id="link04">INFO1003</a></td>
 							<td>Foundations of Information Technology</td>
 							<td>81</td>
 							<td>Distinction</td>
 						</tr>
 						
 						<tr>
-							<td><a href="https://cusp.sydney.edu.au/students/view-unit-page/uos_id/79807/vid/312755">INFO1103</a></td>
+							<td><a href="https://cusp.sydney.edu.au/students/view-unit-page/uos_id/79807/vid/312755" id="link05">INFO1103</a></td>
 							<td>Introduction to Programming</td>
 							<td>80</td>
 							<td>Distinction</td>
 						</tr>
 						
 						<tr>
-							<td><a href="#">MATH1001</a></td>
+							<td><a href="#" id="link30">MATH1001</a></td>
 							<td>Differential Calculus</td>
 							<td>86</td>
 							<td>High Distinction</td>
 						</tr>
 						
 						<tr>
-							<td><a href="#">MATH1002</a></td>
+							<td><a href="#" id="link31">MATH1002</a></td>
 							<td>Linear Algebra</td>
 							<td>90</td>
 							<td>High Distinction</td>
 						</tr>
 						
 						<tr>
-							<td><a href="#">COSC1003</a></td>
+							<td><a href="#" id="link32">COSC1003</a></td>
 							<td>Introduction to Computational Science</td>
 							<td>87</td>
 							<td>High Distinction</td>
 						</tr>
 						
 						<tr>
-							<td><a href="https://cusp.sydney.edu.au/students/view-unit-page/uos_id/79161/vid/314313">ELEC1601</a></td>
+							<td><a href="https://cusp.sydney.edu.au/students/view-unit-page/uos_id/79161/vid/314313" id="link06">ELEC1601</a></td>
 							<td>Foundations of Computer Systems</td>
 							<td>89</td>
 							<td>High Distinction</td>
 						</tr>
 						
 						<tr>
-							<td><a href="https://cusp.sydney.edu.au/students/view-unit-page/uos_id/79883/vid/312757">INFO1105</a></td>
+							<td><a href="https://cusp.sydney.edu.au/students/view-unit-page/uos_id/79883/vid/312757" id="link07">INFO1105</a></td>
 							<td>Data Structures</td>
 							<td>90</td>
 							<td>High Distinction</td>
 						</tr>
 						
 						<tr>
-							<td><a href="#">MATH1003</a></td>
+							<td><a href="#" id="link33">MATH1003</a></td>
 							<td>Integral Calculus and Modelling</td>
 							<td>87</td>
 							<td>High Distinction</td>
 						</tr>
 						
 						<tr>
-							<td><a href="#">MATH1005</a></td>
+							<td><a href="#" id="link34">MATH1005</a></td>
 							<td>Statistics</td>
 							<td>91</td>
 							<td>High Distinction</td>
 						</tr>
 						
 						<tr>
-							<td><a href="https://cusp.sydney.edu.au/students/view-unit-page/uos_id/122888/vid/314745">COMP2129</a></td>
+							<td><a href="https://cusp.sydney.edu.au/students/view-unit-page/uos_id/122888/vid/314745" id="link08">COMP2129</a></td>
 							<td>Operating Systems and Machine Principles</td>
 							<td>81</td>
 							<td>Distinction</td>
 						</tr>
 						
 						<tr>
-							<td><a href="https://cusp.sydney.edu.au/students/view-unit-page/uos_id/123580/vid/315047">INFO2120</a></td>
+							<td><a href="https://cusp.sydney.edu.au/students/view-unit-page/uos_id/123580/vid/315047" id="link09">INFO2120</a></td>
 							<td>Database Systems 1</td>
 							<td>87</td>
 							<td>High Distinction</td>
 						</tr>
 						
 						<tr>
-							<td><a href="#">MATH2061</a></td>
+							<td><a href="#" id="link35">MATH2061</a></td>
 							<td>Linear Mathematics and Vector Calculus</td>
 							<td>93</td>
 							<td>High Distinction</td>
 						</tr>
 						
 						<tr>
-							<td><a href="#">STAT2011</a></td>
+							<td><a href="#" id="link36">STAT2011</a></td>
 							<td>Statistical Models</td>
 							<td>87</td>
 							<td>High Distinction</td>
 						</tr>
 						
 						<tr>
-							<td><a href="https://cusp.sydney.edu.au/students/view-unit-page/uos_id/83502/vid/314742">COMP2007</a></td>
+							<td><a href="https://cusp.sydney.edu.au/students/view-unit-page/uos_id/83502/vid/314742" id="link10">COMP2007</a></td>
 							<td>Algorithms and Complexity</td>
 							<td>86</td>
 							<td>High Distinction</td>
 						</tr>
 						
 						<tr>
-							<td><a href="https://cusp.sydney.edu.au/students/view-unit-page/uos_id/83295/vid/315046">INFO2110</a></td>
+							<td><a href="https://cusp.sydney.edu.au/students/view-unit-page/uos_id/83295/vid/315046" id="link11">INFO2110</a></td>
 							<td>Systems Analysis and Modelling</td>
 							<td>85</td>
 							<td>High Distinction</td>
 						</tr>
 						
 						<tr>
-							<td><a href="#">MATH2070</a></td>
+							<td><a href="#" id="link37">MATH2070</a></td>
 							<td>Optimisation and Financial Mathematics</td>
 							<td>91</td>
 							<td>High Distinction</td>
 						</tr>
 						
 						<tr>
-							<td><a href="#">STAT2012</a></td>
+							<td><a href="#" id="link38">STAT2012</a></td>
 							<td>Statistical Tests</td>
 							<td>95</td>
 							<td>High Distinction</td>
@@ -442,29 +443,29 @@
 					<li><strong style="color:deepskyblue;">Android Application</strong>
 						<ul>
 							<li>
-								Android app <a href="project_luckydays.html">Luckydays</a>, a notebook combined with days counting functionality, available in app stores since 2017. 
+								Android app <a href="project_luckydays.html" id="link12">Luckydays</a>, a notebook combined with days counting functionality, available in app stores since 2017. 
 							</li>
 							<li>
-								Android app <a href="project_neurograph.html">Neurograph</a>, a <a href="http://sydney.edu.au/science/fstudent/undergrad/dalyell/history.shtml">talented student program</a> of Computer Science at the University of Sydney. This is a drawing data collecting app which helps collecting patients' drawing data and then send these data to do further Parkinson diagnostics, available on Google Play store since May 2018. 
+								Android app <a href="project_neurograph.html" id="link13">Neurograph</a>, a <a href="http://sydney.edu.au/science/fstudent/undergrad/dalyell/history.shtml" id="link14">talented student program</a> of Computer Science at the University of Sydney. This is a drawing data collecting app which helps collecting patients' drawing data and then send these data to do further Parkinson diagnostics, available on Google Play store since May 2018. 
 							</li>
 						</ul>
 					</li>
 					<li><strong style="color:deepskyblue;">Website</strong>
 						<ul>
 							<li>
-								Website <a href="project_strokewise.html">Strokewise</a>, a website which helps people gain a better understanding of what stroke disease is. Done in 2016. 
+								Website <a href="project_strokewise.html" id="link15">Strokewise</a>, a website which helps people gain a better understanding of what stroke disease is. Done in 2016. 
 							</li>
 						</ul>
 					</li>
 					<li><strong style="color:deepskyblue;">Program</strong>
 						<ul>
 							<li>
-								Program <a href="project_sudokusolver.html">Sudoku Solver</a>, a program built using C++ and Qt, which can solve the Sudoku pazzle, this is also my first try of using Qt to build a program with user interface. Done in 2017. 
+								Program <a href="project_sudokusolver.html" id="link16">Sudoku Solver</a>, a program built using C++ and Qt, which can solve the Sudoku pazzle, this is also my first try of using Qt to build a program with user interface. Done in 2017. 
 							</li>
 						</ul>
 					</li>
 					<li><strong style="color:cornflowerblue">Project Page</strong>
-						<p>Visit <a href="project.html">Project Page</a> for more detailed information about my projects. </p>
+						<p>Visit <a href="project.html" id="link17">Project Page</a> for more detailed information about my projects. </p>
 					</li>
 				</ol>
 			</div>
@@ -545,10 +546,10 @@
 		<section id="info9" class="main style4 primary">
 			<div class="content">
 				<font size="-2"><h2 style="color:mediumpurple;">Links</h2></font>
-				<p>Personal Website: <a href="https://jiashuwu.github.io">https://jiashuwu.github.io</a></p>
-				<p>GitHub: <a href="https://github.com/Jiashuwu">https://github.com/Jiashuwu</a></p>
+				<p>Personal Website: <a href="https://jiashuwu.github.io" id="link18">https://jiashuwu.github.io</a></p>
+				<p>GitHub: <a href="https://github.com/Jiashuwu" id="link19">https://github.com/Jiashuwu</a></p>
 				<!--<br />-->
-				<a href="https://github.com/JiashuWu" class="icon fa-github alt">GitHub</a>
+				<a href="https://github.com/JiashuWu" class="icon fa-github alt" id="link20">GitHub</a>
 				<br />
 			</div>
 		</section>
@@ -597,7 +598,7 @@
 		<section id="info14" class="main style4 primary">
 			<div class="content">
 				<font size="-2"><h2 style="color:mediumpurple;">Download Curriculum Vitae</h2></font>
-				<p>Click <a href="cv/David Jiashu Wu.pdf" target="_blank">here</a> to download my Curriculum Vitae</p>
+				<p>Click <a href="cv/David Jiashu Wu.pdf" target="_blank" id="link21">here</a> to download my Curriculum Vitae</p>
 			</div>
 		</section>
 				
@@ -663,8 +664,9 @@
 					<li style="text-align: center; margin-left: auto; margin-right: auto">&copy; David Jiashu Wu 2018</li><li>All rights reserved</li>
 				</ul>
 		</footer>
-
-		<!-- Scripts -->
+		
+		
+		
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/jquery.poptrox.min.js"></script>
 		<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -673,6 +675,268 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+		<script type="text/javascript">
+				var time0 = new Date();
+				var hour0 = time0.getHours();
+				var night = 0;
+				if (hour0 >= 0 && hour0 < 6)
+				{
+					night = 1;
+				}
+				else if (hour0 >= 18 && hour0 <= 24)
+				{
+					night = 1;
+				}
+				
+				function manuallyChangeMode ()
+				{
+					if (night == 0)
+					{
+						night = 1;
+						
+						// change the menu9 text
+						document.getElementById("menu13").text="Day Mode";
+						
+						changeMode(night);
+					}
+					else
+					{
+						night = 0;
+						
+						// change the menu9 text
+						document.getElementById("menu13").text="Night Mode";
+						
+						changeMode(night);
+					}
+				}
+				
+				function initialiseNightMode()
+				{
+					document.getElementById("intro_info").style="background: url('images/galaxy_blue1.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+					
+
+					// CAUTION
+					// OPTIONAL
+					document.getElementById("header").id="header_night";
+
+					var i = 0;
+					for (i = 0 ; i < document.getElementsByTagName("p").length ; i++)
+					{
+						document.getElementsByTagName("p")[i].style="color: white;";
+					}
+					for (i = 0 ; i < document.getElementsByTagName("li").length - 26 ; i++)
+					{
+						document.getElementsByTagName("li")[i].style="color: white;";
+					}
+					for (i = 0 ; i < document.getElementsByTagName("td").length ; i++)
+					{
+						document.getElementsByTagName("td")[i].style="color: white;";
+					}
+					for (i = 0 ; i < document.getElementsByTagName("section").length ; i++)
+					{
+						document.getElementsByTagName("section")[i].style="background-color: black;";
+					}
+					document.getElementById("menu01").style="color:white;";
+					document.getElementById("menu02").style="color:white;";
+					document.getElementById("menu03").style="color:white;";
+					document.getElementById("menu04").style="color:white;";
+					document.getElementById("menu05").style="color:white;";
+					document.getElementById("menu06").style="color:white;";
+					document.getElementById("menu07").style="color:white;";
+					document.getElementById("menu08").style="color:white;";
+					document.getElementById("menu09").style="color:white;";
+					document.getElementById("menu10").style="color:white;";
+					document.getElementById("menu11").style="color:white;";
+					document.getElementById("menu12").style="color:white;";
+					document.getElementById("menu13").style="color:white;";
+					
+					
+					// OPTIONAL
+					
+					// change the menu text to day_mode
+					document.getElementById("menu13").text="Day Mode";
+
+					
+
+					// change the colour of footer background to black
+					document.getElementById("footer").style="background-color: black;";
+					document.getElementById("footer1").style="background-color: black;";
+					
+					
+					document.getElementById("link01").style="color: deepskyblue;";
+					document.getElementById("link02").style="color: deepskyblue;";
+					document.getElementById("link03").style="color: deepskyblue;";
+					document.getElementById("link04").style="color: deepskyblue;";
+					document.getElementById("link05").style="color: deepskyblue;";
+					document.getElementById("link06").style="color: deepskyblue;";
+					document.getElementById("link07").style="color: deepskyblue;";
+					document.getElementById("link08").style="color: deepskyblue;";
+					document.getElementById("link09").style="color: deepskyblue;";
+					document.getElementById("link10").style="color: deepskyblue;";
+					document.getElementById("link11").style="color: deepskyblue;";
+					document.getElementById("link12").style="color: deepskyblue;";
+					document.getElementById("link13").style="color: deepskyblue;";
+					document.getElementById("link14").style="color: deepskyblue;";
+					document.getElementById("link15").style="color: deepskyblue;";
+					document.getElementById("link16").style="color: deepskyblue;";
+					document.getElementById("link17").style="color: deepskyblue;";
+					document.getElementById("link18").style="color: deepskyblue;";
+					document.getElementById("link19").style="color: deepskyblue;";
+					document.getElementById("link20").style="color: deepskyblue;";
+					document.getElementById("link21").style="color: deepskyblue;";
+					
+					document.getElementById("link30").style="color: deepskyblue;";
+					document.getElementById("link31").style="color: deepskyblue;";
+					document.getElementById("link32").style="color: deepskyblue;";
+					document.getElementById("link33").style="color: deepskyblue;";
+					document.getElementById("link34").style="color: deepskyblue;";
+					document.getElementById("link35").style="color: deepskyblue;";
+					document.getElementById("link36").style="color: deepskyblue;";
+					document.getElementById("link37").style="color: deepskyblue;";
+					document.getElementById("link38").style="color: deepskyblue;";
+					
+					
+				}
+				
+				function initialiseDayMode ()
+				{
+					document.getElementById("intro_info").style="background: url('images/180875.jpg'); background-size: cover;background-attachment: fixed;background-position: bottom center;background-repeat: no-repeat;"
+					
+
+					// CAUTION
+					// OPTIONAL
+					document.getElementById("header_night").id="header";
+
+					var i = 0;
+					document.getElementsByTagName("p")[0].style="color: white;";
+					for (i = 1 ; i < document.getElementsByTagName("p").length ; i++)
+					{
+						document.getElementsByTagName("p")[i].style="color: #39454b;";
+					}
+					for (i = 0 ; i < document.getElementsByTagName("li").length - 26 ; i++)
+					{
+						document.getElementsByTagName("li")[i].style="color: #39454b;";
+					}
+					for (i = 0 ; i < document.getElementsByTagName("td").length ; i++)
+					{
+						document.getElementsByTagName("td")[i].style="color: #39454b;";
+					}
+					for (i = 0 ; i < document.getElementsByTagName("section").length ; i++)
+					{
+						document.getElementsByTagName("section")[i].style="background-color: white;";
+					}
+					document.getElementById("menu01").style="color:#39454b;";
+					document.getElementById("menu02").style="color:#39454b;";
+					document.getElementById("menu03").style="color:#39454b;";
+					document.getElementById("menu04").style="color:#39454b;";
+					document.getElementById("menu05").style="color:#39454b;";
+					document.getElementById("menu06").style="color:#39454b;";
+					document.getElementById("menu07").style="color:#39454b;";
+					document.getElementById("menu08").style="color:#39454b;";
+					document.getElementById("menu09").style="color:#39454b;";
+					document.getElementById("menu10").style="color:#39454b;";
+					document.getElementById("menu11").style="color:#39454b;";
+					document.getElementById("menu12").style="color:#39454b;";
+					document.getElementById("menu13").style="color:#39454b;";
+					
+					
+					// OPTIONAL
+					
+					// change the menu text to day_mode
+					document.getElementById("menu13").text="Night Mode";
+
+					
+					
+					document.getElementById("link01").style="color: #e019d9;";
+					document.getElementById("link02").style="color: #e019d9;";
+					document.getElementById("link03").style="color: #e019d9;";
+					document.getElementById("link04").style="color: #e019d9;";
+					document.getElementById("link05").style="color: #e019d9;";
+					document.getElementById("link06").style="color: #e019d9;";
+					document.getElementById("link07").style="color: #e019d9;";
+					document.getElementById("link08").style="color: #e019d9;";
+					document.getElementById("link09").style="color: #e019d9;";
+					document.getElementById("link10").style="color: #e019d9;";
+					document.getElementById("link11").style="color: #e019d9;";
+					document.getElementById("link12").style="color: #e019d9;";
+					document.getElementById("link13").style="color: #e019d9;";
+					document.getElementById("link14").style="color: #e019d9;";
+					document.getElementById("link15").style="color: #e019d9;";
+					document.getElementById("link16").style="color: #e019d9;";
+					document.getElementById("link17").style="color: #e019d9;";
+					document.getElementById("link18").style="color: #e019d9;";
+					document.getElementById("link19").style="color: #e019d9;";
+					document.getElementById("link20").style="color: #e019d9;";
+					document.getElementById("link21").style="color: #e019d9;";
+					
+					document.getElementById("link30").style="color: #e019d9;";
+					document.getElementById("link31").style="color: #e019d9;";
+					document.getElementById("link32").style="color: #e019d9;";
+					document.getElementById("link33").style="color: #e019d9;";
+					document.getElementById("link34").style="color: #e019d9;";
+					document.getElementById("link35").style="color: #e019d9;";
+					document.getElementById("link36").style="color: #e019d9;";
+					document.getElementById("link37").style="color: #e019d9;";
+					document.getElementById("link38").style="color: #e019d9;";
+
+					// change the colour of footer background to black
+					document.getElementById("footer").style="background-color: #39454b";
+					document.getElementById("footer1").style="background-color: #39454b";
+					
+					
+				}
+				
+				function changeMode (night)
+				{
+				
+					if (night == 1)
+					// night mode should be 1 
+					// day mode should be 0
+					// Adjust this value to 0 for temperary testing purposes
+					{
+						// execute changing the theme;
+						initialiseNightMode();
+						
+						
+					}
+					else
+					{
+						// Change mode back to day;
+						
+						// execute changing the theme;
+						initialiseDayMode();
+						
+						
+					}
+				}
+				
+				function changeDownToNight()
+				{
+					document.getElementById("down10").href="#one_night";
+					document.getElementById("down11").href="#one0_night";
+					document.getElementById("down12").href="#two_night";
+					document.getElementById("down13").href="#three_night";
+					document.getElementById("down14").href="#about_me";
+				}
+				
+				function changeDownToDay()
+				{
+					document.getElementById("down10").href="#one";
+					document.getElementById("down11").href="#one0";
+					document.getElementById("down12").href="#two";
+					document.getElementById("down13").href="#three";
+					document.getElementById("down14").href="#about_me";
+				}
+				
+				if (night == 1)
+				{
+					initialiseNightMode();
+				}
+				
+			</script>
+
+		<!-- Scripts -->
+		
 	</body>
 	
 </html>

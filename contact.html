@@ -21,19 +21,21 @@
 
 		<!-- Header -->
 			<header id="header">
-				<h1>David Jiashu Wu</h1>
+				<h1 id="menu0">David Jiashu Wu</h1>
 				<nav>
 					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="#one">Info</a></li>
-						<li><a href="#two">Projects</a></li>
-						<li><a href="#contact">Contact</a></li>
+						<li><a href="index.html" id="menu1">Home</a></li>
+						<li><a href="#one" id="menu2">Info</a></li>
+						<li><a href="#two" id="menu3">Projects</a></li>
+						<li><a href="#contact" id="menu4">Contact</a></li>
+						<li><a href="#" id="menu5">中文版</a></li>
+						<li><a href="javascript:void(0)" onClick="manuallyChangeMode()" id="menu6">Night Mode</a></li>
 					</ul>
 				</nav>
 			</header>
 
 		
-			<section id="intro_contact" class="main style1 dark fullscreen">
+			<section id="contact_introduction" class="main style1 dark fullscreen">
 				<div class="content">
 					<header>
 						<font size="-1"><h2 id="greeting">Good Morning</h2></font>
@@ -73,21 +75,21 @@
 				<div class="content">
 					<header>
 						<h2 style="color:cornflowerblue">Say Hello.</h2>
-						<p>Please feel free to leave me comments or feedbacks. </p>
+						<p id="text01">Please feel free to leave me comments or feedbacks. </p>
 					</header>
-					<div class="box">
+					<div class="box" id="contactFormDiv">
 						<form method="post" onsubmit="return validateForm();" action="https://formspree.io/jiwu0083@uni.sydney.edu.au" name="ContactForm">
 							<div class="fields">
-								<div class="field half"><p style="text-align: left">Name</p><input type="text" name="name" placeholder="Name" /></div>
-								<div class="field half"><p style="text-align: left">Email</p><input type="email" name="email" placeholder="Email" /></div>
-								<div class="field half"><p style="text-align: left">Type</p>
-								<select name="selectOptions">
+								<div class="field half"><p style="text-align: left" id="text30">Name</p><input type="text" name="name" placeholder="Name" /></div>
+								<div class="field half"><p style="text-align: left" id="text31">Email</p><input type="email" name="email" placeholder="Email" /></div>
+								<div class="field half"><p style="text-align: left" id="text23">Type</p>
+								<select name="selectOptions" id="text33">
 									<option value="select">---SELECT---</option>
 									<option value="select_comment">Comment</option>
 									<option value="select_fedback">Feedback</option>
 								</select>
 								</div>
-								<div class="field"><p style="text-align: left">Comments and Feedbacks</p><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+								<div class="field"><p style="text-align: left" id="text32">Comments and Feedbacks</p><textarea name="message" placeholder="Message" rows="6"></textarea></div>
 							</div>
 							<ul class="actions special">
 								<li><input type="submit" value="Send Message" /></li>
@@ -210,8 +212,8 @@
 					<li style="text-align: center; margin-left: auto; margin-right: auto">&copy; David Jiashu Wu 2018</li><li>All rights reserved</li>
 				</ul>
 		</footer>
-
-		<!-- Scripts -->
+		
+		
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/jquery.poptrox.min.js"></script>
 		<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -220,6 +222,174 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+		<script type="text/javascript">
+			var time0 = new Date();
+			var hour0 = time0.getHours();
+			night = 0;
+			if (hour0 >= 0 && hour0 < 6)
+			{
+				night = 1;
+			}
+			else if (hour0 >= 18 && hour0 <= 24)
+			{
+				night = 1;
+			}
+
+			function manuallyChangeMode ()
+			{
+				if (night == 0)
+				{
+					night = 1;
+
+					// change the menu9 text
+					document.getElementById("menu6").text="Day Mode";
+
+					changeMode(night);
+				}
+				else
+				{
+					night = 0;
+
+					// change the menu9 text
+					document.getElementById("menu6").text="Night Mode";
+
+					changeMode(night);
+				}
+			}
+
+			function initialiseNightMode()
+			{
+				document.getElementById("contact_introduction").style="background: url('images/galaxy_blue1.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+				
+
+				
+
+				// CAUTION
+				// OPTIONAL
+				document.getElementById("header").id="header_night";
+
+				// OPTIONAL
+				document.getElementById("menu0").style="color: white;";
+				document.getElementById("menu1").style="color: white;";
+				document.getElementById("menu2").style="color: white;";
+				document.getElementById("menu3").style="color: white;";
+				document.getElementById("menu4").style="color: white;";
+				document.getElementById("menu5").style="color: white;";
+				document.getElementById("menu6").style="color: white;";
+				
+				// OPTIONAL
+
+				// change the menu text to day_mode
+				document.getElementById("menu6").text="Day Mode";
+
+				// change the colour of texts
+				document.getElementById("text01").style="color: white;";
+				document.getElementById("text33").style="color: white;";
+				document.getElementById("text30").style="color: white; text-align: left";
+				document.getElementById("text31").style="color: white; text-align: left";
+				document.getElementById("text32").style="color: white; text-align: left";
+				document.getElementById("text23").style="color: white; text-align: left";
+				
+
+				// change section background to black
+				
+				document.getElementById("contact").style="background-color: black;";
+
+				// change contact form div background colour to black
+				document.getElementById("contactFormDiv").style="background-color: black;";
+
+				
+
+				
+
+				// change the colour of footer background to black
+				document.getElementById("footer").style="background-color: black;";
+				document.getElementById("footer1").style="background-color: black;";
+
+
+			}
+
+			function initialiseDayMode ()
+			{
+				document.getElementById("contact_introduction").style="background: url('images/overlay.png'), url('images/Blue_Ocean.jpg'); background-size: 256px 256px, cover;background-attachment: fixed, fixed;background-position: top left, bottom center;background-repeat: repeat, no-repeat;"
+				
+
+				
+
+				// CAUTION
+				// OPTIONAL
+				document.getElementById("header_night").id="header";
+
+				// OPTIONAL
+				document.getElementById("menu0").style="color: #39454b;";
+				document.getElementById("menu1").style="color: #39454b;";
+				document.getElementById("menu2").style="color: #39454b;";
+				document.getElementById("menu3").style="color: #39454b;";
+				document.getElementById("menu4").style="color: #39454b;";
+				document.getElementById("menu5").style="color: #39454b;";
+				document.getElementById("menu6").style="color: #39454b;";
+				
+				// OPTIONAL
+
+				// change the colour of texts
+				document.getElementById("text01").style="color: #39454b;";
+				document.getElementById("text33").style="color: #39454b;";
+				document.getElementById("text30").style="color: #39454b; text-align: left;";
+				document.getElementById("text31").style="color: #39454b; text-align: left;";
+				document.getElementById("text32").style="color: #39454b; text-align: left;";
+				document.getElementById("text23").style="color: #39454b; text-align: left;";
+				
+
+				// change section background to black
+				
+				document.getElementById("contact").style="background-color: white;";
+
+				// change contact form div background colour to black
+				document.getElementById("contactFormDiv").style="background-color: white;";
+
+				
+				// change the colour of footer background to black
+				document.getElementById("footer").style="background-color: #39454b";
+				document.getElementById("footer1").style="background-color: #39454b";
+
+
+			}
+
+			function changeMode (night)
+			{
+
+				if (night == 1)
+				// night mode should be 1 
+				// day mode should be 0
+				// Adjust this value to 0 for temperary testing purposes
+				{
+					// execute changing the theme;
+					initialiseNightMode();
+
+
+				}
+				else
+				{
+					// Change mode back to day;
+
+					// execute changing the theme;
+					initialiseDayMode();
+
+
+				}
+			}
+
+			
+
+			if (night == 1)
+			{
+				initialiseNightMode();
+			}
+
+		</script>
+
+		<!-- Scripts -->
+		
 
 	</body>
 </html>

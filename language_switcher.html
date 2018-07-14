@@ -35,10 +35,10 @@
 				</header>
 				<!--<font size="+2"><p id="greeting">Oops, we can't find the page you are looking for</p></font>-->
 				<script type="text/javascript">
-					count = 0;
+					var count = 0;
 					setInterval("change()", 100);
-					string = "Choose your preferred language";
-					length = string.length;
+					var string = "Choose your preferred language";
+					var length = string.length;
 					function change()
 					{
 						document.getElementById("greeting").innerHTML=string.substring(0, count)

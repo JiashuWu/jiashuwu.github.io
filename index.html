@@ -70,7 +70,7 @@
 						var hour = time.getHours();
 						
 						
-						string = "Good morning, nice to meet you there, thank you for visiting my website";
+						var string = "Good morning, nice to meet you there, thank you for visiting my website";
 						
 						
 						if (hour < 12)
@@ -87,13 +87,13 @@
 						}
 						
 						
-						count0 = 0;
-						count = 0;
-						counter0 = 0;
-						counter = 0;
-						trigger = 0;
+						var count0 = 0;
+						var count = 0;
+						var counter0 = 0;
+						var counter = 0;
+						var trigger = 0;
 						setInterval("change()", 100);
-						length = string0.length;
+						var length = string0.length;
 						function change()
 						{
 							if (counter0 != 20)
@@ -205,7 +205,7 @@
 					<header>
 						<h2 id="welcome" style="color:mediumslateblue;">Welcome</h2>
 						<script type="text/javascript">
-							count2 = 0;
+							var count2 = 0;
 							setInterval("welcome()", 3000);
 							function welcome()
 							{
@@ -613,6 +613,14 @@
 		
 		
 			<!-- Javascript which controls the mode changing mechanism -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 		
 			<script type="text/javascript">
 				var time0 = new Date();
@@ -693,6 +701,9 @@
 					document.getElementById("menu10").style="color: white;";
 					document.getElementById("menu11").style="color: white;";
 					// OPTIONAL
+					
+					// change the menu text to day_mode
+					document.getElementById("menu9").text="Day Mode";
 
 					// change the colour of texts
 					document.getElementById("text10").style="color: white;";
@@ -875,14 +886,9 @@
 			</script>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		
+		
+			
 			
 
 	</body>
