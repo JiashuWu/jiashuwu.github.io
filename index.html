@@ -30,21 +30,22 @@
 
 		<!-- Header -->
 			<header id="header">
-				<h1>David Jiashu Wu</h1>
+				<h1 id="menu0">David Jiashu Wu</h1>
 				<nav>
 					<ul>
-						<li><a href="#one">Welcome</a></li>
-						<li><a href="#one0">About Me</a></li>
-						<li><a href="#two">Project</a></li>
-						<li><a href="#three">Random Topics</a></li>
-						<li><a href="#my_cv">Curriculum Vitae</a></li>
-						<li><a href="#work">Project Showcase</a></li>
-						<li><a href="#contact">Contact</a></li>
-						<li><a href="503.html">中文</a></li>
+						<li><a href="#one" id="menu1">Welcome</a></li>
+						<li><a href="#one0" id="menu2">About Me</a></li>
+						<li><a href="#two" id="menu3">Project</a></li>
+						<li><a href="#three" id="menu4">Random Topics</a></li>
+						<li><a href="#my_cv" id="menu5">Curriculum Vitae</a></li>
+						<li><a href="#work" id="menu6">Project Showcase</a></li>
+						<li><a href="#contact" id="menu7">Contact</a></li>
+						<li><a href="503.html" id="menu8">中文</a></li>
+						<li><a href="#" id="menu9">Night Mode</a></li>
 						<li>
-							<select onchange="location = this.value;">
-								<option value="index.html">Style1</option>
-								<option value="503.html">Style2</option>
+							<select onchange="location = this.value;" id="menu10">
+								<option value="index.html" id="menu11">Style1</option>
+								<option value="503.html" id="menu12">Style2</option>
 							</select>
 						</li>
 					</ul>
@@ -395,6 +396,25 @@
 					
 					document.getElementById("index_button_01").className="index_button_1";
 					document.getElementById("index_button_02").className="index_button_2";
+					
+					// CAUTION
+					// OPTIONAL
+					document.getElementById("header").id="header_night";
+					
+					// OPTIONAL
+					document.getElementById("menu0").style="color: white;";
+					document.getElementById("menu1").style="color: white;";
+					document.getElementById("menu2").style="color: white;";
+					document.getElementById("menu3").style="color: white;";
+					document.getElementById("menu4").style="color: white;";
+					document.getElementById("menu5").style="color: white;";
+					document.getElementById("menu6").style="color: white;";
+					document.getElementById("menu7").style="color: white;";
+					document.getElementById("menu8").style="color: white;";
+					document.getElementById("menu9").style="color: white;";
+					document.getElementById("menu10").style="color: white;";
+					document.getElementById("menu11").style="color: white;";
+					// OPTIONAL
 				}
 			</script>
 
