@@ -41,7 +41,7 @@
 						<li><a href="#work" id="menu6">Project Showcase</a></li>
 						<li><a href="#contact" id="menu7">Contact</a></li>
 						<li><a href="503.html" id="menu8">中文</a></li>
-						<li><a href="#" id="menu9">Night Mode</a></li>
+						<li><a href="javascript:void(0)" onClick="manuallyChangeMode()" id="menu9">Night Mode</a></li>
 						<li>
 							<select onchange="location = this.value;" id="menu10">
 								<option value="index.html" id="menu11">Style1</option>
@@ -367,54 +367,85 @@
 					night = 1;
 				}
 				
-				if (night == 1)
-				// night mode should be 1 
-				// day mode should be 0
-				// Adjust this value to 0 for temperary testing purposes
+				function manuallyChangeMode ()
 				{
-					// execute changing the theme;
-					document.getElementById("intro").id="intro_night";
-					document.getElementById("one").id="one_night";
-					document.getElementById("one0").id="one0_night";
-					document.getElementById("two").id="two_night";
-					document.getElementById("three").id="three_night";
-					
-					// change the box theme;
-					document.getElementById("box_one").className="content box_night style2";
-					document.getElementById("box_one0").className="content box_night style2";
-					document.getElementById("box_two").className="content box_night style2";
-					
-					// change font colour to white;
-					document.getElementById("welcome").style="color:white;";
-					document.getElementById("welcome_text00").style="color:white;";
-					
-					document.getElementById("about_me_title").style="color:white;";
-					document.getElementById("about_me_text00").style="color:white;";
-					
-					document.getElementById("my_project_title").style="color:white;";
-					document.getElementById("my_project_text00").style="color:white;";
-					
-					document.getElementById("index_button_01").className="index_button_1";
-					document.getElementById("index_button_02").className="index_button_2";
-					
-					// CAUTION
-					// OPTIONAL
-					document.getElementById("header").id="header_night";
-					
-					// OPTIONAL
-					document.getElementById("menu0").style="color: white;";
-					document.getElementById("menu1").style="color: white;";
-					document.getElementById("menu2").style="color: white;";
-					document.getElementById("menu3").style="color: white;";
-					document.getElementById("menu4").style="color: white;";
-					document.getElementById("menu5").style="color: white;";
-					document.getElementById("menu6").style="color: white;";
-					document.getElementById("menu7").style="color: white;";
-					document.getElementById("menu8").style="color: white;";
-					document.getElementById("menu9").style="color: white;";
-					document.getElementById("menu10").style="color: white;";
-					document.getElementById("menu11").style="color: white;";
-					// OPTIONAL
+					if (night == 0)
+					{
+						night = 1;
+						
+						// change the menu9 text
+						document.getElementById("menu9").text="Day Mode";
+						
+						changeMode(night);
+					}
+					else
+					{
+						night = 0;
+						
+						// change the menu9 text
+						document.getElementById("menu9").text="Night Mode";
+						
+						changeMode(night);
+					}
+				}
+				
+				function changeMode (night)
+				{
+				
+					if (night == 1)
+					// night mode should be 1 
+					// day mode should be 0
+					// Adjust this value to 0 for temperary testing purposes
+					{
+						// execute changing the theme;
+						document.getElementById("intro").id="intro_night";
+						document.getElementById("one").id="one_night";
+						document.getElementById("one0").id="one0_night";
+						document.getElementById("two").id="two_night";
+						document.getElementById("three").id="three_night";
+
+						// change the box theme;
+						document.getElementById("box_one").className="content box_night style2";
+						document.getElementById("box_one0").className="content box_night style2";
+						document.getElementById("box_two").className="content box_night style2";
+
+						// change font colour to white;
+						document.getElementById("welcome").style="color:white;";
+						document.getElementById("welcome_text00").style="color:white;";
+
+						document.getElementById("about_me_title").style="color:white;";
+						document.getElementById("about_me_text00").style="color:white;";
+
+						document.getElementById("my_project_title").style="color:white;";
+						document.getElementById("my_project_text00").style="color:white;";
+
+						document.getElementById("index_button_01").className="index_button_1";
+						document.getElementById("index_button_02").className="index_button_2";
+
+						// CAUTION
+						// OPTIONAL
+						document.getElementById("header").id="header_night";
+
+						// OPTIONAL
+						document.getElementById("menu0").style="color: white;";
+						document.getElementById("menu1").style="color: white;";
+						document.getElementById("menu2").style="color: white;";
+						document.getElementById("menu3").style="color: white;";
+						document.getElementById("menu4").style="color: white;";
+						document.getElementById("menu5").style="color: white;";
+						document.getElementById("menu6").style="color: white;";
+						document.getElementById("menu7").style="color: white;";
+						document.getElementById("menu8").style="color: white;";
+						document.getElementById("menu9").style="color: white;";
+						document.getElementById("menu10").style="color: white;";
+						document.getElementById("menu11").style="color: white;";
+						// OPTIONAL
+					}
+					else
+					{
+						// Change mode back to day;
+						
+					}
 				}
 			</script>
 
@@ -605,56 +636,62 @@
 				</div>
 			</section>
 
-		<!-- Footer -->
+			<!-- Footer -->
 			<footer id="footer">
 
 				<!-- Icons -->
-					<ul class="icons">
-						<!--<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>-->
-						<li><a href="https://www.facebook.com/profile.php?id=100011313344876" class="icon fa-facebook-official"><span class="label">Facebook</span></a></li>
-						<!--<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>-->
-						<li><a href="https://github.com/JiashuWu" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
-						<li><a href="http://www.linkedin.com/in/david-wu-785235163/" class="icon fa-linkedin-square"><span class="label">Linkedin</span></a></li>
-						<li><a href="mailto:usydwjs@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
-						<li><a href="https://bitbucket.org/wujiashu/" class="icon fa-bitbucket-square"><span class="label">Bitbucket</span></a></li>
-						<a href="android.html" class="icon fa-android"></a>
-						<a href="download.html" class="icon fa-download"></a>
-						<a href="" class="icon fa-facebook-official"></a>
-						<a href="language_switcher.html" class="icon fa-language"></a>
-						<a href="site_information.html" class="icon fa-qrcode"></a>
-						<a href="universities.html" class="icon fa-university"></a>
-						<a href="" class="icon fa-wechat"></a>
-						<a href="index.html" class="icon fa-home"></a>
-						<a href="" class="icon fa-clock-o"></a>
-						<a href="" class="icon fa-barcode"></a>
-						<a href="" class="icon fa-info"></a>
-						<a href="" class="icon fa-bar-chart"></a>
-						<a href="" class="icon fa-twitter"></a>
-						<a href="" class="icon fa-gear"></a>
-						<a href="" class="icon fa-comment"></a>
-						<a href="" class="icon fa-external-link"></a>
-						<a href="" class="icon fa-certificate"></a>
-						<a href="" class="icon fa-cloud-download"></a>
-						<a href="" class="icon info"></a>
-						<a href="" class="icon fa-archive"></a>
-						<a href="" class="icon fa-file-archive-o"></a>
-						<a href="" class="icon fa-institution"></a>
-						<a href="" class="icon fa-file-pdf-o"></a>
-						<a href="" class="icon fa-file-image-o"></a>
-						<a href="" class="icon fa-file-archive-o"></a>
-						
-						
-						<!--<li><a href="#" class="icon fa-mail"><span class="label">Dribbble</span></a></li>-->
-						<!--<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>-->
-						<li><a href="contact.html" class="icon fa-comment"><span class="label">Contact</span></a></li>
-					</ul>
+				<ul class="icons">
+
+					<li><a href="https://www.facebook.com/profile.php?id=100011313344876" class="icon fa-facebook-square"><span class="label">Facebook</span></a></li>
+
+					<li><a href="" class="icon fa-twitter"><spal class="label">Twitter</spal></a></li>
+
+					<li><a href="http://www.linkedin.com/in/david-wu-785235163/" class="icon fa-linkedin-square"><span class="label">Linkedin</span></a></li>
+
+					<li><a href="" class="icon fa-wechat"><span class="label">Wechat</span></a></li>
+
+					<li><a href="mailto:usydwjs@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+
+					<li><a href="https://github.com/JiashuWu" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+
+					<li><a href="https://bitbucket.org/wujiashu/" class="icon fa-bitbucket-square"><span class="label">Bitbucket</span></a></li>
+				</ul>
+			
+				<ul class="icons">
+					<li><a href="index.html" class="icon fa-home"><span class="label">Home Page</span></a></li>
+					
+					<li><a href="info.html" class="icon fa-info-circle"><span class="label">Info</span></a></li>
+					
+					<li><a href="project.html" class="icon fa-product-hunt"><span class="label">Projects</span></a></li>
+					
+					<li><a href="android.html" class="icon fa-android"><span class="label">Android</span></a></li>
+					
+					<li><a href="download.html" class="icon fa-cloud-download"><span class="label">Downloads</span></a></li>
+					
+					<li><a href="universities.html" class="icon fa-graduation-cap"><span class="label">University</span></a></li>
+					
+					<li><a href="language_switcher.html" class="icon fa-language"><span class="label">Language Switcher</span></a></li>
+					
+					<li><a href="site_information.html" class="icon fa-qrcode"><span class="label">Sitemap</span></a></li>
+
+					<li><a href="" class="icon fa-clock-o"><span class="label">Modes</span></a></li>
+					
+					<li><a href="site_information.html" class="icon fa-map-marker"><span class="label">Sitemap</span></a></li>
+					
+					<li><a href="site_information.html" class="icon fa-bar-chart"><span class="label">Visitor Statistics</span></a></li>
+					
+					<li><a href="contact.html" class="icon fa-comment"><span class="label">Contact</span></a></li>
+					
+					<li><a href="503.html" class="icon fa-gear"><span class="label">Settings</span></a></li>
+
+				</ul>
 				
-					<ul class="menu">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="info.html">About Me</a></li>
-						<li><a href="project.html">Projects</a></li>
-						<li><a href="site_information.html">Site information & Sitemap</a></li>
-					</ul>
+				<ul class="menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="info.html">About Me</a></li>
+					<li><a href="project.html">Projects</a></li>
+					<li><a href="site_information.html">Site information & Sitemap</a></li>
+				</ul>
 
 				
 
