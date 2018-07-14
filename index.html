@@ -651,11 +651,11 @@
 				
 				function initialiseNightMode()
 				{
-					document.getElementById("intro").id="intro_night";
-					document.getElementById("one").id="one_night";
-					document.getElementById("one0").id="one0_night";
-					document.getElementById("two").id="two_night";
-					document.getElementById("three").id="three_night";
+					document.getElementById("intro").style="background: url('images/galaxy_blue1.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+					document.getElementById("one").style="background: url('images/galaxy_purple.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+					document.getElementById("one0").style="background: url('images/galaxy_blue2.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+					document.getElementById("two").style="background: url('images/galaxy_colour1.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+					document.getElementById("three").style="background: url('images/galaxy_colour2.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
 
 					// change the box theme;
 					document.getElementById("box_one").className="content box_night style2";
@@ -739,11 +739,11 @@
 				
 				function initialiseDayMode ()
 				{
-					document.getElementById("intro_night").id="intro";
-					document.getElementById("one_night").id="one";
-					document.getElementById("one0_night").id="one0";
-					document.getElementById("two_night").id="two";
-					document.getElementById("three_night").id="three";
+					document.getElementById("intro").style="background: url('images/overlay.png'), url('images/intro.jpg'); background-size: 256px 256px, cover;background-attachment: fixed, fixed;background-position: top left, bottom center;background-repeat: repeat, no-repeat;"
+					document.getElementById("one").style="background: url('images/one.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+					document.getElementById("one0").style="background: url('images/one0.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+					document.getElementById("two").style="background: url('images/two.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+					document.getElementById("three").style="background: url('images/three.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
 
 					// change the box theme;
 					document.getElementById("box_one").className="content box style2";
