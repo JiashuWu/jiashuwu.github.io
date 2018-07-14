@@ -731,8 +731,11 @@ input, select, textarea {
 			button.down.anchored {
 				bottom: 0;
 				border-bottom: 0;
+				border-left: 0;
+				border-right: 0;
+				/*border-top: 0;*/
 				border-radius: 3em 3em 0 0;
-				height: 4.5em;
+				height: 3.0em;
 				margin-left: -2.5em;
 			}
 
@@ -2020,6 +2023,21 @@ input, select, textarea {
 				}
 
 		}
+	
+/*
+	body {
+		padding-top: 3em;
+	}
+
+		@media screen and (max-width: 736px) {
+
+			body {
+				padding-top: 2.5em;
+			}
+
+		}
+*/
+	
 
 
 
@@ -2649,6 +2667,8 @@ input, select, textarea {
 		background-repeat: no-repeat;
 	}
 
+	
+
 	#intro_luckydays {
 		background-image: url("../../images/aurora.jpg");
 		background-size: cover;
@@ -2789,16 +2809,20 @@ input, select, textarea {
 		background-image: url("../../images/one.jpg");
 		background-size: cover;
 		background-attachment: fixed;
-		background-position: center center;
+		background-position: bottom center;
+		background-repeat: no-repeat;
 	}
 
 /* Night Mode */
 	#one_night {
-		background-image: url("../../images/galaxy_purple.jpg");
+		background: url("../../images/galaxy_purple.jpg");
 		background-size: cover;
 		background-attachment: fixed;
-		background-position: center center;
+		background-position: bottom center;
+		background-repeat: no-repeat;
 	}
+
+	
 
 /* Two */
 
@@ -2806,16 +2830,20 @@ input, select, textarea {
 		background-image: url("../../images/two.jpg");
 		background-size: cover;
 		background-attachment: fixed;
-		background-position: center center;
+		background-position: bottom center;
+		background-repeat: no-repeat;
 	}
 
 /* Night Mode */
 	#two_night {
-		background-image: url("../../images/galaxy_colour1.jpg");
+		background: url("../../images/galaxy_colour1.jpg");
 		background-size: cover;
 		background-attachment: fixed;
-		background-position: center center;
+		background-position: bottom center;
+		background-repeat: no-repeat;
 	}
+
+	
 
 	#three {
 		background-image: url("../../images/three.jpg");
@@ -2827,27 +2855,33 @@ input, select, textarea {
 
 /* Night Mode */
 	#three_night {
-		background-image: url("../../images/galaxy_colour2.jpg");
+		background: url("../../images/galaxy_colour2.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
 		background-repeat: no-repeat;
 	}
 
+	
+
 	#one0 {
 		background-image: url("../../images/one0.jpg");
 		background-size: cover;
 		background-attachment: fixed;
-		background-position: center center;
+		background-position: bottom center;
+		background-repeat: no-repeat;
 	}
 
 /* Night Mode */
 	#one0_night {
-		background-image: url("../../images/galaxy_blue2.jpg");
+		background: url("../../images/galaxy_blue2.jpg");
 		background-size: cover;
 		background-attachment: fixed;
-		background-position: center center;
+		background-position: bottom center;
+		background-repeat: no-repeat;
 	}
+
+	
 
 /* Contact */
 

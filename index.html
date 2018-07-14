@@ -194,7 +194,7 @@
 						<!-- -->
 					</footer>
 				</div>
-				<a href="#one" class="button style2 down anchored">Next</a>
+				<a href="#one" class="button style2 down anchored" id="down10">Next</a>
 			</section>
 
 		
@@ -246,7 +246,7 @@
 					<p> </p>
 					<!--<a href="info.html"><button>Learn More</button></a>-->
 				</div>
-				<a href="#one0" class="button style2 down anchored">Next</a>
+				<a href="#one0" class="button style2 down anchored" id="down11">Next</a>
 			</section>
 		
 			<section id="one0" class="main style2 right dark fullscreen">
@@ -257,7 +257,7 @@
 					<p id="about_me_text00">Hi, I am David Jiashu Wu, I am now in my final year of undergraduate study at the University of Sydney, studying Bachelor of Science, major in Computer Science and Financial Mathematics & Statistics. </p>
 					<a href="info.html"><button id="index_button_01">Learn More</button></a>
 				</div>
-				<a href="#two" class="button style2 down anchored">Next</a>
+				<a href="#two" class="button style2 down anchored" id="down12">Next</a>
 			</section>
 
 		
@@ -271,7 +271,7 @@
 					<p id="my_project_text00">During my undergraduate study, I participated in several projects, including building websites to broaden people's knowledge about Stroke, a talented student project aimed to build an Android app to help diagnose Parkinson's disease, a Sudoku Solver which can solve the Sudoku pazzle etc. </p>
 					<a href="project.html"><button id="index_button_02">Learn More</button></a>
 				</div>
-				<a href="#three" class="button style2 down anchored">Next</a>
+				<a href="#three" class="button style2 down anchored" id="down13">Next</a>
 			</section>
 		
 			<section id="three" class="main style1 dark fullscreen" margin-top="1em">
@@ -353,7 +353,7 @@
 
 				</div>
 				
-				<a href="#about_me" class="button style2 down anchored">Next</a>
+				<a href="#about_me" class="button style2 down anchored" id="down14">Next</a>
 				
 			</section>
 		
@@ -649,6 +649,182 @@
 					}
 				}
 				
+				function initialiseNightMode()
+				{
+					document.getElementById("intro").id="intro_night";
+					document.getElementById("one").id="one_night";
+					document.getElementById("one0").id="one0_night";
+					document.getElementById("two").id="two_night";
+					document.getElementById("three").id="three_night";
+
+					// change the box theme;
+					document.getElementById("box_one").className="content box_night style2";
+					document.getElementById("box_one0").className="content box_night style2";
+					document.getElementById("box_two").className="content box_night style2";
+
+					// change font colour to white;
+					document.getElementById("welcome").style="color:white;";
+					document.getElementById("welcome_text00").style="color:white;";
+
+					document.getElementById("about_me_title").style="color:white;";
+					document.getElementById("about_me_text00").style="color:white;";
+
+					document.getElementById("my_project_title").style="color:white;";
+					document.getElementById("my_project_text00").style="color:white;";
+
+					document.getElementById("index_button_01").className="index_button_1";
+					document.getElementById("index_button_02").className="index_button_2";
+
+					// CAUTION
+					// OPTIONAL
+					document.getElementById("header").id="header_night";
+
+					// OPTIONAL
+					document.getElementById("menu0").style="color: white;";
+					document.getElementById("menu1").style="color: white;";
+					document.getElementById("menu2").style="color: white;";
+					document.getElementById("menu3").style="color: white;";
+					document.getElementById("menu4").style="color: white;";
+					document.getElementById("menu5").style="color: white;";
+					document.getElementById("menu6").style="color: white;";
+					document.getElementById("menu7").style="color: white;";
+					document.getElementById("menu8").style="color: white;";
+					document.getElementById("menu9").style="color: white;";
+					document.getElementById("menu10").style="color: white;";
+					document.getElementById("menu11").style="color: white;";
+					// OPTIONAL
+
+					// change the colour of texts
+					document.getElementById("text10").style="color: white;";
+					document.getElementById("text11").style="color: white;";
+					document.getElementById("text12").style="color: white;";
+					document.getElementById("text13").style="color: white;";
+					document.getElementById("text14").style="color: white;";
+					document.getElementById("text15").style="color: white;";
+					document.getElementById("text16").style="color: white;";
+					document.getElementById("text17").style="color: white;";
+					document.getElementById("text18").style="color: white;";
+
+					// change section background to black
+					document.getElementById("about_me").style="background-color: black;";
+					document.getElementById("my_cv").style="background-color: black;";
+					document.getElementById("work").style="background-color: black;";
+					document.getElementById("work1").style="background-color: black;";
+					document.getElementById("work2").style="background-color: black;";
+					document.getElementById("work3").style="background-color: black;";
+					document.getElementById("work4").style="background-color: black;";
+					document.getElementById("contact").style="background-color: black;";
+
+					// change contact form div background colour to black
+					document.getElementById("contactFormDiv").style="background-color: black;";
+
+					// change texts in contact form colour to white
+					document.getElementById("text20").style="color: white; text-align: left";
+					document.getElementById("text21").style="color: white; text-align: left";
+					document.getElementById("text22").style="color: white; text-align: left";
+					document.getElementById("text23").style="color: white;";
+					document.getElementById("text24").style="color: white; text-align: left";
+
+					// change the colour of the placeholders in contact form to white
+					document.getElementById("text30").style="color: white;";
+					document.getElementById("text31").style="color: white;";
+					document.getElementById("text32").style="color: white;";
+
+					// change the colour of footer background to black
+					document.getElementById("footer").style="background-color: black;";
+					document.getElementById("footer1").style="background-color: black;";
+					
+					
+				}
+				
+				function initialiseDayMode ()
+				{
+					document.getElementById("intro_night").id="intro";
+					document.getElementById("one_night").id="one";
+					document.getElementById("one0_night").id="one0";
+					document.getElementById("two_night").id="two";
+					document.getElementById("three_night").id="three";
+
+					// change the box theme;
+					document.getElementById("box_one").className="content box style2";
+					document.getElementById("box_one0").className="content box style2";
+					document.getElementById("box_two").className="content box style2";
+
+					// change font colour to white;
+					document.getElementById("welcome").style="color: mediumslateblue;";
+					document.getElementById("welcome_text00").style="color: #39454b;";
+
+					document.getElementById("about_me_title").style="color: mediumslateblue;";
+					document.getElementById("about_me_text00").style="color: #39454b;";
+
+					document.getElementById("my_project_title").style="color: mediumslateblue;";
+					document.getElementById("my_project_text00").style="color: #39454b;";
+
+					document.getElementById("index_button_01").className="index_button_10";
+					document.getElementById("index_button_02").className="index_button_20";
+
+					// CAUTION
+					// OPTIONAL
+					document.getElementById("header_night").id="header";
+
+					// OPTIONAL
+					document.getElementById("menu0").style="color: #39454b;";
+					document.getElementById("menu1").style="color: #39454b;";
+					document.getElementById("menu2").style="color: #39454b;";
+					document.getElementById("menu3").style="color: #39454b;";
+					document.getElementById("menu4").style="color: #39454b;";
+					document.getElementById("menu5").style="color: #39454b;";
+					document.getElementById("menu6").style="color: #39454b;";
+					document.getElementById("menu7").style="color: #39454b;";
+					document.getElementById("menu8").style="color: #39454b;";
+					document.getElementById("menu9").style="color: #39454b;";
+					document.getElementById("menu10").style="color: #39454b;";
+					document.getElementById("menu11").style="color: #39454b;";
+					// OPTIONAL
+
+					// change the colour of texts
+					document.getElementById("text10").style="color: #39454b;";
+					document.getElementById("text11").style="color: #39454b;";
+					document.getElementById("text12").style="color: #39454b;";
+					document.getElementById("text13").style="color: #39454b;";
+					document.getElementById("text14").style="color: #39454b;";
+					document.getElementById("text15").style="color: #39454b;";
+					document.getElementById("text16").style="color: #39454b;";
+					document.getElementById("text17").style="color: #39454b;";
+					document.getElementById("text18").style="color: #39454b;";
+
+					// change section background to black
+					document.getElementById("about_me").style="background-color: white;";
+					document.getElementById("my_cv").style="background-color: white;";
+					document.getElementById("work").style="background-color: white;";
+					document.getElementById("work1").style="background-color: white;";
+					document.getElementById("work2").style="background-color: white;";
+					document.getElementById("work3").style="background-color: white;";
+					document.getElementById("work4").style="background-color: white;";
+					document.getElementById("contact").style="background-color: white;";
+
+					// change contact form div background colour to black
+					document.getElementById("contactFormDiv").style="background-color: white;";
+
+					// change texts in contact form colour to white
+					document.getElementById("text20").style="color: #39454b; text-align: left";
+					document.getElementById("text21").style="color: #39454b; text-align: left";
+					document.getElementById("text22").style="color: #39454b; text-align: left";
+					document.getElementById("text23").style="color: #39454b;";
+					document.getElementById("text24").style="color: #39454b; text-align: left";
+
+					// change the colour of the placeholders in contact form to white
+					document.getElementById("text30").style="color: #39454b;";
+					document.getElementById("text31").style="color: #39454b;";
+					document.getElementById("text32").style="color: #39454b;";
+
+					// change the colour of footer background to black
+					document.getElementById("footer").style="background-color: #39454b";
+					document.getElementById("footer1").style="background-color: #39454b";
+					
+					
+				}
+				
 				function changeMode (night)
 				{
 				
@@ -658,88 +834,8 @@
 					// Adjust this value to 0 for temperary testing purposes
 					{
 						// execute changing the theme;
-						document.getElementById("intro").id="intro_night";
-						document.getElementById("one").id="one_night";
-						document.getElementById("one0").id="one0_night";
-						document.getElementById("two").id="two_night";
-						document.getElementById("three").id="three_night";
-
-						// change the box theme;
-						document.getElementById("box_one").className="content box_night style2";
-						document.getElementById("box_one0").className="content box_night style2";
-						document.getElementById("box_two").className="content box_night style2";
-
-						// change font colour to white;
-						document.getElementById("welcome").style="color:white;";
-						document.getElementById("welcome_text00").style="color:white;";
-
-						document.getElementById("about_me_title").style="color:white;";
-						document.getElementById("about_me_text00").style="color:white;";
-
-						document.getElementById("my_project_title").style="color:white;";
-						document.getElementById("my_project_text00").style="color:white;";
-
-						document.getElementById("index_button_01").className="index_button_1";
-						document.getElementById("index_button_02").className="index_button_2";
-
-						// CAUTION
-						// OPTIONAL
-						document.getElementById("header").id="header_night";
-
-						// OPTIONAL
-						document.getElementById("menu0").style="color: white;";
-						document.getElementById("menu1").style="color: white;";
-						document.getElementById("menu2").style="color: white;";
-						document.getElementById("menu3").style="color: white;";
-						document.getElementById("menu4").style="color: white;";
-						document.getElementById("menu5").style="color: white;";
-						document.getElementById("menu6").style="color: white;";
-						document.getElementById("menu7").style="color: white;";
-						document.getElementById("menu8").style="color: white;";
-						document.getElementById("menu9").style="color: white;";
-						document.getElementById("menu10").style="color: white;";
-						document.getElementById("menu11").style="color: white;";
-						// OPTIONAL
+						initialiseNightMode();
 						
-						// change the colour of texts
-						document.getElementById("text10").style="color: white;";
-						document.getElementById("text11").style="color: white;";
-						document.getElementById("text12").style="color: white;";
-						document.getElementById("text13").style="color: white;";
-						document.getElementById("text14").style="color: white;";
-						document.getElementById("text15").style="color: white;";
-						document.getElementById("text16").style="color: white;";
-						document.getElementById("text17").style="color: white;";
-						document.getElementById("text18").style="color: white;";
-						
-						// change section background to black
-						document.getElementById("about_me").style="background-color: black;";
-						document.getElementById("my_cv").style="background-color: black;";
-						document.getElementById("work").style="background-color: black;";
-						document.getElementById("work1").style="background-color: black;";
-						document.getElementById("work2").style="background-color: black;";
-						document.getElementById("work3").style="background-color: black;";
-						document.getElementById("work4").style="background-color: black;";
-						document.getElementById("contact").style="background-color: black;";
-						
-						// change contact form div background colour to black
-						document.getElementById("contactFormDiv").style="background-color: black;";
-						
-						// change texts in contact form colour to white
-						document.getElementById("text20").style="color: white; text-align: left";
-						document.getElementById("text21").style="color: white; text-align: left";
-						document.getElementById("text22").style="color: white; text-align: left";
-						document.getElementById("text23").style="color: white;";
-						document.getElementById("text24").style="color: white; text-align: left";
-						
-						// change the colour of the placeholders in contact form to white
-						document.getElementById("text30").style="color: white;";
-						document.getElementById("text31").style="color: white;";
-						document.getElementById("text32").style="color: white;";
-						
-						// change the colour of footer background to black
-						document.getElementById("footer").style="background-color: black;";
-						document.getElementById("footer1").style="background-color: black;";
 						
 					}
 					else
@@ -747,90 +843,35 @@
 						// Change mode back to day;
 						
 						// execute changing the theme;
-						document.getElementById("intro_night").id="intro";
-						document.getElementById("one_night").id="one";
-						document.getElementById("one0_night").id="one0";
-						document.getElementById("two_night").id="two";
-						document.getElementById("three_night").id="three";
-
-						// change the box theme;
-						document.getElementById("box_one").className="content box style2";
-						document.getElementById("box_one0").className="content box style2";
-						document.getElementById("box_two").className="content box style2";
-
-						// change font colour to white;
-						document.getElementById("welcome").style="color: mediumslateblue;";
-						document.getElementById("welcome_text00").style="color: #39454b;";
-
-						document.getElementById("about_me_title").style="color: mediumslateblue;";
-						document.getElementById("about_me_text00").style="color: #39454b;";
-
-						document.getElementById("my_project_title").style="color: mediumslateblue;";
-						document.getElementById("my_project_text00").style="color: #39454b;";
-
-						document.getElementById("index_button_01").className="index_button_10";
-						document.getElementById("index_button_02").className="index_button_20";
-
-						// CAUTION
-						// OPTIONAL
-						document.getElementById("header_night").id="header";
-
-						// OPTIONAL
-						document.getElementById("menu0").style="color: #39454b;";
-						document.getElementById("menu1").style="color: #39454b;";
-						document.getElementById("menu2").style="color: #39454b;";
-						document.getElementById("menu3").style="color: #39454b;";
-						document.getElementById("menu4").style="color: #39454b;";
-						document.getElementById("menu5").style="color: #39454b;";
-						document.getElementById("menu6").style="color: #39454b;";
-						document.getElementById("menu7").style="color: #39454b;";
-						document.getElementById("menu8").style="color: #39454b;";
-						document.getElementById("menu9").style="color: #39454b;";
-						document.getElementById("menu10").style="color: #39454b;";
-						document.getElementById("menu11").style="color: #39454b;";
-						// OPTIONAL
+						initialiseDayMode();
 						
-						// change the colour of texts
-						document.getElementById("text10").style="color: #39454b;";
-						document.getElementById("text11").style="color: #39454b;";
-						document.getElementById("text12").style="color: #39454b;";
-						document.getElementById("text13").style="color: #39454b;";
-						document.getElementById("text14").style="color: #39454b;";
-						document.getElementById("text15").style="color: #39454b;";
-						document.getElementById("text16").style="color: #39454b;";
-						document.getElementById("text17").style="color: #39454b;";
-						document.getElementById("text18").style="color: #39454b;";
 						
-						// change section background to black
-						document.getElementById("about_me").style="background-color: white;";
-						document.getElementById("my_cv").style="background-color: white;";
-						document.getElementById("work").style="background-color: white;";
-						document.getElementById("work1").style="background-color: white;";
-						document.getElementById("work2").style="background-color: white;";
-						document.getElementById("work3").style="background-color: white;";
-						document.getElementById("work4").style="background-color: white;";
-						document.getElementById("contact").style="background-color: white;";
-						
-						// change contact form div background colour to black
-						document.getElementById("contactFormDiv").style="background-color: white;";
-						
-						// change texts in contact form colour to white
-						document.getElementById("text20").style="color: #39454b; text-align: left";
-						document.getElementById("text21").style="color: #39454b; text-align: left";
-						document.getElementById("text22").style="color: #39454b; text-align: left";
-						document.getElementById("text23").style="color: #39454b;";
-						document.getElementById("text24").style="color: #39454b; text-align: left";
-						
-						// change the colour of the placeholders in contact form to white
-						document.getElementById("text30").style="color: #39454b;";
-						document.getElementById("text31").style="color: #39454b;";
-						document.getElementById("text32").style="color: #39454b;";
-						
-						// change the colour of footer background to black
-						document.getElementById("footer").style="background-color: #39454b";
-						document.getElementById("footer1").style="background-color: #39454b";
 					}
 				}
+				
+				function changeDownToNight()
+				{
+					document.getElementById("down10").href="#one_night";
+					document.getElementById("down11").href="#one0_night";
+					document.getElementById("down12").href="#two_night";
+					document.getElementById("down13").href="#three_night";
+					document.getElementById("down14").href="#about_me";
+				}
+				
+				function changeDownToDay()
+				{
+					document.getElementById("down10").href="#one";
+					document.getElementById("down11").href="#one0";
+					document.getElementById("down12").href="#two";
+					document.getElementById("down13").href="#three";
+					document.getElementById("down14").href="#about_me";
+				}
+				
+				if (night == 1)
+				{
+					initialiseNightMode();
+				}
+				
 			</script>
 
 		<!-- Scripts -->
