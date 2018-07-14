@@ -841,11 +841,11 @@ input, select, textarea {
 	}
 
 	.neurograph_button:active {
-		background-color: #EE670C
+		background-color: #D15F00
 	}
 
 	.neurograph_button:hover {
-		background-color: #EE670C
+		background-color: #D15F00
 	}
 
 	.strokewise_button {
@@ -882,6 +882,18 @@ input, select, textarea {
 
 	.personalwebsite_button:hover {
 		background-color: #CF00CF
+	}
+
+	.curriculumvitae_button {
+		background-color: #00B0F0
+	}
+
+	.curriculumvitae_button:active {
+		background-color: #009BD3
+	}
+
+	.curriculumvitae_button:hover {
+		background-color: #009BD3
 	}
 
 /* Form */
