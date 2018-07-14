@@ -1945,6 +1945,8 @@ input, select, textarea {
 
 /* Header */
 
+	/* HEADER_NIGHT */
+
 	#header_night {
 		position: fixed;
 		z-index: 10000;
@@ -2025,6 +2027,7 @@ input, select, textarea {
 		}
 	
 /*
+
 	body {
 		padding-top: 3em;
 	}
@@ -2036,10 +2039,12 @@ input, select, textarea {
 			}
 
 		}
+
 */
+
 	
 
-
+	/* HEADER */
 
 	#header {
 		position: fixed;
@@ -2131,6 +2136,8 @@ input, select, textarea {
 			}
 
 		}
+
+	/* HEADER_NEW */
 
 /* Main */
 
