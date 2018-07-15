@@ -2935,8 +2935,24 @@ input, select, textarea {
 		background-repeat: no-repeat;
 	}
 
+	#random_topics {
+		background-image: url("../../images/three.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+	}
+
 /* Night Mode */
 	#three_night {
+		background: url("../../images/galaxy_colour2.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+	}
+
+	#random_topics_night {
 		background: url("../../images/galaxy_colour2.jpg");
 		background-size: cover;
 		background-attachment: fixed;
