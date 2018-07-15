@@ -2673,6 +2673,14 @@ input, select, textarea {
 
 /* Intro */
 
+	#index_introduction {
+		background: url("images/overlay.png"), url("../../images/intro.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
+	}
+
 	#intro {
 		background: url("images/overlay.png"), url("../../images/intro.jpg");
 		background-size: 256px 256px, cover;
@@ -2683,6 +2691,14 @@ input, select, textarea {
 
 	/* Night Mode */
 	#intro_night {
+		background: url("../../images/galaxy_blue1.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+	}
+
+	#index_introduction_night {
 		background: url("../../images/galaxy_blue1.jpg");
 		background-size: cover;
 		background-attachment: fixed;
@@ -2781,6 +2797,14 @@ input, select, textarea {
 	}
 
 	#android_app_introduction {
+		background-image: url("../../images/Blue_Ocean.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+	}
+
+	#download_introduction {
 		background-image: url("../../images/Blue_Ocean.jpg");
 		background-size: cover;
 		background-attachment: fixed;
