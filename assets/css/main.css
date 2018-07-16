@@ -2749,6 +2749,14 @@ input, select, textarea {
 	}
 
 	#intro_strokewise {
+		background: url("../../images/colourful_polygon1.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+	}
+
+	#intro_strokewise_night {
 		background: url("../../images/galaxy_blue.jpg");
 		background-size: cover;
 		background-attachment: fixed;
