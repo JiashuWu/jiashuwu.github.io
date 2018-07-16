@@ -2717,6 +2717,14 @@ input, select, textarea {
 	*/
 
 	#intro_luckydays {
+		background: url("../../images/aurora1.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+	}
+
+	#intro_luckydays_night {
 		background: url("../../images/aurora.jpg");
 		background-size: cover;
 		background-attachment: fixed;
@@ -2830,6 +2838,14 @@ input, select, textarea {
 
 	#download_introduction {
 		background: url("../../images/download01.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+	}
+
+	#intro_language {
+		background: url("../../images/Blue_Ocean.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
