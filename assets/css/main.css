@@ -2717,7 +2717,7 @@ input, select, textarea {
 	*/
 
 	#intro_luckydays {
-		background: url("../../images/aurora1.jpg");
+		background: url("../../images/polygon_park2.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2725,7 +2725,7 @@ input, select, textarea {
 	}
 
 	#intro_luckydays_night {
-		background: url("../../images/aurora.jpg");
+		background: url("../../images/aurora1.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2733,6 +2733,14 @@ input, select, textarea {
 	}
 
 	#intro_neurograph {
+		background: url("../../images/polygon_mountain.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+	}
+
+	#intro_neurograph_night {
 		background: url("../../images/star1.jpg");
 		background-size: cover;
 		background-attachment: fixed;
