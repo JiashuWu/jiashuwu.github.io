@@ -2772,6 +2772,14 @@ input, select, textarea {
 		background-repeat: no-repeat;
 	}
 
+	#intro_sudokusolver_night {
+		background: url("../../images/715461.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+	}
+
 	#intro_personalwebsite {
 		background: url("../../images/galaxy_blue2.jpg");
 		background-size: cover;
