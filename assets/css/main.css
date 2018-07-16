@@ -2796,6 +2796,14 @@ input, select, textarea {
 		background-repeat: no-repeat;
 	}
 
+	#intro_info_night {
+		background: url("../../images/colour21.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+	}
+
 	#contact_introduction {
 		background: url("../../images/Blue_Ocean.jpg");
 		background-size: cover;
