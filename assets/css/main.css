@@ -2717,7 +2717,7 @@ input, select, textarea {
 	*/
 
 	#intro_luckydays {
-		background-image: url("../../images/aurora.jpg");
+		background: url("../../images/aurora.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2725,7 +2725,7 @@ input, select, textarea {
 	}
 
 	#intro_neurograph {
-		background-image: url("../../images/star1.jpg");
+		background: url("../../images/star1.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2733,7 +2733,7 @@ input, select, textarea {
 	}
 
 	#intro_strokewise {
-		background-image: url("../../images/galaxy_blue.jpg");
+		background: url("../../images/galaxy_blue.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2741,7 +2741,7 @@ input, select, textarea {
 	}
 
 	#intro_sudokusolver {
-		background-image: url("../../images/galaxy_purple.jpg");
+		background: url("../../images/galaxy_purple.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2749,7 +2749,7 @@ input, select, textarea {
 	}
 
 	#intro_personalwebsite {
-		background-image: url("../../images/galaxy_blue2.jpg");
+		background: url("../../images/galaxy_blue2.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2757,7 +2757,7 @@ input, select, textarea {
 	}
 
 	#intro_siteinfo {
-		background-image: url("../../images/578571.jpg");
+		background: url("../../images/578571.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2765,7 +2765,7 @@ input, select, textarea {
 	}
 
 	#intro_project1 {
-		background-image: url("../../images/20f9c266304087.5b1153b2ce14c.png");
+		background: url("../../images/20f9c266304087.5b1153b2ce14c.png");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2773,7 +2773,7 @@ input, select, textarea {
 	}
 
 	#intro_project1_night {
-		background-image: url("../../images/colour1.jpg");
+		background: url("../../images/colour1.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2781,7 +2781,7 @@ input, select, textarea {
 	}
 
 	#intro_thankyou {
-		background-image: url("../../images/527747.jpg");
+		background: url("../../images/527747.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2789,7 +2789,7 @@ input, select, textarea {
 	}
 
 	#intro_info {
-		background-image: url("../../images/180875.jpg");
+		background: url("../../images/180875.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2797,7 +2797,7 @@ input, select, textarea {
 	}
 
 	#contact_introduction {
-		background-image: url("../../images/Blue_Ocean.jpg");
+		background: url("../../images/Blue_Ocean.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2805,7 +2805,7 @@ input, select, textarea {
 	}
 
 	#android_app_introduction {
-		background-image: url("../../images/coding.jpg");
+		background: url("../../images/coding.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2813,7 +2813,7 @@ input, select, textarea {
 	}
 
 	#universities_introduction {
-		background-image: url("../../images/581070.jpg");
+		background: url("../../images/581070.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2821,7 +2821,7 @@ input, select, textarea {
 	}
 
 	#download_introduction {
-		background-image: url("../../images/download01.jpg");
+		background: url("../../images/download01.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2830,7 +2830,7 @@ input, select, textarea {
 
 /* Intro in 404.html*/
 	#intro_404 {
-		background-image: url("../../images/57d1ea51986289.5900ac9a99510.png");
+		background: url("../../images/57d1ea51986289.5900ac9a99510.png");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2839,7 +2839,7 @@ input, select, textarea {
 
 /* Intro in 405.html*/
 	#intro_405 {
-		background-image: url("../../images/20e18b51986289.5901affc4e9f0.png");
+		background: url("../../images/20e18b51986289.5901affc4e9f0.png");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2848,7 +2848,7 @@ input, select, textarea {
 
 /* Intro in 410.html*/
 	#intro_410 {
-		background-image: url("../../images/6b13f651986289.5900ac9a9b0c3.png");
+		background: url("../../images/6b13f651986289.5900ac9a9b0c3.png");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2857,7 +2857,7 @@ input, select, textarea {
 
 /* Intro in 500.html*/
 	#intro_500 {
-		background-image: url("../../images/058d9951986289.5901affc4dccd.png");
+		background: url("../../images/058d9951986289.5901affc4dccd.png");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2866,7 +2866,7 @@ input, select, textarea {
 
 /* Intro in 501.html*/
 	#intro_501 {
-		background-image: url("../../images/23d03d51986289.5900ac9a98a42.png");
+		background: url("../../images/23d03d51986289.5900ac9a98a42.png");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2875,7 +2875,7 @@ input, select, textarea {
 
 /* Intro in 503.html*/
 	#intro_503 {
-		background-image: url("../../images/a99f6651986289.5900ac9a98d74.png");
+		background: url("../../images/a99f6651986289.5900ac9a98d74.png");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2885,7 +2885,7 @@ input, select, textarea {
 /* One */
 
 	#one {
-		background-image: url("../../images/one.jpg");
+		background: url("../../images/one.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2915,7 +2915,7 @@ input, select, textarea {
 /* Two */
 
 	#two {
-		background-image: url("../../images/two.jpg");
+		background: url("../../images/two.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2944,7 +2944,7 @@ input, select, textarea {
 	*/
 
 	#three {
-		background-image: url("../../images/three.jpg");
+		background: url("../../images/three.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2952,7 +2952,7 @@ input, select, textarea {
 	}
 
 	#random_topics {
-		background-image: url("../../images/three.jpg");
+		background: url("../../images/three.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2989,7 +2989,7 @@ input, select, textarea {
 	*/
 
 	#one0 {
-		background-image: url("../../images/one0.jpg");
+		background: url("../../images/one0.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
