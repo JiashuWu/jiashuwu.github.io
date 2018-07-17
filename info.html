@@ -686,6 +686,11 @@
 				{
 					night = 1;
 				}
+			
+				function randomNumberGenerator(min, max)
+				{
+					return Math.floor(Math.random() * max) + min;
+				}
 				
 				function manuallyChangeMode ()
 				{
@@ -762,37 +767,145 @@
 					document.getElementById("footer1").style="background-color: black;";
 					
 					
-					document.getElementById("link01").style="color: deepskyblue;";
-					document.getElementById("link02").style="color: deepskyblue;";
-					document.getElementById("link03").style="color: deepskyblue;";
-					document.getElementById("link04").style="color: deepskyblue;";
-					document.getElementById("link05").style="color: deepskyblue;";
-					document.getElementById("link06").style="color: deepskyblue;";
-					document.getElementById("link07").style="color: deepskyblue;";
-					document.getElementById("link08").style="color: deepskyblue;";
-					document.getElementById("link09").style="color: deepskyblue;";
-					document.getElementById("link10").style="color: deepskyblue;";
-					document.getElementById("link11").style="color: deepskyblue;";
-					document.getElementById("link12").style="color: deepskyblue;";
-					document.getElementById("link13").style="color: deepskyblue;";
-					document.getElementById("link14").style="color: deepskyblue;";
-					document.getElementById("link15").style="color: deepskyblue;";
-					document.getElementById("link16").style="color: deepskyblue;";
-					document.getElementById("link17").style="color: deepskyblue;";
-					document.getElementById("link18").style="color: deepskyblue;";
-					document.getElementById("link19").style="color: deepskyblue;";
-					document.getElementById("link20").style="color: deepskyblue;";
-					document.getElementById("link21").style="color: deepskyblue;";
-					
-					document.getElementById("link30").style="color: deepskyblue;";
-					document.getElementById("link31").style="color: deepskyblue;";
-					document.getElementById("link32").style="color: deepskyblue;";
-					document.getElementById("link33").style="color: deepskyblue;";
-					document.getElementById("link34").style="color: deepskyblue;";
-					document.getElementById("link35").style="color: deepskyblue;";
-					document.getElementById("link36").style="color: deepskyblue;";
-					document.getElementById("link37").style="color: deepskyblue;";
-					document.getElementById("link38").style="color: deepskyblue;";
+					// changing the colour of links
+					var randomNumber = randomNumberGenerator(0, 3);
+					console.log(randomNumber);
+					if (randomNumber == 0)
+					{
+						document.getElementById("link01").style="color: deepskyblue;";
+						document.getElementById("link02").style="color: deepskyblue;";
+						document.getElementById("link03").style="color: deepskyblue;";
+						document.getElementById("link04").style="color: deepskyblue;";
+						document.getElementById("link05").style="color: deepskyblue;";
+						document.getElementById("link06").style="color: deepskyblue;";
+						document.getElementById("link07").style="color: deepskyblue;";
+						document.getElementById("link08").style="color: deepskyblue;";
+						document.getElementById("link09").style="color: deepskyblue;";
+						document.getElementById("link10").style="color: deepskyblue;";
+						document.getElementById("link11").style="color: deepskyblue;";
+						document.getElementById("link12").style="color: deepskyblue;";
+						document.getElementById("link13").style="color: deepskyblue;";
+						document.getElementById("link14").style="color: deepskyblue;";
+						document.getElementById("link15").style="color: deepskyblue;";
+						document.getElementById("link16").style="color: deepskyblue;";
+						document.getElementById("link17").style="color: deepskyblue;";
+						document.getElementById("link18").style="color: deepskyblue;";
+						document.getElementById("link19").style="color: deepskyblue;";
+						document.getElementById("link20").style="color: deepskyblue;";
+						document.getElementById("link21").style="color: deepskyblue;";
+
+						document.getElementById("link30").style="color: deepskyblue;";
+						document.getElementById("link31").style="color: deepskyblue;";
+						document.getElementById("link32").style="color: deepskyblue;";
+						document.getElementById("link33").style="color: deepskyblue;";
+						document.getElementById("link34").style="color: deepskyblue;";
+						document.getElementById("link35").style="color: deepskyblue;";
+						document.getElementById("link36").style="color: deepskyblue;";
+						document.getElementById("link37").style="color: deepskyblue;";
+						document.getElementById("link38").style="color: deepskyblue;";
+					}
+					else if (randomNumber == 1)
+					{
+						document.getElementById("link01").style="color: #4CAF50;";
+						document.getElementById("link02").style="color: #4CAF50;";
+						document.getElementById("link03").style="color: #4CAF50;";
+						document.getElementById("link04").style="color: #4CAF50;";
+						document.getElementById("link05").style="color: #4CAF50;";
+						document.getElementById("link06").style="color: #4CAF50;";
+						document.getElementById("link07").style="color: #4CAF50;";
+						document.getElementById("link08").style="color: #4CAF50;";
+						document.getElementById("link09").style="color: #4CAF50;";
+						document.getElementById("link10").style="color: #4CAF50;";
+						document.getElementById("link11").style="color: #4CAF50;";
+						document.getElementById("link12").style="color: #4CAF50;";
+						document.getElementById("link13").style="color: #4CAF50;";
+						document.getElementById("link14").style="color: #4CAF50;";
+						document.getElementById("link15").style="color: #4CAF50;";
+						document.getElementById("link16").style="color: #4CAF50;";
+						document.getElementById("link17").style="color: #4CAF50;";
+						document.getElementById("link18").style="color: #4CAF50;";
+						document.getElementById("link19").style="color: #4CAF50;";
+						document.getElementById("link20").style="color: #4CAF50;";
+						document.getElementById("link21").style="color: #4CAF50;";
+
+						document.getElementById("link30").style="color: #4CAF50;";
+						document.getElementById("link31").style="color: #4CAF50;";
+						document.getElementById("link32").style="color: #4CAF50;";
+						document.getElementById("link33").style="color: #4CAF50;";
+						document.getElementById("link34").style="color: #4CAF50;";
+						document.getElementById("link35").style="color: #4CAF50;";
+						document.getElementById("link36").style="color: #4CAF50;";
+						document.getElementById("link37").style="color: #4CAF50;";
+						document.getElementById("link38").style="color: #4CAF50;";
+					}
+					else if (randomNumber == 2)
+					{
+						document.getElementById("link01").style="color: #F4B400;";
+						document.getElementById("link02").style="color: #F4B400;";
+						document.getElementById("link03").style="color: #F4B400;";
+						document.getElementById("link04").style="color: #F4B400;";
+						document.getElementById("link05").style="color: #F4B400;";
+						document.getElementById("link06").style="color: #F4B400;";
+						document.getElementById("link07").style="color: #F4B400;";
+						document.getElementById("link08").style="color: #F4B400;";
+						document.getElementById("link09").style="color: #F4B400;";
+						document.getElementById("link10").style="color: #F4B400;";
+						document.getElementById("link11").style="color: #F4B400;";
+						document.getElementById("link12").style="color: #F4B400;";
+						document.getElementById("link13").style="color: #F4B400;";
+						document.getElementById("link14").style="color: #F4B400;";
+						document.getElementById("link15").style="color: #F4B400;";
+						document.getElementById("link16").style="color: #F4B400;";
+						document.getElementById("link17").style="color: #F4B400;";
+						document.getElementById("link18").style="color: #F4B400;";
+						document.getElementById("link19").style="color: #F4B400;";
+						document.getElementById("link20").style="color: #F4B400;";
+						document.getElementById("link21").style="color: #F4B400;";
+
+						document.getElementById("link30").style="color: #F4B400;";
+						document.getElementById("link31").style="color: #F4B400;";
+						document.getElementById("link32").style="color: #F4B400;";
+						document.getElementById("link33").style="color: #F4B400;";
+						document.getElementById("link34").style="color: #F4B400;";
+						document.getElementById("link35").style="color: #F4B400;";
+						document.getElementById("link36").style="color: #F4B400;";
+						document.getElementById("link37").style="color: #F4B400;";
+						document.getElementById("link38").style="color: #F4B400;";
+					}
+					else
+					{
+						document.getElementById("link01").style="color: deepskyblue;";
+						document.getElementById("link02").style="color: deepskyblue;";
+						document.getElementById("link03").style="color: deepskyblue;";
+						document.getElementById("link04").style="color: deepskyblue;";
+						document.getElementById("link05").style="color: deepskyblue;";
+						document.getElementById("link06").style="color: deepskyblue;";
+						document.getElementById("link07").style="color: deepskyblue;";
+						document.getElementById("link08").style="color: deepskyblue;";
+						document.getElementById("link09").style="color: deepskyblue;";
+						document.getElementById("link10").style="color: deepskyblue;";
+						document.getElementById("link11").style="color: deepskyblue;";
+						document.getElementById("link12").style="color: deepskyblue;";
+						document.getElementById("link13").style="color: deepskyblue;";
+						document.getElementById("link14").style="color: deepskyblue;";
+						document.getElementById("link15").style="color: deepskyblue;";
+						document.getElementById("link16").style="color: deepskyblue;";
+						document.getElementById("link17").style="color: deepskyblue;";
+						document.getElementById("link18").style="color: deepskyblue;";
+						document.getElementById("link19").style="color: deepskyblue;";
+						document.getElementById("link20").style="color: deepskyblue;";
+						document.getElementById("link21").style="color: deepskyblue;";
+
+						document.getElementById("link30").style="color: deepskyblue;";
+						document.getElementById("link31").style="color: deepskyblue;";
+						document.getElementById("link32").style="color: deepskyblue;";
+						document.getElementById("link33").style="color: deepskyblue;";
+						document.getElementById("link34").style="color: deepskyblue;";
+						document.getElementById("link35").style="color: deepskyblue;";
+						document.getElementById("link36").style="color: deepskyblue;";
+						document.getElementById("link37").style="color: deepskyblue;";
+						document.getElementById("link38").style="color: deepskyblue;";
+					}
 					
 					
 				}
@@ -845,38 +958,146 @@
 					document.getElementById("menu13").text="Night Mode";
 
 					
+					var randomNumber = randomNumberGenerator(0, 3);
+					console.log(randomNumber);
+					if (randomNumber == 0)
+					{
+						document.getElementById("link01").style="color: #e019d9;";
+						document.getElementById("link02").style="color: #e019d9;";
+						document.getElementById("link03").style="color: #e019d9;";
+						document.getElementById("link04").style="color: #e019d9;";
+						document.getElementById("link05").style="color: #e019d9;";
+						document.getElementById("link06").style="color: #e019d9;";
+						document.getElementById("link07").style="color: #e019d9;";
+						document.getElementById("link08").style="color: #e019d9;";
+						document.getElementById("link09").style="color: #e019d9;";
+						document.getElementById("link10").style="color: #e019d9;";
+						document.getElementById("link11").style="color: #e019d9;";
+						document.getElementById("link12").style="color: #e019d9;";
+						document.getElementById("link13").style="color: #e019d9;";
+						document.getElementById("link14").style="color: #e019d9;";
+						document.getElementById("link15").style="color: #e019d9;";
+						document.getElementById("link16").style="color: #e019d9;";
+						document.getElementById("link17").style="color: #e019d9;";
+						document.getElementById("link18").style="color: #e019d9;";
+						document.getElementById("link19").style="color: #e019d9;";
+						document.getElementById("link20").style="color: #e019d9;";
+						document.getElementById("link21").style="color: #e019d9;";
+
+						document.getElementById("link30").style="color: #e019d9;";
+						document.getElementById("link31").style="color: #e019d9;";
+						document.getElementById("link32").style="color: #e019d9;";
+						document.getElementById("link33").style="color: #e019d9;";
+						document.getElementById("link34").style="color: #e019d9;";
+						document.getElementById("link35").style="color: #e019d9;";
+						document.getElementById("link36").style="color: #e019d9;";
+						document.getElementById("link37").style="color: #e019d9;";
+						document.getElementById("link38").style="color: #e019d9;";
+					}
+					else if (randomNumber == 1)
+					{
+						document.getElementById("link01").style="color: #4CAF50;";
+						document.getElementById("link02").style="color: #4CAF50;";
+						document.getElementById("link03").style="color: #4CAF50;";
+						document.getElementById("link04").style="color: #4CAF50;";
+						document.getElementById("link05").style="color: #4CAF50;";
+						document.getElementById("link06").style="color: #4CAF50;";
+						document.getElementById("link07").style="color: #4CAF50;";
+						document.getElementById("link08").style="color: #4CAF50;";
+						document.getElementById("link09").style="color: #4CAF50;";
+						document.getElementById("link10").style="color: #4CAF50;";
+						document.getElementById("link11").style="color: #4CAF50;";
+						document.getElementById("link12").style="color: #4CAF50;";
+						document.getElementById("link13").style="color: #4CAF50;";
+						document.getElementById("link14").style="color: #4CAF50;";
+						document.getElementById("link15").style="color: #4CAF50;";
+						document.getElementById("link16").style="color: #4CAF50;";
+						document.getElementById("link17").style="color: #4CAF50;";
+						document.getElementById("link18").style="color: #4CAF50;";
+						document.getElementById("link19").style="color: #4CAF50;";
+						document.getElementById("link20").style="color: #4CAF50;";
+						document.getElementById("link21").style="color: #4CAF50;";
+
+						document.getElementById("link30").style="color: #4CAF50;";
+						document.getElementById("link31").style="color: #4CAF50;";
+						document.getElementById("link32").style="color: #4CAF50;";
+						document.getElementById("link33").style="color: #4CAF50;";
+						document.getElementById("link34").style="color: #4CAF50;";
+						document.getElementById("link35").style="color: #4CAF50;";
+						document.getElementById("link36").style="color: #4CAF50;";
+						document.getElementById("link37").style="color: #4CAF50;";
+						document.getElementById("link38").style="color: #4CAF50;";
+					}
+					else if (randomNumber == 2)
+					{
+						document.getElementById("link01").style="color: #F4B400;";
+						document.getElementById("link02").style="color: #F4B400;";
+						document.getElementById("link03").style="color: #F4B400;";
+						document.getElementById("link04").style="color: #F4B400;";
+						document.getElementById("link05").style="color: #F4B400;";
+						document.getElementById("link06").style="color: #F4B400;";
+						document.getElementById("link07").style="color: #F4B400;";
+						document.getElementById("link08").style="color: #F4B400;";
+						document.getElementById("link09").style="color: #F4B400;";
+						document.getElementById("link10").style="color: #F4B400;";
+						document.getElementById("link11").style="color: #F4B400;";
+						document.getElementById("link12").style="color: #F4B400;";
+						document.getElementById("link13").style="color: #F4B400;";
+						document.getElementById("link14").style="color: #F4B400;";
+						document.getElementById("link15").style="color: #F4B400;";
+						document.getElementById("link16").style="color: #F4B400;";
+						document.getElementById("link17").style="color: #F4B400;";
+						document.getElementById("link18").style="color: #F4B400;";
+						document.getElementById("link19").style="color: #F4B400;";
+						document.getElementById("link20").style="color: #F4B400;";
+						document.getElementById("link21").style="color: #F4B400;";
+
+						document.getElementById("link30").style="color: #F4B400;";
+						document.getElementById("link31").style="color: #F4B400;";
+						document.getElementById("link32").style="color: #F4B400;";
+						document.getElementById("link33").style="color: #F4B400;";
+						document.getElementById("link34").style="color: #F4B400;";
+						document.getElementById("link35").style="color: #F4B400;";
+						document.getElementById("link36").style="color: #F4B400;";
+						document.getElementById("link37").style="color: #F4B400;";
+						document.getElementById("link38").style="color: #F4B400;";
+					}
+					else
+					{
+						document.getElementById("link01").style="color: #e019d9;";
+						document.getElementById("link02").style="color: #e019d9;";
+						document.getElementById("link03").style="color: #e019d9;";
+						document.getElementById("link04").style="color: #e019d9;";
+						document.getElementById("link05").style="color: #e019d9;";
+						document.getElementById("link06").style="color: #e019d9;";
+						document.getElementById("link07").style="color: #e019d9;";
+						document.getElementById("link08").style="color: #e019d9;";
+						document.getElementById("link09").style="color: #e019d9;";
+						document.getElementById("link10").style="color: #e019d9;";
+						document.getElementById("link11").style="color: #e019d9;";
+						document.getElementById("link12").style="color: #e019d9;";
+						document.getElementById("link13").style="color: #e019d9;";
+						document.getElementById("link14").style="color: #e019d9;";
+						document.getElementById("link15").style="color: #e019d9;";
+						document.getElementById("link16").style="color: #e019d9;";
+						document.getElementById("link17").style="color: #e019d9;";
+						document.getElementById("link18").style="color: #e019d9;";
+						document.getElementById("link19").style="color: #e019d9;";
+						document.getElementById("link20").style="color: #e019d9;";
+						document.getElementById("link21").style="color: #e019d9;";
+
+						document.getElementById("link30").style="color: #e019d9;";
+						document.getElementById("link31").style="color: #e019d9;";
+						document.getElementById("link32").style="color: #e019d9;";
+						document.getElementById("link33").style="color: #e019d9;";
+						document.getElementById("link34").style="color: #e019d9;";
+						document.getElementById("link35").style="color: #e019d9;";
+						document.getElementById("link36").style="color: #e019d9;";
+						document.getElementById("link37").style="color: #e019d9;";
+						document.getElementById("link38").style="color: #e019d9;";
+					}
 					
-					document.getElementById("link01").style="color: #e019d9;";
-					document.getElementById("link02").style="color: #e019d9;";
-					document.getElementById("link03").style="color: #e019d9;";
-					document.getElementById("link04").style="color: #e019d9;";
-					document.getElementById("link05").style="color: #e019d9;";
-					document.getElementById("link06").style="color: #e019d9;";
-					document.getElementById("link07").style="color: #e019d9;";
-					document.getElementById("link08").style="color: #e019d9;";
-					document.getElementById("link09").style="color: #e019d9;";
-					document.getElementById("link10").style="color: #e019d9;";
-					document.getElementById("link11").style="color: #e019d9;";
-					document.getElementById("link12").style="color: #e019d9;";
-					document.getElementById("link13").style="color: #e019d9;";
-					document.getElementById("link14").style="color: #e019d9;";
-					document.getElementById("link15").style="color: #e019d9;";
-					document.getElementById("link16").style="color: #e019d9;";
-					document.getElementById("link17").style="color: #e019d9;";
-					document.getElementById("link18").style="color: #e019d9;";
-					document.getElementById("link19").style="color: #e019d9;";
-					document.getElementById("link20").style="color: #e019d9;";
-					document.getElementById("link21").style="color: #e019d9;";
 					
-					document.getElementById("link30").style="color: #e019d9;";
-					document.getElementById("link31").style="color: #e019d9;";
-					document.getElementById("link32").style="color: #e019d9;";
-					document.getElementById("link33").style="color: #e019d9;";
-					document.getElementById("link34").style="color: #e019d9;";
-					document.getElementById("link35").style="color: #e019d9;";
-					document.getElementById("link36").style="color: #e019d9;";
-					document.getElementById("link37").style="color: #e019d9;";
-					document.getElementById("link38").style="color: #e019d9;";
 
 					// change the colour of footer background to black
 					document.getElementById("footer").style="background-color: #39454b";
@@ -930,6 +1151,147 @@
 				if (night == 1)
 				{
 					initialiseNightMode();
+				}
+				else
+				{
+					var randomNumber = randomNumberGenerator(0, 3);
+					console.log(randomNumber);
+					if (randomNumber == 0)
+					{
+						document.getElementById("link01").style="color: #e019d9;";
+						document.getElementById("link02").style="color: #e019d9;";
+						document.getElementById("link03").style="color: #e019d9;";
+						document.getElementById("link04").style="color: #e019d9;";
+						document.getElementById("link05").style="color: #e019d9;";
+						document.getElementById("link06").style="color: #e019d9;";
+						document.getElementById("link07").style="color: #e019d9;";
+						document.getElementById("link08").style="color: #e019d9;";
+						document.getElementById("link09").style="color: #e019d9;";
+						document.getElementById("link10").style="color: #e019d9;";
+						document.getElementById("link11").style="color: #e019d9;";
+						document.getElementById("link12").style="color: #e019d9;";
+						document.getElementById("link13").style="color: #e019d9;";
+						document.getElementById("link14").style="color: #e019d9;";
+						document.getElementById("link15").style="color: #e019d9;";
+						document.getElementById("link16").style="color: #e019d9;";
+						document.getElementById("link17").style="color: #e019d9;";
+						document.getElementById("link18").style="color: #e019d9;";
+						document.getElementById("link19").style="color: #e019d9;";
+						document.getElementById("link20").style="color: #e019d9;";
+						document.getElementById("link21").style="color: #e019d9;";
+
+						document.getElementById("link30").style="color: #e019d9;";
+						document.getElementById("link31").style="color: #e019d9;";
+						document.getElementById("link32").style="color: #e019d9;";
+						document.getElementById("link33").style="color: #e019d9;";
+						document.getElementById("link34").style="color: #e019d9;";
+						document.getElementById("link35").style="color: #e019d9;";
+						document.getElementById("link36").style="color: #e019d9;";
+						document.getElementById("link37").style="color: #e019d9;";
+						document.getElementById("link38").style="color: #e019d9;";
+					}
+					else if (randomNumber == 1)
+					{
+						document.getElementById("link01").style="color: #4CAF50;";
+						document.getElementById("link02").style="color: #4CAF50;";
+						document.getElementById("link03").style="color: #4CAF50;";
+						document.getElementById("link04").style="color: #4CAF50;";
+						document.getElementById("link05").style="color: #4CAF50;";
+						document.getElementById("link06").style="color: #4CAF50;";
+						document.getElementById("link07").style="color: #4CAF50;";
+						document.getElementById("link08").style="color: #4CAF50;";
+						document.getElementById("link09").style="color: #4CAF50;";
+						document.getElementById("link10").style="color: #4CAF50;";
+						document.getElementById("link11").style="color: #4CAF50;";
+						document.getElementById("link12").style="color: #4CAF50;";
+						document.getElementById("link13").style="color: #4CAF50;";
+						document.getElementById("link14").style="color: #4CAF50;";
+						document.getElementById("link15").style="color: #4CAF50;";
+						document.getElementById("link16").style="color: #4CAF50;";
+						document.getElementById("link17").style="color: #4CAF50;";
+						document.getElementById("link18").style="color: #4CAF50;";
+						document.getElementById("link19").style="color: #4CAF50;";
+						document.getElementById("link20").style="color: #4CAF50;";
+						document.getElementById("link21").style="color: #4CAF50;";
+
+						document.getElementById("link30").style="color: #4CAF50;";
+						document.getElementById("link31").style="color: #4CAF50;";
+						document.getElementById("link32").style="color: #4CAF50;";
+						document.getElementById("link33").style="color: #4CAF50;";
+						document.getElementById("link34").style="color: #4CAF50;";
+						document.getElementById("link35").style="color: #4CAF50;";
+						document.getElementById("link36").style="color: #4CAF50;";
+						document.getElementById("link37").style="color: #4CAF50;";
+						document.getElementById("link38").style="color: #4CAF50;";
+					}
+					else if (randomNumber == 2)
+					{
+						document.getElementById("link01").style="color: #F4B400;";
+						document.getElementById("link02").style="color: #F4B400;";
+						document.getElementById("link03").style="color: #F4B400;";
+						document.getElementById("link04").style="color: #F4B400;";
+						document.getElementById("link05").style="color: #F4B400;";
+						document.getElementById("link06").style="color: #F4B400;";
+						document.getElementById("link07").style="color: #F4B400;";
+						document.getElementById("link08").style="color: #F4B400;";
+						document.getElementById("link09").style="color: #F4B400;";
+						document.getElementById("link10").style="color: #F4B400;";
+						document.getElementById("link11").style="color: #F4B400;";
+						document.getElementById("link12").style="color: #F4B400;";
+						document.getElementById("link13").style="color: #F4B400;";
+						document.getElementById("link14").style="color: #F4B400;";
+						document.getElementById("link15").style="color: #F4B400;";
+						document.getElementById("link16").style="color: #F4B400;";
+						document.getElementById("link17").style="color: #F4B400;";
+						document.getElementById("link18").style="color: #F4B400;";
+						document.getElementById("link19").style="color: #F4B400;";
+						document.getElementById("link20").style="color: #F4B400;";
+						document.getElementById("link21").style="color: #F4B400;";
+
+						document.getElementById("link30").style="color: #F4B400;";
+						document.getElementById("link31").style="color: #F4B400;";
+						document.getElementById("link32").style="color: #F4B400;";
+						document.getElementById("link33").style="color: #F4B400;";
+						document.getElementById("link34").style="color: #F4B400;";
+						document.getElementById("link35").style="color: #F4B400;";
+						document.getElementById("link36").style="color: #F4B400;";
+						document.getElementById("link37").style="color: #F4B400;";
+						document.getElementById("link38").style="color: #F4B400;";
+					}
+					else
+					{
+						document.getElementById("link01").style="color: #e019d9;";
+						document.getElementById("link02").style="color: #e019d9;";
+						document.getElementById("link03").style="color: #e019d9;";
+						document.getElementById("link04").style="color: #e019d9;";
+						document.getElementById("link05").style="color: #e019d9;";
+						document.getElementById("link06").style="color: #e019d9;";
+						document.getElementById("link07").style="color: #e019d9;";
+						document.getElementById("link08").style="color: #e019d9;";
+						document.getElementById("link09").style="color: #e019d9;";
+						document.getElementById("link10").style="color: #e019d9;";
+						document.getElementById("link11").style="color: #e019d9;";
+						document.getElementById("link12").style="color: #e019d9;";
+						document.getElementById("link13").style="color: #e019d9;";
+						document.getElementById("link14").style="color: #e019d9;";
+						document.getElementById("link15").style="color: #e019d9;";
+						document.getElementById("link16").style="color: #e019d9;";
+						document.getElementById("link17").style="color: #e019d9;";
+						document.getElementById("link18").style="color: #e019d9;";
+						document.getElementById("link19").style="color: #e019d9;";
+						document.getElementById("link20").style="color: #e019d9;";
+						document.getElementById("link21").style="color: #e019d9;";
+
+						document.getElementById("link30").style="color: #e019d9;";
+						document.getElementById("link31").style="color: #e019d9;";
+						document.getElementById("link32").style="color: #e019d9;";
+						document.getElementById("link33").style="color: #e019d9;";
+						document.getElementById("link34").style="color: #e019d9;";
+						document.getElementById("link35").style="color: #e019d9;";
+						document.getElementById("link36").style="color: #e019d9;";
+						document.getElementById("link37").style="color: #e019d9;";
+						document.getElementById("link38").style="color: #e019d9;";
+					}
 				}
 				
 			</script>
