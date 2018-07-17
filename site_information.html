@@ -702,6 +702,11 @@
 			{
 				night = 1;
 			}
+			
+			function randomNumberGenerator(min, max)
+			{
+				return Math.floor(Math.random() * max) + min;
+			}
 
 			function manuallyChangeMode ()
 			{
@@ -755,10 +760,59 @@
 				{
 					document.getElementsByTagName("blockquote")[i].style="color: white;";
 				}
+				
+				var randomNumber = randomNumberGenerator(0, 5);
+				console.log(randomNumber);
+				if (randomNumber == 0)
+				{
+					for (i = 6 ; i < document.getElementsByTagName("a").length - 24 ; i++)
+					{
+						document.getElementsByTagName("a")[i].style="color: deepskyblue;";
+					}
+				}
+				else if (randomNumber == 1)
+				{
+					for (i = 6 ; i < document.getElementsByTagName("a").length - 24 ; i++)
+					{
+						document.getElementsByTagName("a")[i].style="color: #4CAF50;";
+					}
+				}
+				else if (randomNumber == 2)
+				{
+					for (i = 6 ; i < document.getElementsByTagName("a").length - 24 ; i++)
+					{
+						document.getElementsByTagName("a")[i].style="color: #F4B400;";
+					}
+				}
+				else if (randomNumber == 3)
+				{
+					for (i = 6 ; i < document.getElementsByTagName("a").length - 24 ; i++)
+					{
+						document.getElementsByTagName("a")[i].style="color: #cd44ff;";
+					}
+				}
+				else if (randomNumber == 4)
+				{
+					for (i = 6 ; i < document.getElementsByTagName("a").length - 24 ; i++)
+					{
+						document.getElementsByTagName("a")[i].style="color: #ff4463;";
+					}
+				}
+				else
+				{
+					for (i = 6 ; i < document.getElementsByTagName("a").length - 24 ; i++)
+					{
+						document.getElementsByTagName("a")[i].style="color: deepskyblue;";
+					}
+				}
+				
+				/*
 				for (i = 6 ; i < document.getElementsByTagName("a").length - 24 ; i++)
 				{
 					document.getElementsByTagName("a")[i].style="color: deepskyblue;";
 				}
+				*/
+				
 				document.getElementById("menu01").style="color:white;";
 				document.getElementById("menu02").style="color:white;";
 				document.getElementById("menu03").style="color:white;";
@@ -817,9 +871,64 @@
 				{
 					document.getElementsByTagName("blockquote")[i].style="color: #39454b;";
 				}
+				
+				/*
 				for (i = 6 ; i < document.getElementsByTagName("a").length - 24 ; i++)
 				{
 					document.getElementsByTagName("a")[i].style="color: #e019d9;";
+				}
+				*/
+				
+				var randomNumber = randomNumberGenerator(0, 6);
+				console.log(randomNumber);
+				if (randomNumber == 0)
+				{
+					for (i = 6 ; i < document.getElementsByTagName("a").length - 24 ; i++)
+					{
+						document.getElementsByTagName("a")[i].style="color: #e019d9;";
+					}
+				}
+				else if (randomNumber == 1)
+				{
+					for (i = 6 ; i < document.getElementsByTagName("a").length - 24 ; i++)
+					{
+						document.getElementsByTagName("a")[i].style="color: #4CAF50;";
+					}
+				}
+				else if (randomNumber == 2)
+				{
+					for (i = 6 ; i < document.getElementsByTagName("a").length - 24 ; i++)
+					{
+						document.getElementsByTagName("a")[i].style="color: #F4B400;";
+					}
+				}
+				else if (randomNumber == 3)
+				{
+					for (i = 6 ; i < document.getElementsByTagName("a").length - 24 ; i++)
+					{
+						document.getElementsByTagName("a")[i].style="color: #cd44ff;";
+					}
+				}
+				else if (randomNumber == 4)
+				{
+					for (i = 6 ; i < document.getElementsByTagName("a").length - 24 ; i++)
+					{
+						document.getElementsByTagName("a")[i].style="color: #ff4463;";
+					}
+				}
+				else if (randomNumber == 5)
+				{
+					for (i = 6 ; i < document.getElementsByTagName("a").length - 24 ; i++)
+					{
+						document.getElementsByTagName("a")[i].style="color: #4480FF;";
+					}
+				}
+				else
+				{
+					for (i = 6 ; i < document.getElementsByTagName("a").length - 24 ; i++)
+					{
+						document.getElementsByTagName("a")[i].style="color: #e019d9;";
+					}
 				}
 				document.getElementById("menu01").style="color:#39454b;";
 				document.getElementById("menu02").style="color:#39454b;";
@@ -875,6 +984,60 @@
 			if (night == 1)
 			{
 				initialiseNightMode();
+			}
+			else
+			{
+				var randomNumber = randomNumberGenerator(0, 6);
+				console.log(randomNumber);
+				if (randomNumber == 0)
+				{
+					for (i = 6 ; i < document.getElementsByTagName("a").length - 24 ; i++)
+					{
+						document.getElementsByTagName("a")[i].style="color: #e019d9;";
+					}
+				}
+				else if (randomNumber == 1)
+				{
+					for (i = 6 ; i < document.getElementsByTagName("a").length - 24 ; i++)
+					{
+						document.getElementsByTagName("a")[i].style="color: #4CAF50;";
+					}
+				}
+				else if (randomNumber == 2)
+				{
+					for (i = 6 ; i < document.getElementsByTagName("a").length - 24 ; i++)
+					{
+						document.getElementsByTagName("a")[i].style="color: #F4B400;";
+					}
+				}
+				else if (randomNumber == 3)
+				{
+					for (i = 6 ; i < document.getElementsByTagName("a").length - 24 ; i++)
+					{
+						document.getElementsByTagName("a")[i].style="color: #cd44ff;";
+					}
+				}
+				else if (randomNumber == 4)
+				{
+					for (i = 6 ; i < document.getElementsByTagName("a").length - 24 ; i++)
+					{
+						document.getElementsByTagName("a")[i].style="color: #ff4463;";
+					}
+				}
+				else if (randomNumber == 5)
+				{
+					for (i = 6 ; i < document.getElementsByTagName("a").length - 24 ; i++)
+					{
+						document.getElementsByTagName("a")[i].style="color: #4480FF;";
+					}
+				}
+				else
+				{
+					for (i = 6 ; i < document.getElementsByTagName("a").length - 24 ; i++)
+					{
+						document.getElementsByTagName("a")[i].style="color: #e019d9;";
+					}
+				}
 			}
 
 		</script>
