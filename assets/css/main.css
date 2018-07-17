@@ -2815,6 +2815,14 @@ input, select, textarea {
 	}
 
 	#intro_siteinfo {
+		background: url("../../images/polygon_mountain10_high.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+	}
+
+	#intro_siteinfo_night {
 		background: url("../../images/578571.jpg");
 		background-size: cover;
 		background-attachment: fixed;
