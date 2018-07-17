@@ -398,6 +398,11 @@
 			{
 				night = 1;
 			}
+			
+			function randomNumberGenerator(min, max)
+			{
+				return Math.floor(Math.random() * max) + min;
+			}
 
 			function manuallyChangeMode ()
 			{
@@ -478,12 +483,55 @@
 				document.getElementById("footer").style="background-color: black;";
 				document.getElementById("footer1").style="background-color: black;";
 
-
+				/*
 				document.getElementById("link01").style="color: deepskyblue;";
 				document.getElementById("link02").style="color: deepskyblue;";
 				document.getElementById("link03").style="color: deepskyblue;";
 				document.getElementById("link04").style="color: deepskyblue;";
 				document.getElementById("appstore-badge").style="color: deepskyblue;";
+				*/
+				
+				var randomNumber = randomNumberGenerator(0, 3);
+				console.log(randomNumber);
+				if (randomNumber == 0)
+				{
+					document.getElementById("link01").style="color: deepskyblue;";
+					document.getElementById("link02").style="color: deepskyblue;";
+					document.getElementById("link03").style="color: deepskyblue;";
+					document.getElementById("link04").style="color: deepskyblue;";
+					document.getElementById("appstore-badge").style="color: deepskyblue;";
+					
+				}
+				else if (randomNumber == 1)
+				{
+					document.getElementById("link01").style="color: #4CAF50;";
+					document.getElementById("link02").style="color: #4CAF50;";
+					document.getElementById("link03").style="color: #4CAF50;";
+					document.getElementById("link04").style="color: #4CAF50;";
+					document.getElementById("appstore-badge").style="color: #4CAF50;";
+					
+					
+				}
+				else if (randomNumber == 2)
+				{
+					document.getElementById("link01").style="color: #F4B400;";
+					document.getElementById("link02").style="color: #F4B400;";
+					document.getElementById("link03").style="color: #F4B400;";
+					document.getElementById("link04").style="color: #F4B400;";
+					document.getElementById("appstore-badge").style="color: #F4B400;";
+					
+					
+				}
+				else
+				{
+					document.getElementById("link01").style="color: deepskyblue;";
+					document.getElementById("link02").style="color: deepskyblue;";
+					document.getElementById("link03").style="color: deepskyblue;";
+					document.getElementById("link04").style="color: deepskyblue;";
+					document.getElementById("appstore-badge").style="color: deepskyblue;";
+					
+					
+				}
 				
 
 
@@ -542,12 +590,64 @@
 				document.getElementById("menu11").text="Night Mode";
 
 
-
+				/*
 				document.getElementById("link01").style="color: #e019d9;";
 				document.getElementById("link02").style="color: #e019d9;";
 				document.getElementById("link03").style="color: #e019d9;";
 				document.getElementById("link04").style="color: #e019d9;";
 				document.getElementById("appstore-badge").style="color: #e019d9;";
+				*/
+				
+				var randomNumber = randomNumberGenerator(0, 4);
+				console.log(randomNumber);
+				if (randomNumber == 0)
+				{
+					document.getElementById("link01").style="color: #e019d9;";
+					document.getElementById("link02").style="color: #e019d9;";
+					document.getElementById("link03").style="color: #e019d9;";
+					document.getElementById("link04").style="color: #e019d9;";
+					document.getElementById("appstore-badge").style="color: #e019d9;";
+					
+				}
+				else if (randomNumber == 1)
+				{
+					document.getElementById("link01").style="color: #4CAF50;";
+					document.getElementById("link02").style="color: #4CAF50;";
+					document.getElementById("link03").style="color: #4CAF50;";
+					document.getElementById("link04").style="color: #4CAF50;";
+					document.getElementById("appstore-badge").style="color: #4CAF50;";
+					
+					
+				}
+				else if (randomNumber == 2)
+				{
+					document.getElementById("link01").style="color: #F4B400;";
+					document.getElementById("link02").style="color: #F4B400;";
+					document.getElementById("link03").style="color: #F4B400;";
+					document.getElementById("link04").style="color: #F4B400;";
+					document.getElementById("appstore-badge").style="color: #F4B400;";
+					
+					
+				}
+				else if (randomNumber == 3)
+				{
+					document.getElementById("link01").style="color: #4480FF;";
+					document.getElementById("link02").style="color: #4480FF;";
+					document.getElementById("link03").style="color: #4480FF;";
+					document.getElementById("link04").style="color: #4480FF;";
+					document.getElementById("appstore-badge").style="color: #4480FF;";
+					
+				}
+				else
+				{
+					document.getElementById("link01").style="color: #e019d9;";
+					document.getElementById("link02").style="color: #e019d9;";
+					document.getElementById("link03").style="color: #e019d9;";
+					document.getElementById("link04").style="color: #e019d9;";
+					document.getElementById("appstore-badge").style="color: #e019d9;";
+					
+					
+				}
 				
 				
 
@@ -603,6 +703,59 @@
 			if (night == 1)
 			{
 				initialiseNightMode();
+			}
+			else
+			{
+				var randomNumber = randomNumberGenerator(0, 4);
+				console.log(randomNumber);
+				if (randomNumber == 0)
+				{
+					document.getElementById("link01").style="color: #e019d9;";
+					document.getElementById("link02").style="color: #e019d9;";
+					document.getElementById("link03").style="color: #e019d9;";
+					document.getElementById("link04").style="color: #e019d9;";
+					document.getElementById("appstore-badge").style="color: #e019d9;";
+					
+				}
+				else if (randomNumber == 1)
+				{
+					document.getElementById("link01").style="color: #4CAF50;";
+					document.getElementById("link02").style="color: #4CAF50;";
+					document.getElementById("link03").style="color: #4CAF50;";
+					document.getElementById("link04").style="color: #4CAF50;";
+					document.getElementById("appstore-badge").style="color: #4CAF50;";
+					
+					
+				}
+				else if (randomNumber == 2)
+				{
+					document.getElementById("link01").style="color: #F4B400;";
+					document.getElementById("link02").style="color: #F4B400;";
+					document.getElementById("link03").style="color: #F4B400;";
+					document.getElementById("link04").style="color: #F4B400;";
+					document.getElementById("appstore-badge").style="color: #F4B400;";
+					
+					
+				}
+				else if (randomNumber == 3)
+				{
+					document.getElementById("link01").style="color: #4480FF;";
+					document.getElementById("link02").style="color: #4480FF;";
+					document.getElementById("link03").style="color: #4480FF;";
+					document.getElementById("link04").style="color: #4480FF;";
+					document.getElementById("appstore-badge").style="color: #4480FF;";
+					
+				}
+				else
+				{
+					document.getElementById("link01").style="color: #e019d9;";
+					document.getElementById("link02").style="color: #e019d9;";
+					document.getElementById("link03").style="color: #e019d9;";
+					document.getElementById("link04").style="color: #e019d9;";
+					document.getElementById("appstore-badge").style="color: #e019d9;";
+					
+					
+				}
 			}
 
 		</script>
