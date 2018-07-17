@@ -623,36 +623,57 @@
 			<script src="assets/js/main.js"></script>
 		
 			<script type="text/javascript">
+				// 0 day mode
+				// 1 night mode
+				// 2 polygon mode
 				var time0 = new Date();
 				var hour0 = time0.getHours();
 				night = 0;
 				if (hour0 >= 0 && hour0 < 6)
 				{
 					night = 1;
+					document.getElementById("menu9").text="Day Mode 1";
 				}
 				else if (hour0 >= 18 && hour0 <= 24)
 				{
 					night = 1;
+					document.getElementById("menu9").text="Day Mode 1";
+				}
+				else if (hour0 >= 6 && hour0 < 9)
+				{
+					night = 2;
+					document.getElementById("menu9").text="Night Mode";
+				}
+				else if (hour0 >= 9 && hour0 < 18)
+				{
+					night = 0;
+					document.getElementById("menu9").text="Day Mode 2";
 				}
 				
 				function manuallyChangeMode ()
 				{
 					if (night == 0)
 					{
-						night = 1;
-						
-						// change the menu9 text
-						document.getElementById("menu9").text="Day Mode";
-						
-						changeMode(night);
-					}
-					else
-					{
-						night = 0;
+						night = 2;
 						
 						// change the menu9 text
 						document.getElementById("menu9").text="Night Mode";
 						
+						changeMode(night);
+					}
+					else if (night == 2)
+					{
+						night = 1;
+						
+						// change the menu9 text
+						document.getElementById("menu9").text="Day Mode 1";
+						
+						changeMode(night);
+					}
+					else if (night == 1)
+					{
+						night = 0;
+						document.getElementById("menu9").text="Day Mode 2";
 						changeMode(night);
 					}
 				}
@@ -703,7 +724,7 @@
 					// OPTIONAL
 					
 					// change the menu text to day_mode
-					document.getElementById("menu9").text="Day Mode";
+					document.getElementById("menu9").text="Day Mode 1";
 
 					// change the colour of texts
 					document.getElementById("text10").style="color: white;";
@@ -755,6 +776,94 @@
 					document.getElementById("one0").style="background: url('images/one0.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
 					document.getElementById("two").style="background: url('images/two.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
 					document.getElementById("random_topics").style="background: url('images/three.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+
+					// change the box theme;
+					document.getElementById("box_one").className="content box style2";
+					document.getElementById("box_one0").className="content box style2";
+					document.getElementById("box_two").className="content box style2";
+
+					// change font colour to white;
+					document.getElementById("welcome").style="color: mediumslateblue;";
+					document.getElementById("welcome_text00").style="color: #39454b;";
+
+					document.getElementById("about_me_title").style="color: mediumslateblue;";
+					document.getElementById("about_me_text00").style="color: #39454b;";
+
+					document.getElementById("my_project_title").style="color: mediumslateblue;";
+					document.getElementById("my_project_text00").style="color: #39454b;";
+
+					document.getElementById("index_button_01").className="index_button_10";
+					document.getElementById("index_button_02").className="index_button_20";
+
+					// CAUTION
+					// OPTIONAL
+					// document.getElementById("header_night").id="header";
+
+					// OPTIONAL
+					document.getElementById("menu0").style="color: #39454b;";
+					document.getElementById("menu1").style="color: #39454b;";
+					document.getElementById("menu2").style="color: #39454b;";
+					document.getElementById("menu3").style="color: #39454b;";
+					document.getElementById("menu4").style="color: #39454b;";
+					document.getElementById("menu5").style="color: #39454b;";
+					document.getElementById("menu6").style="color: #39454b;";
+					document.getElementById("menu7").style="color: #39454b;";
+					document.getElementById("menu8").style="color: #39454b;";
+					document.getElementById("menu9").style="color: #39454b;";
+					document.getElementById("menu10").style="color: #39454b;";
+					document.getElementById("menu11").style="color: #39454b;";
+					// OPTIONAL
+
+					// change the colour of texts
+					document.getElementById("text10").style="color: #39454b;";
+					document.getElementById("text11").style="color: #39454b;";
+					document.getElementById("text12").style="color: #39454b;";
+					document.getElementById("text13").style="color: #39454b;";
+					document.getElementById("text14").style="color: #39454b;";
+					document.getElementById("text15").style="color: #39454b;";
+					document.getElementById("text16").style="color: #39454b;";
+					document.getElementById("text17").style="color: #39454b;";
+					document.getElementById("text18").style="color: #39454b;";
+
+					// change section background to black
+					document.getElementById("about_me").style="background-color: white;";
+					document.getElementById("my_cv").style="background-color: white;";
+					document.getElementById("work").style="background-color: white;";
+					document.getElementById("work1").style="background-color: white;";
+					document.getElementById("work2").style="background-color: white;";
+					document.getElementById("work3").style="background-color: white;";
+					document.getElementById("work4").style="background-color: white;";
+					document.getElementById("contact").style="background-color: white;";
+
+					// change contact form div background colour to black
+					document.getElementById("contactFormDiv").style="background-color: white;";
+
+					// change texts in contact form colour to white
+					document.getElementById("text20").style="color: #39454b; text-align: left";
+					document.getElementById("text21").style="color: #39454b; text-align: left";
+					document.getElementById("text22").style="color: #39454b; text-align: left";
+					document.getElementById("text23").style="color: #39454b;";
+					document.getElementById("text24").style="color: #39454b; text-align: left";
+
+					// change the colour of the placeholders in contact form to white
+					document.getElementById("text30").style="color: #39454b;";
+					document.getElementById("text31").style="color: #39454b;";
+					document.getElementById("text32").style="color: #39454b;";
+
+					// change the colour of footer background to black
+					document.getElementById("footer").style="background-color: #39454b";
+					document.getElementById("footer1").style="background-color: #39454b";
+					
+					
+				}
+				
+				function initialisePolygonMode ()
+				{
+					document.getElementById("index_introduction").style="background: url('images/polygon_mountain17_high.jpg'); background-size: cover;background-attachment: fixed;background-position: bottom center;background-repeat:no-repeat;"
+					document.getElementById("one").style="background: url('images/polygon_mountain11_medium.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+					document.getElementById("one0").style="background: url('images/polygon_mountain14_medium.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+					document.getElementById("two").style="background: url('images/polygon_mountain2_high.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+					document.getElementById("random_topics").style="background: url('images/polygon_mountain7_high.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
 
 					// change the box theme;
 					document.getElementById("box_one").className="content box style2";
@@ -836,6 +945,8 @@
 					
 				}
 				
+				
+				
 				function changeMode (night)
 				{
 				
@@ -849,7 +960,7 @@
 						
 						
 					}
-					else
+					else if (night == 2)
 					{
 						// Change mode back to day;
 						
@@ -857,6 +968,13 @@
 						initialiseDayMode();
 						
 						
+					}
+					else if (night == 0)
+					{
+						// change mode to polygon mode
+						
+						// execute changing the theme
+						initialisePolygonMode();
 					}
 				}
 				
@@ -882,6 +1000,11 @@
 				{
 					initialiseNightMode();
 				}
+				else if (night == 2)
+				{
+					initialiseDayMode();
+				}
+				
 				
 			</script>
 

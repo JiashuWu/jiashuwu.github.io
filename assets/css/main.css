@@ -2673,12 +2673,38 @@ input, select, textarea {
 
 /* Intro */
 
+/*
+	#index_introduction {
+		background: url("../../images/polygon_mountain17.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+	}
+*/
+
+/* index_introduction
+	polygon_mountain17
+	intro
+	galaxy001
+*/
+
+/* ORIGINAL VERSION
 	#index_introduction {
 		background: url("images/overlay.png"), url("../../images/intro.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
+	}
+*/
+	
+	#index_introduction {
+		background: url("../../images/polygon_mountain17_high.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
 	}
 
 	#intro {
@@ -2933,12 +2959,32 @@ input, select, textarea {
 /* One */
 
 	#one {
-		background: url("../../images/one.jpg");
+		background: url("../../images/polygon_mountain11_medium.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
 		background-repeat: no-repeat;
 	}
+
+
+/*
+	polygon_mountain11
+	one
+	galaxy002
+*/
+
+
+/*
+
+	#one {
+		background: url("../../images/polygon_mountain11.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+	}
+
+*/
 
 /* Night Mode */
 	#one_night {
@@ -2963,12 +3009,20 @@ input, select, textarea {
 /* Two */
 
 	#two {
-		background: url("../../images/two.jpg");
+		background: url("../../images/polygon_mountain2_high.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
 		background-repeat: no-repeat;
 	}
+
+/* 
+	polygon_mountain2
+	two
+	galaxy004
+*/
+
+
 
 /* Night Mode */
 	#two_night {
@@ -3000,12 +3054,19 @@ input, select, textarea {
 	}
 
 	#random_topics {
-		background: url("../../images/three.jpg");
+		background: url("../../images/polygon_mountain7_high.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
 		background-repeat: no-repeat;
 	}
+
+/* 
+	polygon_mountain7
+	three
+	galaxy005
+*/
+
 
 /* Night Mode */
 	#three_night {
@@ -3037,12 +3098,20 @@ input, select, textarea {
 	*/
 
 	#one0 {
-		background: url("../../images/one0.jpg");
+		background: url("../../images/polygon_mountain14_medium.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
 		background-repeat: no-repeat;
 	}
+
+
+/* 
+	polygon_mountain14.jpg
+	one0
+	galaxy003
+*/
+
 
 /* Night Mode */
 	#one0_night {
