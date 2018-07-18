@@ -892,11 +892,11 @@ input, select, textarea {
 	}
 
 	.button_unclicked_night:hover {
-		background-color: #DDDDDD;
+		background-color: slategrey;
 	}
 
 	.button_unclicked_night:active {
-		background-color: #DDDDDD;
+		background-color: slategrey;
 	}
 
 	.button_clicked_night{
@@ -908,7 +908,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: #dddddd;
+		background-color: slategrey;
 		border: solid 2px #e5e6e7;
 		border-radius: 3.5em;
 		color: #ffffff;
@@ -924,11 +924,11 @@ input, select, textarea {
 	}
 
 	.button_clicked_night:hover {
-		background-color: #DDDDDD;
+		background-color: slategrey;
 	}
 
 	.button_clicked_night:active {
-		background-color: #DDDDDD;
+		background-color: slategrey;
 	}
 
 
@@ -2977,6 +2977,14 @@ input, select, textarea {
 	}
 
 	#intro_personalwebsite {
+		background: url("../../images/galaxy_blue2.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+	}
+
+	#intro_personalwebsite_night {
 		background: url("../../images/galaxy_blue2.jpg");
 		background-size: cover;
 		background-attachment: fixed;
