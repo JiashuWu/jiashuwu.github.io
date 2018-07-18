@@ -158,11 +158,11 @@
 
 					<p align="left">Home Page</p>
 
-					<button onClick="changes1()"><p id="change_theme_button1">Day Mode 1</p></button>
+					<button class="button_unclicked_day" id="change_theme_button1"  onClick="changes1()">Day Mode 1</button>
 					
-					<button onClick="changes2()"><p id="change_theme_button2">Day Mode 2</p></button>
+					<button class="button_unclicked_day" id="change_theme_button2" onClick="changes2()">Day Mode 2</button>
 					
-					<button onClick="changes3()"><p id="change_theme_button3">Night Mode</p></button>
+					<button class="button_unclicked_day" id="change_theme_button3" onClick="changes3()">Night Mode</button>
 					
 					
 
@@ -170,7 +170,29 @@
 				</div>
 				
 				<script>
+					function changes1()
+					{
+						document.getElementById("change_theme_button1").className="button_clicked_day";
+						document.getElementById("change_theme_button2").className="button_unclicked_day";
+						
+						document.getElementById("change_theme_button3").className="button_unclicked_day";
+					}
 					
+					function changes2()
+					{
+						document.getElementById("change_theme_button1").className="button_unclicked_day";
+						document.getElementById("change_theme_button2").className="button_clicked_day";
+						
+						document.getElementById("change_theme_button3").className="button_unclicked_day";
+					}
+					
+					function changes3()
+					{
+						document.getElementById("change_theme_button1").className="button_unclicked_day";
+						document.getElementById("change_theme_button2").className="button_unclicked_day";
+						
+						document.getElementById("change_theme_button3").className="button_clicked_day";
+					}
 				</script>
 			
 				<br />

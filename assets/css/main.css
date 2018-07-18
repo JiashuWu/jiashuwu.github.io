@@ -798,6 +798,150 @@ input, select, textarea {
 				background-image: url("images/arrow.svg");
 			}
 
+
+
+
+
+	.button_unclicked_day{
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out;
+		background-color: #ffffff;
+		border: solid 2px #e5e6e7;
+		border-radius: 3.5em;
+		color: #000000;
+		cursor: pointer;
+		display: inline-block;
+		height: 3.5em;
+		line-height: 3.5em;
+		outline: 0;
+		padding: 0 2em 0 2em;
+		position: relative;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.button_unclicked_day:hover {
+		background-color: #DDDDDD;
+	}
+
+	.button_unclicked_day:active {
+		background-color: #DDDDDD;
+	}
+
+
+	.button_clicked_day{
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out;
+		background-color: #dddddd;
+		border: solid 2px #e5e6e7;
+		border-radius: 3.5em;
+		color: #000000;
+		cursor: pointer;
+		display: inline-block;
+		height: 3.5em;
+		line-height: 3.5em;
+		outline: 0;
+		padding: 0 2em 0 2em;
+		position: relative;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.button_clicked_day:hover {
+		background-color: #DDDDDD;
+	}
+
+	.button_clicked_day:active {
+		background-color: #DDDDDD;
+	}
+
+	.button_unclicked_night{
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out;
+		background-color: #000000;
+		border: solid 2px #e5e6e7;
+		border-radius: 3.5em;
+		color: #ffffff;
+		cursor: pointer;
+		display: inline-block;
+		height: 3.5em;
+		line-height: 3.5em;
+		outline: 0;
+		padding: 0 2em 0 2em;
+		position: relative;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.button_unclicked_night:hover {
+		background-color: #DDDDDD;
+	}
+
+	.button_unclicked_night:active {
+		background-color: #DDDDDD;
+	}
+
+	.button_clicked_night{
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out;
+		background-color: #dddddd;
+		border: solid 2px #e5e6e7;
+		border-radius: 3.5em;
+		color: #ffffff;
+		cursor: pointer;
+		display: inline-block;
+		height: 3.5em;
+		line-height: 3.5em;
+		outline: 0;
+		padding: 0 2em 0 2em;
+		position: relative;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.button_clicked_night:hover {
+		background-color: #DDDDDD;
+	}
+
+	.button_clicked_night:active {
+		background-color: #DDDDDD;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
 	.index_button_1 {
 		background-color: transparent;
 		border: solid 2px #e5e6e7;
