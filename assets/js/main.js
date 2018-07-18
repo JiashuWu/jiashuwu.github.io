@@ -77,8 +77,22 @@
 		$window.on('load', function() {
 
 			var $gallery = $('.gallery');
+			var $gallery0 = $('.gallery0');
 
 			$gallery.poptrox({
+				baseZIndex: 10001,
+				useBodyOverflow: false,
+				usePopupEasyClose: false,
+				overlayColor: '#1f2328',
+				overlayOpacity: 0.65,
+				usePopupDefaultStyling: false,
+				usePopupCaption: true,
+				popupLoaderText: '',
+				windowMargin: 50,
+				usePopupNav: true
+			});
+			
+			$gallery0.poptrox({
 				baseZIndex: 10001,
 				useBodyOverflow: false,
 				usePopupEasyClose: false,
@@ -96,10 +110,16 @@
 					$gallery.each(function() {
 						$(this)[0]._poptrox.windowMargin = 50;
 					});
+					$gallery0.each(function() {
+						$(this)[0]._poptrox.windowMargin = 50;
+					});
 				});
 
 				breakpoints.on('<=small', function() {
 					$gallery.each(function() {
+						$(this)[0]._poptrox.windowMargin = 5;
+					});
+					$gallery0.each(function() {
 						$(this)[0]._poptrox.windowMargin = 5;
 					});
 				});
@@ -113,6 +133,17 @@
 
 				// Galleries.
 					$('.gallery')
+						.scrollex({
+							top:		'30vh',
+							bottom:		'30vh',
+							delay:		50,
+							initialize:	function() { $(this).addClass('inactive'); },
+							terminate:	function() { $(this).removeClass('inactive'); },
+							enter:		function() { $(this).removeClass('inactive'); },
+							leave:		function() { $(this).addClass('inactive'); }
+						});
+				
+					$('.gallery0')
 						.scrollex({
 							top:		'30vh',
 							bottom:		'30vh',
@@ -161,6 +192,9 @@
 
 				// Galleries.
 					$('.gallery')
+						.unscrollex();
+				
+					$('.gallery0')
 						.unscrollex();
 
 				// Generic sections.

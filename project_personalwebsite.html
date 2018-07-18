@@ -170,92 +170,449 @@
 					<br />
 				</div>
 				
+				
+			
+				<br />
+
+				<!-- Gallery  -->
+				<div class="gallery0" id="gallery01" style="display: flex;">
+					<article>
+						<a class="image fit" id="link01" href="images/daymode1.png"><img src="images/daymode1.jpg" title="Home Page Day Mode 1" alt="Strokewise1" id="image01"/></a>
+					</article>
+
+					<article>
+						<a class="image fit" id="link02" href="images/daymode2.png"><img src="images/daymode2.jpg" title="Home Page Day Mode 1" alt="Strokewise1" id="image02"/></a>
+					</article>
+
+					<article>
+						<a class="image fit" id="link03" href="images/daymode3.png"><img src="images/daymode3.jpg" title="Home Page Day Mode 1" alt="Strokewise1" id="image03"/></a>
+					</article>
+
+					<article>
+						<a class="image fit" id="link04" href="images/daymode4.png"><img src="images/daymode4.jpg" title="Home Page Day Mode 1" alt="Strokewise1" id="image04"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link05" href="images/daymode5.png"><img src="images/daymode5.jpg" title="Home Page Day Mode 1" alt="Strokewise1" id="image05"/></a>
+					</article>
+				</div>
+				
+				<div class="gallery0" id="gallery02" style="display: flex;">
+					<article>
+						<a class="image fit" id="link06" href="images/daymode6.png"><img src="images/daymode6.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image06"/></a>
+					</article>
+
+					<article>
+						<a class="image fit" id="link07" href="images/daymode7.png"><img src="images/daymode7.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image07"/></a>
+					</article>
+
+					<article>
+						<a class="image fit" id="link08" href="images/daymode8.png"><img src="images/daymode8.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image08"/></a>
+					</article>
+
+					<article>
+						<a class="image fit" id="link09" href="images/daymode9.png"><img src="images/daymode9.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image09"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link10" href="images/daymode10.png"><img src="images/daymode10.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image10"/></a>
+					</article>
+				</div>
+				
+				<div class="gallery0" id="gallery03" style="display: flex;">
+					<article>
+						<a class="image fit" id="link11" href="images/nightmode1.png"><img src="images/nightmode1.jpg" title="Home Page Night Mode" alt="Strokewise1" id="image11"/></a>
+					</article>
+
+					<article>
+						<a class="image fit" id="link12" href="images/nightmode2.png"><img src="images/nightmode2.jpg" title="Home Page Night Mode" alt="Strokewise1" id="image12"/></a>
+					</article>
+
+					<article>
+						<a class="image fit" id="link13" href="images/nightmode3.png"><img src="images/nightmode3.jpg" title="Home Page Night Mode" alt="Strokewise1" id="image13"/></a>
+					</article>
+
+					<article>
+						<a class="image fit" id="link14" href="images/nightmode4.png"><img src="images/nightmode4.jpg" title="Home Page Night Mode" alt="Strokewise1" id="image14"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link15" href="images/nightmode5.png"><img src="images/nightmode5.jpg" title="Home Page Night Mode" alt="Strokewise1" id="image15"/></a>
+					</article>
+				</div>
+				
 				<script>
+					
 					function changes1()
 					{
 						document.getElementById("change_theme_button1").className="button_clicked_day";
 						document.getElementById("change_theme_button2").className="button_unclicked_day";
 						
 						document.getElementById("change_theme_button3").className="button_unclicked_day";
+						
+						document.getElementById("gallery01").style.display="flex";
+						document.getElementById("gallery02").style.display="none";
+						document.getElementById("gallery03").style.display="none";
 					}
 					
 					function changes2()
 					{
 						document.getElementById("change_theme_button1").className="button_unclicked_day";
 						document.getElementById("change_theme_button2").className="button_clicked_day";
-						
 						document.getElementById("change_theme_button3").className="button_unclicked_day";
+						
+						document.getElementById("gallery01").style.display="none";
+						document.getElementById("gallery02").style.display="flex";
+						document.getElementById("gallery03").style.display="none";
 					}
 					
 					function changes3()
 					{
 						document.getElementById("change_theme_button1").className="button_unclicked_day";
-						document.getElementById("change_theme_button2").className="button_unclicked_day";
-						
+						document.getElementById("change_theme_button2").className="button_unclicked_day";						
 						document.getElementById("change_theme_button3").className="button_clicked_day";
+						
+						document.getElementById("gallery01").style.display="none";
+						document.getElementById("gallery02").style.display="none";
+						document.getElementById("gallery03").style.display="flex";
 					}
+					
+					changes1();
 				</script>
+				
+				
+				
+				
+				
+				
+				<div class="content">
+					
+
+					<p align="left">Home Page Content</p>
+
+					<button class="button_unclicked_day" id="change_theme_button4"  onClick="changes4()">Day Mode</button>
+					
+					<button class="button_unclicked_day" id="change_theme_button5" onClick="changes5()">Night Mode</button>
+					
+					
+
+					<br />
+				</div>
+				
+				
 			
 				<br />
 
 				<!-- Gallery  -->
-				<div class="gallery">
-					<article class="from-left">
-						<a href="images/strokewise1.png" class="image fit"><img src="images/strokewise1.png" title="Strokewise Home Page" alt="Strokewise1" /></a>
+				<div class="gallery0" id="gallery04" style="display: flex;">
+					<article>
+						<a class="image fit" id="link16" href="images/index1.png"><img src="images/index1.jpg" title="Home Page Day Mode 1" alt="Strokewise1" id="image16"/></a>
 					</article>
-
-					<article class="from-left">
-						<a href="images/strokewise2.png" class="image fit"><img src="images/strokewise2.png" title="Strokewise Risk Calculator" alt="Strokewise2" /></a>
+					
+					<article>
+						<a class="image fit" id="link17" href="images/index2.png"><img src="images/index2.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image17"/></a>
 					</article>
-
-					<article class="from-left">
-						<a href="images/strokewise3.png" class="image fit"><img src="images/strokewise3.png" title="Strokewise Integrated Medicine" alt="Strokewise3" /></a>
+					
+					<article>
+						<a class="image fit" id="link18" href="images/index3.png"><img src="images/index3.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image18"/></a>
 					</article>
-
-					<article class="from-left">
-						<a href="images/strokewise4.png" class="image fit"><img src="images/strokewise4.png" title="Strokewise Frequently Asked Questions" alt="Strokewise4" /></a>
+					
+					<article>
+						<a class="image fit" id="link19" href="images/index4.png"><img src="images/index4.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image19"/></a>
 					</article>
-				</div>
-				
-				<p>Info Page</p>
-				
-				<div class="gallery">
-					<article class="from-left">
-						<a href="images/strokewise1.png" class="image fit"><img src="images/strokewise1.png" title="Strokewise Home Page" alt="Strokewise1" /></a>
+					
+					<article>
+						<a class="image fit" id="link20" href="images/index5.png"><img src="images/index5.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image20"/></a>
 					</article>
-
-					<article class="from-left">
-						<a href="images/strokewise2.png" class="image fit"><img src="images/strokewise2.png" title="Strokewise Risk Calculator" alt="Strokewise2" /></a>
+					
+					<article>
+						<a class="image fit" id="link21" href="images/index6.png"><img src="images/index6.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image21"/></a>
 					</article>
-
-					<article class="from-left">
-						<a href="images/strokewise3.png" class="image fit"><img src="images/strokewise3.png" title="Strokewise Integrated Medicine" alt="Strokewise3" /></a>
+					
+					<article>
+						<a class="image fit" id="link22" href="images/index7.png"><img src="images/index7.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image22"/></a>
 					</article>
-
-					<article class="from-left">
-						<a href="images/strokewise4.png" class="image fit"><img src="images/strokewise4.png" title="Strokewise Frequently Asked Questions" alt="Strokewise4" /></a>
+					
+					<article>
+						<a class="image fit" id="link23" href="images/index8.png"><img src="images/index8.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image23"/></a>
 					</article>
 				</div>
 				
-				<p>Project Page</p>
-				
-				<div class="gallery">
-					<article class="from-left">
-						<a href="images/strokewise1.png" class="image fit"><img src="images/strokewise1.png" title="Strokewise Home Page" alt="Strokewise1" /></a>
+				<div class="gallery0" id="gallery05" style="display: flex;">
+					<article>
+						<a class="image fit" id="link24" href="images/nightmode6.png"><img src="images/nightmode6.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image24"/></a>
 					</article>
-
-					<article class="from-left">
-						<a href="images/strokewise2.png" class="image fit"><img src="images/strokewise2.png" title="Strokewise Risk Calculator" alt="Strokewise2" /></a>
+					
+					<article>
+						<a class="image fit" id="link25" href="images/nightmode7.png"><img src="images/nightmode7.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image25"/></a>
 					</article>
-
-					<article class="from-left">
-						<a href="images/strokewise3.png" class="image fit"><img src="images/strokewise3.png" title="Strokewise Integrated Medicine" alt="Strokewise3" /></a>
+					
+					<article>
+						<a class="image fit" id="link26" href="images/nightmode8.png"><img src="images/nightmode8.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image26"/></a>
 					</article>
-
-					<article class="from-left">
-						<a href="images/strokewise4.png" class="image fit"><img src="images/strokewise4.png" title="Strokewise Frequently Asked Questions" alt="Strokewise4" /></a>
+					
+					<article>
+						<a class="image fit" id="link27" href="images/nightmode9.png"><img src="images/nightmode9.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image27"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link28" href="images/nightmode10.png"><img src="images/nightmode10.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image28"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link29" href="images/nightmode11.png"><img src="images/nightmode11.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image29"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link30" href="images/nightmode12.png"><img src="images/nightmode12.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image30"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link31" href="images/nightmode13.png"><img src="images/nightmode13.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image31"/></a>
 					</article>
 				</div>
+				
+				
+				
+				<script>
+					
+					function changes4()
+					{
+						document.getElementById("change_theme_button4").className="button_clicked_day";
+						document.getElementById("change_theme_button5").className="button_unclicked_day";
+						
+						document.getElementById("gallery04").style.display="flex";
+						document.getElementById("gallery05").style.display="none";
+					}
+					
+					function changes5()
+					{
+						document.getElementById("change_theme_button4").className="button_unclicked_day";
+						document.getElementById("change_theme_button5").className="button_clicked_day";
+						
+						document.getElementById("gallery04").style.display="none";
+						document.getElementById("gallery05").style.display="flex";
+					}
+					
+					changes4();
+				</script>
+				
+				
+				
+				
+				
+				
+				
+				
+				<div class="content">
+					
+
+					<p align="left">Info Page</p>
+
+					<button class="button_unclicked_day" id="change_theme_button6"  onClick="changes6()">Day Mode</button>
+					
+					<button class="button_unclicked_day" id="change_theme_button7" onClick="changes7()">Night Mode</button>
+					
+					
+
+					<br />
+				</div>
+				
+				
+			
+				<br />
+
+				<!-- Gallery  -->
+				<div class="gallery0" id="gallery06" style="display: flex;">
+					<article>
+						<a class="image fit" id="link32" href="images/info1.png"><img src="images/info1.jpg" title="Info Page Day Mode" alt="Strokewise1" id="image32"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link33" href="images/info2.png"><img src="images/info2.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image33"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link34" href="images/info3.png"><img src="images/info3.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image34"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link35" href="images/info4.png"><img src="images/info4.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image35"/></a>
+					</article>
+					
+				</div>
+				
+				<div class="gallery0" id="gallery07" style="display: flex;">
+					<article>
+						<a class="image fit" id="link36" href="images/info0.png"><img src="images/info0.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image36"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link37" href="images/info5.png"><img src="images/info5.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image37"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link38" href="images/info6.png"><img src="images/info6.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image38"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link39" href="images/info7.png"><img src="images/info7.jpg" title="Home Page Day Mode 2" alt="Strokewise1" id="image39"/></a>
+					</article>
+					
+					
+				</div>
+				
+				
+				
+				<script>
+					
+					function changes6()
+					{
+						document.getElementById("change_theme_button6").className="button_clicked_day";
+						document.getElementById("change_theme_button7").className="button_unclicked_day";
+						
+						document.getElementById("gallery06").style.display="flex";
+						document.getElementById("gallery07").style.display="none";
+					}
+					
+					function changes7()
+					{
+						document.getElementById("change_theme_button6").className="button_unclicked_day";
+						document.getElementById("change_theme_button7").className="button_clicked_day";
+						
+						document.getElementById("gallery06").style.display="none";
+						document.getElementById("gallery07").style.display="flex";
+					}
+					
+					changes6();
+				</script>
+				
+				
+				
+				
+				
+				<div class="content">
+					
+
+					<p align="left">Project Page</p>
+
+					<button class="button_unclicked_day" id="change_theme_button8"  onClick="changes8()">Day Mode</button>
+					
+					<button class="button_unclicked_day" id="change_theme_button9" onClick="changes9()">Night Mode</button>
+					
+					
+
+					<br />
+				</div>
+				
+				
+			
+				<br />
+
+				<!-- Gallery  -->
+				<div class="gallery0" id="gallery08" style="display: flex;">
+					<article>
+						<a class="image fit" id="link40" href="images/project1.png"><img src="images/project1.jpg" title="Project Page Day Mode" alt="Project Page Day Mode" id="image40"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link41" href="images/project3.png"><img src="images/project3.jpg" title="Project Page Day Mode" alt="Project Page Day Mode" id="image41"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link42" href="images/project6.png"><img src="images/project6.jpg" title="Project Page Day Mode" alt="Project Page Day Mode" id="image42"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link43" href="images/project7.png"><img src="images/project7.jpg" title="Project Page Day Mode" alt="Project Page Day Mode" id="image43"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link44" href="images/project10.png"><img src="images/project10.jpg" title="Project Page Day Mode" alt="Project Page Day Mode" id="image44"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link45" href="images/project11.png"><img src="images/project11.jpg" title="Project Page Day Mode" alt="Project Page Day Mode" id="image45"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link46" href="images/project14.png"><img src="images/project14.jpg" title="Project Page Day Mode" alt="Project Page Day Mode" id="image46"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link47" href="images/project15.png"><img src="images/project15.jpg" title="Project Page Day Mode" alt="Project Page Day Mode" id="image47"/></a>
+					</article>
+					
+					
+					
+				</div>
+				
+				<div class="gallery0" id="gallery09" style="display: flex;">
+					<article>
+						<a class="image fit" id="link48" href="images/project2.png"><img src="images/project2.jpg" title="Project Page Night Mode" alt="Project Page Day Mode" id="image48"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link49" href="images/project4.png"><img src="images/project4.jpg" title="Project Page Night Mode" alt="Project Page Day Mode" id="image49"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link50" href="images/project5.png"><img src="images/project5.jpg" title="Project Page Night Mode" alt="Project Page Day Mode" id="image50"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link51" href="images/project8.png"><img src="images/project8.jpg" title="Project Page Night Mode" alt="Project Page Day Mode" id="image51"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link52" href="images/project9.png"><img src="images/project9.jpg" title="Project Page Night Mode" alt="Project Page Day Mode" id="image52"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link53" href="images/project12.png"><img src="images/project12.jpg" title="Project Page Night Mode" alt="Project Page Day Mode" id="image53"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link54" href="images/project13.png"><img src="images/project13.jpg" title="Project Page Night Mode" alt="Project Page Day Mode" id="image54"/></a>
+					</article>
+					
+					<article>
+						<a class="image fit" id="link55" href="images/project16.png"><img src="images/project16.jpg" title="Project Page Night Mode" alt="Project Page Day Mode" id="image55"/></a>
+					</article>
+					
+					
+					
+					
+				</div>
+				
+				
+				
+				<script>
+					
+					function changes8()
+					{
+						document.getElementById("change_theme_button8").className="button_clicked_day";
+						document.getElementById("change_theme_button9").className="button_unclicked_day";
+						
+						document.getElementById("gallery08").style.display="flex";
+						document.getElementById("gallery09").style.display="none";
+					}
+					
+					function changes9()
+					{
+						document.getElementById("change_theme_button8").className="button_unclicked_day";
+						document.getElementById("change_theme_button9").className="button_clicked_day";
+						
+						document.getElementById("gallery08").style.display="none";
+						document.getElementById("gallery09").style.display="flex";
+					}
+					
+					changes8();
+				</script>
+				
+				
+				
+				
 				
 				<p>Other Page</p>
 				
