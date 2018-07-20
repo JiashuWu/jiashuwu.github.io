@@ -156,8 +156,12 @@
 					<header>
 						<h2 id="text01">Website Gallery</h2>
 					</header>
+					
+					<br />
+					<br />
 
-					<p align="left">Home Page</p>
+					<font size="+2"><h3>Home Page</h3></font>
+					<br />
 
 					<button class="button_unclicked_day" id="change_theme_button1"  onClick="changes1()">Day Mode 1</button>
 					
@@ -341,7 +345,10 @@
 				<div class="content">
 					
 
-					<p align="left">Home Page Content</p>
+					<br />
+					<br />
+					<font size="+2"><h3>Home Page Content</h3></font>
+					<br />
 
 					<button class="button_unclicked_day" id="change_theme_button4"  onClick="changes4()">Day Mode</button>
 					
@@ -483,7 +490,10 @@
 				<div class="content">
 					
 
-					<p align="left">Info Page</p>
+					<br />
+					<br />
+					<font size="+2"><h3>Info Page</h3></font>
+					<br />
 
 					<button class="button_unclicked_day" id="change_theme_button6"  onClick="changes6()">Day Mode</button>
 					
@@ -593,8 +603,10 @@
 				
 				<div class="content">
 					
-
-					<p align="left">Project Page</p>
+					<br />
+					<br />
+					<font size="+2"><h3>Project Page</h3></font>
+					<br />
 
 					<button class="button_unclicked_day" id="change_theme_button8"  onClick="changes8()">Day Mode</button>
 					
@@ -741,8 +753,10 @@
 				
 				<div class="content">
 					
-
-					<p align="left">Project Page</p>
+					<br />
+					<br />
+					<font size="+2"><h3>Other Pages</h3></font>
+					<br />
 
 					<button class="button_unclicked_day" id="change_theme_button10"  onClick="changes10()">Day Mode</button>
 					
@@ -1052,6 +1066,10 @@
 				{
 					document.getElementsByTagName("blockquote")[i].style="color: white;";
 				}
+				for (i = 0 ; i < document.getElementsByTagName("h3").length ; i++)
+				{
+					document.getElementsByTagName("h3")[i].style="color: white;";
+				}
 				document.getElementById("menu01").style="color:white;";
 				document.getElementById("menu02").style="color:white;";
 				document.getElementById("menu03").style="color:white;";
@@ -1291,6 +1309,10 @@
 				for (i = 0 ; i < document.getElementsByTagName("blockquote").length ; i++)
 				{
 					document.getElementsByTagName("blockquote")[i].style="color: #39454b;";
+				}
+				for (i = 0 ; i < document.getElementsByTagName("h3").length ; i++)
+				{
+					document.getElementsByTagName("h3")[i].style="color: #39454b;";
 				}
 				document.getElementById("menu01").style="color:#39454b;";
 				document.getElementById("menu02").style="color:#39454b;";
