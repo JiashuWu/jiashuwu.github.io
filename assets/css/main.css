@@ -2977,7 +2977,7 @@ input, select, textarea {
 	}
 
 	#intro_personalwebsite {
-		background: url("../../images/galaxy_blue2.jpg");
+		background: url("../../images/laptop3.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -2986,6 +2986,14 @@ input, select, textarea {
 
 	#intro_personalwebsite_night {
 		background: url("../../images/galaxy_blue2.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+	}
+
+	#intro_under_construction {
+		background: url("../../images/construction.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
