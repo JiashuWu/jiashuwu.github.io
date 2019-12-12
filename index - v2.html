@@ -1,0 +1,947 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>David Jiashu Wu 吴嘉澍</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" href="images/icon1.ico">
+		<link rel="bookmark" href="images/icon1.ico">
+		
+		<!--<script src="assets/js/pace.js"></script>-->
+  		<!--<link href="assets/css/pace-theme-loading-bar.css" rel="stylesheet" />-->
+
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link href="https://fonts.googleapis.com/css?family=Paprika" rel="stylesheet">
+		<script src="https://www.google.com/recaptcha/api.js"></script>
+		
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+		<header id="header">
+			<h1 id="menu0">&nbsp;David Jiashu Wu</h1>
+			<nav>
+				<ul>
+					<li><a href="#home" id="menu1">Home</a></li>
+					<li><a href="#about" id="menu2">About Me</a></li>
+					<li><a href="#accomplishments" id="menu3">Accomplishments</a></li>
+					<li><a href="#contact" id="menu4">Links & Contact</a></li>
+					<li><a href="javascript:void(0)" id="menu5" onClick="manuallyChangeMode()">Dark Mode</a></li>
+					<li><a href="#" id="menu6">中文</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<!-- Introduction Section -->
+		<section id="index_introduction" class="main style1 dark fullscreen" margin-top="1em">
+			<div class="content">
+				<header>
+					<font size="-2" style="font-family: 'Paprika', cursive;"><h2 id="hello"> </h2></font>
+				</header>
+				<font size="+2" style="font-family: 'Paprika', cursive;"><p id="name"> </p></font>
+				<script type="text/javascript">
+
+					var time = new Date();
+					var hour = time.getHours();
+
+
+					var string = "Good morning, nice to meet you, thank you for visiting my website";
+
+
+					if (hour < 12)
+					{
+						string0 = "Good morning, nice to meet you, thank you for visiting my website";
+					}
+					else if (hour >= 12 && hour < 18)
+					{
+						string0 = "Good afternoon, nice to meet you, thank you for visiting my website";
+					}
+					else if (hour >=18)
+					{
+						string0 = "Good evening, nice to meet you, thank you for visiting my website";
+					}
+
+
+					var count0 = 0;
+					var count = 0;
+					var counter0 = 0;
+					var counter = 0;
+					var trigger = 0;
+					setInterval("change()", 100);
+					var length = string0.length;
+					function change()
+					{
+						if (counter0 != 20)
+						{
+							counter0 = counter0 + 1;
+						}
+						if (counter0 == 20)
+						{
+							document.getElementById("name").innerHTML=string0.substring(0, count0)
+							if (count0 != length + 20)
+							{
+								count0 = count0 + 1;
+							}
+							else
+							{
+
+								if (counter == 0)
+								{
+									if (count == 0)
+									{
+										count = 1;
+
+										if (trigger == 0)
+										{
+											document.getElementById("hello").style.display='none';
+											$(document.getElementById("hello")).fadeIn(1500);
+											document.getElementById("name").style.display='none';
+											$(document.getElementById("name")).fadeIn(1500);
+											trigger = trigger + 1;
+										}
+
+										document.getElementById("hello").innerHTML="Hello";
+										document.getElementById("name").innerHTML="I am David Jiashu Wu";
+										string0 = "I am David Jiashu Wu";
+
+									}
+									else if (count == 1)
+									{
+										count = 2;
+
+										document.getElementById("hello").innerHTML="你好";
+										document.getElementById("name").innerHTML="我是吴嘉澍";
+
+										string0 = "我是吴嘉澍";
+									}
+									else if (count == 2)
+									{
+										count = 3;
+										document.getElementById("hello").innerHTML="Bonjour";
+										document.getElementById("name").innerHTML="Je suis David Jiashu Wu";
+
+										string0 = "Je suis David Jiashu Wu";
+									}
+									else if (count == 3)
+									{
+										count = 4;
+										document.getElementById("hello").innerHTML="Hallo";
+
+										document.getElementById("name").innerHTML="Ich bin David Jiashu Wu";
+
+										string0 = "Ich bin David Jiashu Wu";
+									}
+									else if (count == 4)
+									{
+										count = 5;
+										document.getElementById("hello").innerHTML="Hola";
+
+										document.getElementById("name").innerHTML="Yo soy David Jiashu Wu";
+
+										string0 = "Yo soy David Jiashu Wu";
+									}
+									else if (count == 5)
+									{
+										count = 0;
+										document.getElementById("hello").innerHTML="Ciao";
+
+										document.getElementById("name").innerHTML="Sono David Jiashu Wu";
+
+										string0 = "Sono David Jiashu Wu";
+									}
+								}
+								counter = counter + 1;
+								if (counter == 30)
+								{
+									counter = 0;
+								}
+
+
+							}
+						}
+					}
+
+
+
+
+				</script>
+				<footer>
+					<!-- -->
+				</footer>
+			</div>
+			<a href="#one" class="button style2 down anchored" id="down10">Next</a>
+		</section>
+
+		<!-- About -->
+		<section id="about_me" class="main style4 primary">
+			<div class="content" align="justify">
+				<h2 style="color:deepskyblue" id="title10">About Me</h2>
+				<br />
+				<p id="text10" aligh="justify">Hi, I am David Jiashu Wu, a postgraduate student at the University of Melbourne, studying Master of Information Technology. The major curriculum of my degree includes machine learning, data miming, natural language processing, artificial intelligence etc. </p>
+				
+			    <h3>Education Background</h3>
+				<img src="images/umelb.png" height="120" width="216" alt="The University of Melbourne">
+				<p>The University of Melbourne</p>
+				<p><strong>Master of Information Technology (Computing)</strong></p>
+				<p>Weighted average mark: 86 <strong>First Class Honours</strong></p>
+				<p>Stream: <strong>Computing</strong></p>
+			    <p>Major curriculums: Natural Language Processing, Information Retrieval and Web Search, Machine Learning, Statistical Learning, Artificial Intelligence, Research Project (Recommender Systems), Reinforcement Learning, Game Theory, Database, Sentiment Analysis etc.</p>
+				<br />
+				
+			    <img src="images/usyd.png" height="72" width="216" alt="The University of Sydney">
+				<p>The University of Sydney</p>
+				<p><strong>Bachelor of Science (Computer Science & Financial Mathematics and Statistics)</strong></p>
+				<p>Weighted average mark: 86.4 <strong>High Distinction</strong></p>
+				<p>Top 1% in Faculty of Science, entered <strong>Talented Student Program</strong></p>
+			    <p>Awarded <strong>Dean's List of Excellence in Academic Performance</strong> in 2017 & 2018</p>
+			    <p>Major: <strong>Computer Science</strong>, weighted average <strong>85 High Distinction</strong></p>
+			    <p>Major curriculums: Data Analytics, Algorithm and Complexity, Human-Computer Interaction, Website Design, Computer network, Database, Project Management, Machine Learning etc.</p>
+				<p>Major: <strong>Financial Mathematics and Statistics</strong>, weighted average <strong>88 High Distinction</strong></p>
+				<p>Major curriculums: Statistical Models and Model Selection, Data Analysis, Financial Mathematics and Derivatives Pricing, Computational Science, Statistical Tests, Stochastic Processes, Time Series Analysis, Optimization, Statistical Learning etc.</p>
+				
+				<h3>Intern Experience</h3>
+				<p><strong>Research Intern at Beijing Institute of Technology</strong></p>
+				<p>Research intern at School of Computer Science and Technology, Beijing Institute of Technology. The research area I focused on is Transfer Learning, supervised by Dr Shuang Li.</p>
+				<br />
+				
+				<p><strong>Research and Development Engineer at Profware</strong></p>
+				<p>Research and development engineer at Profware, conducted research on recommender systems and information retrieval, developed an academic searching platform that support searching and browsing researchers by keywords and research discipline areas, even if these terms were not explicitly mentioned in their publication.</p>
+				<br />
+				
+				<p><strong>Mentor at School of Information Technology, the University of Sydney</strong></p>
+				<p>Mentoring at the University of Sydney for course INFO1003 Website Design, INFO1103 Java Programming and INFO1105 Data Structures. I helped tutor to answer questions, shared my experience with students, demonstrated a good communication skill and interpersonal skill.</p>
+				<br />
+				
+				<p><strong>Intern Tutor at Beijing New Oriented Education & Technology Group</strong></p>
+				<p>Intern tutor and assistance at Beijing New Oriented Education & Technology Group. I assisted teacher to organize the class, communicated with students’ parents, and provided help to students, demonstrated the ability to communicate effectively, manage time wisely and work under pressure.</p>
+				<br />
+				
+				<h3>Scholarships</h3>
+				<p>2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Dean’s List of Excellence in Academic Performance</strong></p>
+				<p>2017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Dean’s List of Excellence in Academic Performance</strong></p>
+				<br />
+				
+				<h3>Research Experience</h3><p>2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Computing Research Project</strong></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;School of Computing and Information Systems, the University of Melbourne</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Project Title: Learning to rank with small set of ground truth data</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Supervisor: Professor Rui Zhang, School of Computing and Information Systems</p>
+				<br />
+				<p>2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Talented Student Program (a.k.a. Dalyell Scholar Program)</strong></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;School of Information Technology, the University of Sydney</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Project Title: Artificial Intelligence for medical screening using Graphonomics (App Development and Testing)</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Supervisor: Associate Professor Simon Poon, School of Information Technology</p>
+				
+				<h3>Projects</h3>
+				<p><strong>Profware Searching Platform</strong> |Academic Searching Platform</p>
+				<p>During my intern at Profware, I conducted research on recommender systems and information retrieval and developed an academic searching platform, which supports searching researchers by keywords, research discipline areas etc. This work advances related works by allowing researchers to be retrieved base on not only the keywords they explicitly mentioned in their publications, but also keywords and research disciplines that are related to them but are not explicitly mentioned, e.g. a machine translation researcher who didn’t explicitly mention the term “computer science” in his/her publications can also be retrieved when user queries computer science. Besides searching, the platform also supports browsing researchers by discipline areas, complement functionalities such as query auto-complete have also been implemented.</p>
+				<br />
+				<p><strong>Pacman</strong> | AI Agent | github.com/JiashuWu/Pacman-Project</p>
+				<p>An AI agent that can play Pacman Game. It utilizes AI planning techniques including heuristic search, Q-learning etc. Done during Artificial Intelligence subject at University of Melbourne, our agent received full mark.</p>
+				<br />
+				<p><strong>Neurograph</strong> |Android App | jiashuwu.github.io/project_neurograph.html | github.com/JiashuWu/NeuroGraph</p>
+				<p>Neurograph, a drawing pattern collector which can be used to assist the diagnostics of Alzheimer’s Disease. Built during the Talented Student Program, which is a research program, with dedicated documentation and user manual to support better user experience. I did this through self-learning, reading related academic papers, and discussing with my supervisor Associate Professor Simon Poon. Now the app is publicly available in Google Play Store and Huawei App Store. The project also involves substantial amount of data analysis to statistically analyze the data captured by the app.</p>
+				<br />
+				<p><strong>Luckydays</strong> | Android App | jiashuwu.github.io/project_luckydays.html | github.com/JiashuWu/Luckydays</p>
+				<p>A note-taking tool combined with remain days counting functionality. The idea came from observing user’s need, as well as my own thinking of some currently available note-taking apps. Done by self-learning Android programming, and discussing on technical forums like Stack Overflow and CSDN etc. Thoroughly tested on devices with various screen sizes and different versions of the Android system. Now the app is available in Samsung Galaxy Store, Huawei, Xiaomi and ALi App stores etc.</p>
+				<br />
+				<p><strong>Personal Website</strong> | Website jiashuwu.github.io/project_personalwebsite.html |Google search David Jiashu Wu</p>
+				<p>My personal website, which is a place to share my personal information, projects, as well as my CV etc. Done during spare time of my summer vacation, using HTML, CSS, JavaScript and jQuery.</p>
+				<br />
+				<p><strong>Strokewise</strong> | Website | jiashuwu.github.io/project_strokewise.html | jiashuwu.info1003.github.io</p>
+				<p>A website aimed to broaden the public awareness towards the Stroke disease, since we do want to use our technological knowledge to benefit the society. Completed during the website design subject at USYD, won the Best Design Award at the end of the semester.</p>
+				<br />
+				
+				<p><strong>Sudoku Solver</strong> |Program| jiashuwu.github.io/project_sudokusolver.html |github.com/JiashuWu/Sudokusolver</p>
+				<p>A program which can be used to solve the Sudoku puzzle. Done using C++ as well as Qt. </p>
+				<br />
+				
+				<h3>Technical Ability</h3>
+				<p><strong>Programming Languages</strong></p>
+				<p>Mainly use Python and Java
+				Able to use C, R, MATLAB, SQL, HTML, CSS, JavaScript, jQuery, Android (Java + XML)</p>
+				<br />
+				<p><strong>Technical Skills</strong></p>
+				<p>Data Mining, Data Analysis, Statistics, Natural Language Processing, Machine Learning</p>
+				<br />
+				
+				<p><strong>Tools</strong></p>
+				<p>Able to use Windows and Linux operating system.
+				<br />
+				Able to use Microsoft Word, PowerPoint, Excel, Outlook.
+				<br />
+				Able to use IDE including Android Studio, Eclipse, IntelliJ IDEA, Atoms, Sublime Text, Notepad++, Visual Studio.
+				<br />
+				Able to use Adobe Acrobat, Adobe Dreamweaver, Adobe Audition and Adobe Photoshop.</p>
+				<br />
+				
+				<p><strong>Teamwork and project management</strong></p>
+				<p>Able to use version control tools like GitHub and Bitbucket.
+				<br />
+				Able to use teamwork management tools such as Microsoft Project, Visio.
+				<br />
+				Able to read the documentation and actively discuss on forums and open-source communities.</p>
+				<br />
+				
+				<h3>Language Ability</h3>
+				<p><strong>Chinese</strong></p>
+				<p>Native Speaker</p>
+				<br />
+				<p><strong>English</strong></p>
+				<p>IELTS Academic 7.0, with reading 8.0, listening 8.0, speaking 6.0 and writing 6.0
+				<br />
+				Lived and studied in Sydney Australia for three years and Melbourne Australia for one year
+				<br />
+				CET-4 Score 665, achieved full mark in reading</p>
+				<br />
+				
+				<h3>Technical COmmunity Involvement</h3>
+				<p>Participated in 2016 Google Developer Day in Beijing China
+				<br />
+				Actively involved in the open-source community like GitHub</p>
+			</div>
+		</section>
+		
+		
+			<section id="my_cv" class="main style3 primary">
+				<div class="content">
+					<header>
+						<div align="center"><img src="images/Picture0.png" alt="Curriculum Vitae" height="342" width="600"/></div>
+						<h2 style="color:deepskyblue">Curriculum Vitae</h2>
+						<p id="text11">Feel free to download my curriculum vitae. </p>
+					</header>
+					<a href="cv/David Jiashu Wu.pdf" target="_blank"><button class="curriculumvitae_button">Download Curriculum Vitae</button></a>
+				</div>
+			</section>
+		
+		
+			<section id="work" class="main style3 primary">
+				
+				
+				<div class="content">
+					<div align="center"><img src="images/Picture7.png" alt="My Projects" height="342" width="600"/></div>
+					<header>
+						<h2 style="color:#FFC000;">My Projects</h2>
+						<p id="text12">There are the introduction of several projects that I have done previously. </p>
+					</header>
+				
+					
+					<!-- Luckydays -->
+					<div align="center"><img src="images/Picture1.png" alt="Project Luckydays" height="342" width="600"/></div>
+					<h2 style="color:#70AD47">Luckydays</h2>
+					<p id="text13">A note-taking tool combined with remain days functionality </p>
+					<a href="project_luckydays.html"><button class="luckydays_button">Luckydays</button></a>
+				</div>
+		`	</section>
+					
+			<section id="work1" class="main style3 primary">
+				
+				<div class="content">
+					
+					<!-- Neurograph -->
+					<div align="center"><img src="images/Picture2.png" alt="Project Neurograph" height="342" width="600"/></div>
+					<h2 style="color:#ED7D31">Neurograph</h2>
+					<p id="text14">A drawing patterns collector which can be used to assist the diagnostics of Alzheimer's Disease </p>
+					<a href="project_neurograph.html"><button class="neurograph_button">Neurograph</button></a>
+					
+				</div>
+				
+			</section>
+					
+			<section id="work2" class="main style3 primary">
+				
+				<div class="content">
+					
+					<!-- Neurograph -->
+					<div align="center"><img src="images/Picture3.png" alt="Project Strokewise" height="342" width="600"/></div>
+					<h2 style="color:#FF0000">Strokewise</h2>
+					<p id="text15">A website which broads public awareness towards stroke disease in Australia </p>
+					<a href="project_strokewise.html"><button class="strokewise_button">Strokewise</button></a>
+					
+				</div>
+				
+			</section>
+		
+			<section id="work3" class="main style3 primary">
+				
+				<div class="content">
+					
+					<!-- Neurograph -->
+					<div align="center"><img src="images/Picture4.png" alt="Project Sudoku Solver" height="342" width="600"/></div>
+					<h2 style="color:#982DA3">Sudoku Solver</h2>
+					<p id="text16">A program created using Qt which can solve Sudoku </p>
+					<a href="project_sudokusolver.html"><button class="sudokusolver_button">Sudoku Solver</button></a>
+					
+				</div>
+				
+			</section>
+		
+			<section id="work4" class="main style3 primary">
+				
+				<div class="content">
+					
+					<!-- Neurograph -->
+					<div align="center"><img src="images/Picture8.png" alt="Project Personal Website" height="342" width="600"/></div>
+					<h2 style="color:#FF00FF">Personal Website</h2>
+					<p id="text17">My personal website</p>
+					<a href="project_personalwebsite.html"><button class="personalwebsite_button">Personal Website</button></a>
+					
+				</div>
+				
+			</section>
+		
+		
+		
+			
+
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content">
+					<header>
+						<h2 style="color:cornflowerblue">Say Hello.</h2>
+						<p id="text18">Please feel free to leave me comments or feedbacks. </p>
+					</header>
+					<div class="box" id="contactFormDiv">
+						<form method="post" onsubmit="return validateForm();" action="https://formspree.io/jiwu0083@uni.sydney.edu.au" name="ContactForm">
+							<div class="fields">
+								<div class="field half"><p style="text-align: left" id="text20">Name</p><input id="text30" type="text" name="name" placeholder="Name"/></div>
+								<div class="field half"><p style="text-align: left" id="text21">Email</p><input id="text31" type="email" name="email" placeholder="Email" /></div>
+								<div class="field half"><p style="text-align: left" id="text22">Type</p>
+								<select name="selectOptions" id="text23">
+									<option value="select">---SELECT---</option>
+									<option value="select_comment">Comment</option>
+									<option value="select_fedback">Feedback</option>
+								</select>
+								</div>
+								<div class="field"><p style="text-align: left" id="text24">Comments and Feedbacks</p><textarea name="message" placeholder="Message" rows="6" id="text32" ></textarea></div>
+							</div>
+							<div class="g-recaptcha" data-sitekey="6Le8iGMUAAAAANIJwFvkMX_GTKeN1kJ4Khn2ZafO">
+							</div>
+							<br />
+							<ul class="actions special">
+								<li><input type="submit" value="Send Message" /></li>
+								<li><input type="reset" value="Reset Form " /></li>
+							</ul>
+						</form>
+						<script>
+							function validateForm()
+							{
+								var name = document.ContactForm.name;
+								var email = document.ContactForm.email;
+								var select = document.ContactForm.selectOptions;
+								var message = document.ContactForm.message;
+								
+								if (name.value == "")
+								{
+									window.alert("Please enter your name. ");
+									name.focus();
+									return false;
+								}
+								else if (email.value == "")
+								{
+									window.alert("Please enter your email. ");
+									email.focus();
+									return false;
+								}
+								else if (email.value.indexOf("@", 0) < 0)
+								{
+									window.alert("Please enter a valid e-mail address.");
+									email.focus();
+									return false;
+								}
+								else if (email.value.indexOf(".", 0) < 0)
+								{
+									window.alert("Please enter a valid e-mail address.");
+									email.focus();
+									return false;
+								}
+								else if (select.selectedIndex < 1)
+								{
+									window.alert("Please select an option. ");
+									select.focus();
+									return false;
+								}
+								else if (message.value == "")
+								{
+									window.alert("Please enter your message. ");
+									message.focus();
+									return false;
+								}
+								else
+								{
+									return true;
+								}
+							}
+						</script>
+					</div>
+				</div>
+			</section>
+
+			<!-- FOOTER -->
+			<!-- Footer -->
+			<footer id="footer">
+				<!-- Icons -->
+				<ul class="icons">
+
+					<li><a href="https://www.facebook.com/profile.php?id=100011313344876" class="icon fa-facebook-square"><span class="label">Facebook</span></a></li>
+
+					<li><a href="" class="icon fa-twitter"><spal class="label">Twitter</spal></a></li>
+
+					<li><a href="http://www.linkedin.com/in/david-wu-785235163/" class="icon fa-linkedin-square"><span class="label">Linkedin</span></a></li>
+
+					<li><a href="" class="icon fa-wechat"><span class="label">Wechat</span></a></li>
+
+					<li><a href="mailto:usydwjs@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+
+					<li><a href="https://github.com/JiashuWu" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+
+					<li><a href="https://bitbucket.org/wujiashu/" class="icon fa-bitbucket-square"><span class="label">Bitbucket</span></a></li>
+				</ul>		
+				<ul class="icons">
+					<li><a href="index.html" class="icon fa-home"><span class="label">Home Page</span></a></li>
+					
+					<li><a href="info.html" class="icon fa-info-circle"><span class="label">Info</span></a></li>
+					
+					<li><a href="project.html" class="icon fa-product-hunt"><span class="label">Projects</span></a></li>
+					
+					<li><a href="android.html" class="icon fa-android"><span class="label">Android</span></a></li>
+					
+					<li><a href="download.html" class="icon fa-cloud-download"><span class="label">Downloads</span></a></li>
+					
+					<li><a href="universities.html" class="icon fa-graduation-cap"><span class="label">University</span></a></li>
+					
+					<li><a href="language_switcher.html" class="icon fa-language"><span class="label">Language Switcher</span></a></li>
+					
+					<li><a href="site_information.html" class="icon fa-qrcode"><span class="label">Sitemap</span></a></li>
+
+					<li><a href="javascript:void(0)" onClick="manuallyChangeMode()" class="icon fa-clock-o"><span class="label">Modes</span></a></li>
+					
+					<li><a href="site_information.html" class="icon fa-map-marker"><span class="label">Sitemap</span></a></li>
+					
+					<li><a href="site_information.html" class="icon fa-bar-chart"><span class="label">Visitor Statistics</span></a></li>
+					
+					<li><a href="contact.html" class="icon fa-comment"><span class="label">Contact</span></a></li>
+					
+					<li><a href="under_construction.html" class="icon fa-gear"><span class="label">Settings</span></a></li>
+
+				</ul>				
+				<ul class="menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="info.html">About Me</a></li>
+					<li><a href="project.html">Projects</a></li>
+					<li><a href="site_information.html">Site information & Sitemap</a></li>
+				</ul>
+			</footer>
+			<footer id="footer1" style="text-align: center; margin-left: auto; margin-right: auto">
+				<!-- Menu -->
+					<ul class="menu" style="text-align: center; margin-left: auto; margin-right: auto">
+						<li style="text-align: center; margin-left: auto; margin-right: auto">&copy; David Jiashu Wu 2018</li><li>All rights reserved</li>
+					</ul>
+			</footer>
+		
+		
+		
+		
+			<!-- Javascript which controls the mode changing mechanism -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			
+			<section style="display: none">
+				<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=FCArUkAuvIqTTIBILvjqStaYD16t4EUW0jz62eeKqgU&cl=ffffff&w=a"></script>
+			</section>
+		
+			<script type="text/javascript">
+				// 0 day mode
+				// 1 night mode
+				// 2 polygon mode
+				var time0 = new Date();
+				var hour0 = time0.getHours();
+				night = 0;
+				if (hour0 >= 0 && hour0 < 6)
+				{
+					night = 1;
+					document.getElementById("menu9").text="Day Mode 1";
+				}
+				else if (hour0 >= 18 && hour0 <= 24)
+				{
+					night = 1;
+					document.getElementById("menu9").text="Day Mode 1";
+				}
+				else if (hour0 >= 6 && hour0 < 9)
+				{
+					night = 2;
+					document.getElementById("menu9").text="Night Mode";
+				}
+				else if (hour0 >= 9 && hour0 < 18)
+				{
+					night = 0;
+					document.getElementById("menu9").text="Day Mode 2";
+				}
+				
+				function manuallyChangeMode ()
+				{
+					if (night == 0)
+					{
+						night = 2;
+						
+						// change the menu9 text
+						document.getElementById("menu9").text="Night Mode";
+						
+						changeMode(night);
+					}
+					else if (night == 2)
+					{
+						night = 1;
+						
+						// change the menu9 text
+						document.getElementById("menu9").text="Day Mode 1";
+						
+						changeMode(night);
+					}
+					else if (night == 1)
+					{
+						night = 0;
+						document.getElementById("menu9").text="Day Mode 2";
+						changeMode(night);
+					}
+				}
+				
+				function initialiseNightMode()
+				{
+					document.getElementById("index_introduction").style="background: url('images/galaxy001.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+					document.getElementById("one").style="background: url('images/galaxy002.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+					document.getElementById("one0").style="background: url('images/galaxy003.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+					document.getElementById("two").style="background: url('images/galaxy004.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+					document.getElementById("random_topics").style="background: url('images/galaxy005.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+
+					// change the box theme;
+					document.getElementById("box_one").className="content box_night style2";
+					document.getElementById("box_one0").className="content box_night style2";
+					document.getElementById("box_two").className="content box_night style2";
+
+					// change font colour to white;
+					document.getElementById("welcome").style="color:white;";
+					document.getElementById("welcome_text00").style="color:white;";
+
+					document.getElementById("about_me_title").style="color:white;";
+					document.getElementById("about_me_text00").style="color:white;";
+
+					document.getElementById("my_project_title").style="color:white;";
+					document.getElementById("my_project_text00").style="color:white;";
+
+					document.getElementById("index_button_01").className="index_button_1";
+					document.getElementById("index_button_02").className="index_button_2";
+
+					// CAUTION
+					// OPTIONAL
+					document.getElementById("header").id="header_night";
+
+					// OPTIONAL
+					document.getElementById("menu0").style="color: white;";
+					document.getElementById("menu1").style="color: white;";
+					document.getElementById("menu2").style="color: white;";
+					document.getElementById("menu3").style="color: white;";
+					document.getElementById("menu4").style="color: white;";
+					document.getElementById("menu5").style="color: white;";
+					document.getElementById("menu6").style="color: white;";
+					document.getElementById("menu7").style="color: white;";
+					document.getElementById("menu8").style="color: white;";
+					document.getElementById("menu9").style="color: white;";
+					document.getElementById("menu10").style="color: white;";
+					document.getElementById("menu11").style="color: white;";
+					// OPTIONAL
+					
+					// change the menu text to day_mode
+					document.getElementById("menu9").text="Day Mode 1";
+
+					// change the colour of texts
+					document.getElementById("text10").style="color: white;";
+					document.getElementById("text11").style="color: white;";
+					document.getElementById("text12").style="color: white;";
+					document.getElementById("text13").style="color: white;";
+					document.getElementById("text14").style="color: white;";
+					document.getElementById("text15").style="color: white;";
+					document.getElementById("text16").style="color: white;";
+					document.getElementById("text17").style="color: white;";
+					document.getElementById("text18").style="color: white;";
+
+					// change section background to black
+					document.getElementById("about_me").style="background-color: black;";
+					document.getElementById("my_cv").style="background-color: black;";
+					document.getElementById("work").style="background-color: black;";
+					document.getElementById("work1").style="background-color: black;";
+					document.getElementById("work2").style="background-color: black;";
+					document.getElementById("work3").style="background-color: black;";
+					document.getElementById("work4").style="background-color: black;";
+					document.getElementById("contact").style="background-color: black;";
+
+					// change contact form div background colour to black
+					document.getElementById("contactFormDiv").style="background-color: black;";
+
+					// change texts in contact form colour to white
+					document.getElementById("text20").style="color: white; text-align: left";
+					document.getElementById("text21").style="color: white; text-align: left";
+					document.getElementById("text22").style="color: white; text-align: left";
+					document.getElementById("text23").style="color: white;";
+					document.getElementById("text24").style="color: white; text-align: left";
+
+					// change the colour of the placeholders in contact form to white
+					document.getElementById("text30").style="color: white;";
+					document.getElementById("text31").style="color: white;";
+					document.getElementById("text32").style="color: white;";
+
+					// change the colour of footer background to black
+					document.getElementById("footer").style="background-color: black;";
+					document.getElementById("footer1").style="background-color: black;";
+					
+					
+				}
+				
+				function initialiseDayMode ()
+				{
+					document.getElementById("index_introduction").style="background: url('images/overlay.png'), url('images/intro.jpg'); background-size: 256px 256px, cover;background-attachment: fixed, fixed;background-position: top left, bottom center;background-repeat: repeat, no-repeat;"
+					document.getElementById("one").style="background: url('images/one.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+					document.getElementById("one0").style="background: url('images/one0.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+					document.getElementById("two").style="background: url('images/two.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+					document.getElementById("random_topics").style="background: url('images/three.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+
+					// change the box theme;
+					document.getElementById("box_one").className="content box style2";
+					document.getElementById("box_one0").className="content box style2";
+					document.getElementById("box_two").className="content box style2";
+
+					// change font colour to white;
+					document.getElementById("welcome").style="color: mediumslateblue;";
+					document.getElementById("welcome_text00").style="color: #39454b;";
+
+					document.getElementById("about_me_title").style="color: mediumslateblue;";
+					document.getElementById("about_me_text00").style="color: #39454b;";
+
+					document.getElementById("my_project_title").style="color: mediumslateblue;";
+					document.getElementById("my_project_text00").style="color: #39454b;";
+
+					document.getElementById("index_button_01").className="index_button_10";
+					document.getElementById("index_button_02").className="index_button_20";
+
+					// CAUTION
+					// OPTIONAL
+					// document.getElementById("header_night").id="header";
+
+					// OPTIONAL
+					document.getElementById("menu0").style="color: #39454b;";
+					document.getElementById("menu1").style="color: #39454b;";
+					document.getElementById("menu2").style="color: #39454b;";
+					document.getElementById("menu3").style="color: #39454b;";
+					document.getElementById("menu4").style="color: #39454b;";
+					document.getElementById("menu5").style="color: #39454b;";
+					document.getElementById("menu6").style="color: #39454b;";
+					document.getElementById("menu7").style="color: #39454b;";
+					document.getElementById("menu8").style="color: #39454b;";
+					document.getElementById("menu9").style="color: #39454b;";
+					document.getElementById("menu10").style="color: #39454b;";
+					document.getElementById("menu11").style="color: #39454b;";
+					// OPTIONAL
+
+					// change the colour of texts
+					document.getElementById("text10").style="color: #39454b;";
+					document.getElementById("text11").style="color: #39454b;";
+					document.getElementById("text12").style="color: #39454b;";
+					document.getElementById("text13").style="color: #39454b;";
+					document.getElementById("text14").style="color: #39454b;";
+					document.getElementById("text15").style="color: #39454b;";
+					document.getElementById("text16").style="color: #39454b;";
+					document.getElementById("text17").style="color: #39454b;";
+					document.getElementById("text18").style="color: #39454b;";
+
+					// change section background to black
+					document.getElementById("about_me").style="background-color: white;";
+					document.getElementById("my_cv").style="background-color: white;";
+					document.getElementById("work").style="background-color: white;";
+					document.getElementById("work1").style="background-color: white;";
+					document.getElementById("work2").style="background-color: white;";
+					document.getElementById("work3").style="background-color: white;";
+					document.getElementById("work4").style="background-color: white;";
+					document.getElementById("contact").style="background-color: white;";
+
+					// change contact form div background colour to black
+					document.getElementById("contactFormDiv").style="background-color: white;";
+
+					// change texts in contact form colour to white
+					document.getElementById("text20").style="color: #39454b; text-align: left";
+					document.getElementById("text21").style="color: #39454b; text-align: left";
+					document.getElementById("text22").style="color: #39454b; text-align: left";
+					document.getElementById("text23").style="color: #39454b;";
+					document.getElementById("text24").style="color: #39454b; text-align: left";
+
+					// change the colour of the placeholders in contact form to white
+					document.getElementById("text30").style="color: #39454b;";
+					document.getElementById("text31").style="color: #39454b;";
+					document.getElementById("text32").style="color: #39454b;";
+
+					// change the colour of footer background to black
+					document.getElementById("footer").style="background-color: #39454b";
+					document.getElementById("footer1").style="background-color: #39454b";
+					
+					
+				}
+				
+				function initialisePolygonMode ()
+				{
+					document.getElementById("index_introduction").style="background: url('images/polygon_mountain17_high.jpg'); background-size: cover;background-attachment: fixed;background-position: bottom center;background-repeat:no-repeat;"
+					document.getElementById("one").style="background: url('images/polygon_mountain11_medium.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+					document.getElementById("one0").style="background: url('images/polygon_mountain14_medium.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+					document.getElementById("two").style="background: url('images/polygon_mountain2_high.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+					document.getElementById("random_topics").style="background: url('images/polygon_mountain7_high.jpg'); background-size: cover; background-attachment: fixed; background-position: bottom center; background-repeat: no-repeat;"
+
+					// change the box theme;
+					document.getElementById("box_one").className="content box style2";
+					document.getElementById("box_one0").className="content box style2";
+					document.getElementById("box_two").className="content box style2";
+
+					// change font colour to white;
+					document.getElementById("welcome").style="color: mediumslateblue;";
+					document.getElementById("welcome_text00").style="color: #39454b;";
+
+					document.getElementById("about_me_title").style="color: mediumslateblue;";
+					document.getElementById("about_me_text00").style="color: #39454b;";
+
+					document.getElementById("my_project_title").style="color: mediumslateblue;";
+					document.getElementById("my_project_text00").style="color: #39454b;";
+
+					document.getElementById("index_button_01").className="index_button_10";
+					document.getElementById("index_button_02").className="index_button_20";
+
+					// CAUTION
+					// OPTIONAL
+					document.getElementById("header_night").id="header";
+
+					// OPTIONAL
+					document.getElementById("menu0").style="color: #39454b;";
+					document.getElementById("menu1").style="color: #39454b;";
+					document.getElementById("menu2").style="color: #39454b;";
+					document.getElementById("menu3").style="color: #39454b;";
+					document.getElementById("menu4").style="color: #39454b;";
+					document.getElementById("menu5").style="color: #39454b;";
+					document.getElementById("menu6").style="color: #39454b;";
+					document.getElementById("menu7").style="color: #39454b;";
+					document.getElementById("menu8").style="color: #39454b;";
+					document.getElementById("menu9").style="color: #39454b;";
+					document.getElementById("menu10").style="color: #39454b;";
+					document.getElementById("menu11").style="color: #39454b;";
+					// OPTIONAL
+
+					// change the colour of texts
+					document.getElementById("text10").style="color: #39454b;";
+					document.getElementById("text11").style="color: #39454b;";
+					document.getElementById("text12").style="color: #39454b;";
+					document.getElementById("text13").style="color: #39454b;";
+					document.getElementById("text14").style="color: #39454b;";
+					document.getElementById("text15").style="color: #39454b;";
+					document.getElementById("text16").style="color: #39454b;";
+					document.getElementById("text17").style="color: #39454b;";
+					document.getElementById("text18").style="color: #39454b;";
+
+					// change section background to black
+					document.getElementById("about_me").style="background-color: white;";
+					document.getElementById("my_cv").style="background-color: white;";
+					document.getElementById("work").style="background-color: white;";
+					document.getElementById("work1").style="background-color: white;";
+					document.getElementById("work2").style="background-color: white;";
+					document.getElementById("work3").style="background-color: white;";
+					document.getElementById("work4").style="background-color: white;";
+					document.getElementById("contact").style="background-color: white;";
+
+					// change contact form div background colour to black
+					document.getElementById("contactFormDiv").style="background-color: white;";
+
+					// change texts in contact form colour to white
+					document.getElementById("text20").style="color: #39454b; text-align: left";
+					document.getElementById("text21").style="color: #39454b; text-align: left";
+					document.getElementById("text22").style="color: #39454b; text-align: left";
+					document.getElementById("text23").style="color: #39454b;";
+					document.getElementById("text24").style="color: #39454b; text-align: left";
+
+					// change the colour of the placeholders in contact form to white
+					document.getElementById("text30").style="color: #39454b;";
+					document.getElementById("text31").style="color: #39454b;";
+					document.getElementById("text32").style="color: #39454b;";
+
+					// change the colour of footer background to black
+					document.getElementById("footer").style="background-color: #39454b";
+					document.getElementById("footer1").style="background-color: #39454b";
+					
+					
+				}
+				
+				
+				
+				function changeMode (night)
+				{
+				
+					if (night == 1)
+					// night mode should be 1 
+					// day mode should be 0
+					// Adjust this value to 0 for temperary testing purposes
+					{
+						// execute changing the theme;
+						initialiseNightMode();
+						
+						
+					}
+					else if (night == 2)
+					{
+						// Change mode back to day;
+						
+						// execute changing the theme;
+						initialiseDayMode();
+						
+						
+					}
+					else if (night == 0)
+					{
+						// change mode to polygon mode
+						
+						// execute changing the theme
+						initialisePolygonMode();
+					}
+				}
+				
+				function changeDownToNight()
+				{
+					document.getElementById("down10").href="#one_night";
+					document.getElementById("down11").href="#one0_night";
+					document.getElementById("down12").href="#two_night";
+					document.getElementById("down13").href="#random_topics_night";
+					document.getElementById("down14").href="#about_me";
+				}
+				
+				function changeDownToDay()
+				{
+					document.getElementById("down10").href="#one";
+					document.getElementById("down11").href="#one0";
+					document.getElementById("down12").href="#two";
+					document.getElementById("down13").href="#randon_topics";
+					document.getElementById("down14").href="#about_me";
+				}
+				
+				if (night == 1)
+				{
+					initialiseNightMode();
+				}
+				else if (night == 2)
+				{
+					initialiseDayMode();
+				}
+				
+				
+			</script>
+
+		<!-- Scripts -->
+		
+		
+			
+			
+
+	</body>
+</html>
