@@ -6,9 +6,28 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://jiashuwu.github.io/</loc>
-  <lastmod>2022-06-22T12:00:00+00:00</lastmod>
+      <loc>https://jiashuwu.github.io/</loc>
+      <lastmod>2022-06-22T18:07:15+01:00</lastmod>
+      <priority>1.0</priority>
 </url>
-
-
+<url>
+      <loc>https://jiashuwu.github.io/Publication/Towards%20Scalable%20and%20Efficient%20Deep-RL%20in%20Edge%20Computing%20A%20Game-based%20Partition%20Approach.pdf</loc>
+      <lastmod>2022-06-22T18:07:15+01:00</lastmod>
+      <priority>0.8</priority>
+</url>
+<url>
+      <loc>https://jiashuwu.github.io/Publication/Toward%20fast%20theta%E2%80%90join%20A%20prefiltering%20and%20amalgamated%20partitioning%20approach.pdf</loc>
+      <lastmod>2022-06-22T18:07:15+01:00</lastmod>
+      <priority>0.8</priority>
+</url>
+<url>
+      <loc>https://jiashuwu.github.io/Publication/A%20self-contained%20and%20self-explanatory%20DNA%20storage%20system.pdf</loc>
+      <lastmod>2022-06-22T18:07:15+01:00</lastmod>
+      <priority>0.8</priority>
+</url>
+<url>
+      <loc>https://jiashuwu.github.io/Publication/Simultaneous%20Semantic%20Alignment%20Network%20for%20Heterogeneous%20Domain%20Adaptation.pdf</loc>
+      <lastmod>2022-06-22T18:07:15+01:00</lastmod>
+      <priority>0.8</priority>
+</url>
 </urlset>
