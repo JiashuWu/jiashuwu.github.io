@@ -9,6 +9,16 @@
     <link rel="stylesheet" href="./Source/style.css">
     <link rel="icon" href="https://jiashuwu.github.io/Resource/cas.png">
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <script>
+        function showHide() {
+            var x = document.getElementById("publication_paper_under_review");
+            if (x.style.display=="none") {
+                x.style.display="block";
+            }else{
+                x.style.display="none";
+            }
+        }
+    </script>
     <style>
         .heading:hover {
             color: #2196f3;
@@ -200,17 +210,6 @@
             <br>
 
             Paper under review: <a onclick=showHide()>5 papers</a>
-
-            <script>
-                function showHide() {
-                    var x = document.getElementById("publication_paper_under_review");
-                    if (x.style.display=="none") {
-                        x.style.display="block";
-                    }else{
-                        x.style.display="none";
-                    }
-                }
-            </script>
 
             <div id="publication_paper_under_review" style="display:none">
                 <br>
