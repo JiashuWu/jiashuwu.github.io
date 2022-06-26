@@ -18,14 +18,35 @@
                 x.style.display="none";
             }
         }
+        function darkTheme() {
+            var element = document.body;
+            element.classList.toggle("dark-theme");
+            if (document.getElementById("theme-button").src == "https://jiashuwu.github.io/Resource/dark-mode.png"){
+                document.getElementById("theme-button").src = "https://jiashuwu.github.io/Resource/light-mode.png";
+            } else {
+                document.getElementById("theme-button").src = "https://jiashuwu.github.io/Resource/dark-mode.png";
+            }
+        }
     </script>
     <style>
-        .heading:hover {
-            color: #2196f3;
+        a {
+            color: #42a5f5;
         }
-
+        a:hover {
+            color: #5c6bc0;
+        }
         .link_navigation:link {
             text-decoration: none;
+        }
+        .dark-theme {
+            background-color: #2b2b2b;
+            color: #fafafa;
+        }
+        .dark-theme a {
+            color: #b39ddb;
+        }
+        .dark-theme a:hover {
+            color: #ce93d8;
         }
     </style>
 </head>
@@ -46,12 +67,14 @@
                 <span class="heading"><font size="4"><a href="#granted_patent" class="link_navigation">Patent</a></font></span>
                 &emsp;&emsp;
                 <span class="heading"><font size="4"><a href="#award" class="link_navigation">Award</a></font></span>
-                &emsp;&emsp;
-                <span class="heading"><font size="4"><a href="#teaching_assistant" class="link_navigation">Teaching Assistant</a></font></span>
+                <!--&emsp;&emsp;
+                <span class="heading"><font size="4"><a href="#teaching_assistant" class="link_navigation">Teaching Assistant</a></font></span>-->
                 &emsp;&emsp;
                 <span class="heading"><font size="4"><a href="#cv" class="link_navigation">CV</a></font></span>
                 &emsp;&emsp;
                 <span class="heading"><font size="4"><a href="#contact" class="link_navigation">Contact</a></font></span>
+                &emsp;&emsp;
+                <span class="heading"><img src="https://jiashuwu.github.io/Resource/dark-mode.png" alt="" width="18" height="18" id="theme-button" onclick="darkTheme()"></span>
             </div>
         </div>
         <div class="row">
@@ -72,6 +95,16 @@
                 </p>
             </div>
         </div>
+
+        <!--
+        <div class="row" id="news">
+            <br>
+        </div>
+        <h3 name="news">News</h3><hr>
+        <ul>
+            <li>The paper <strong>Towards Scalable and Efficient Deep-RL in Edge Computing : A Game-based Partition Approach </strong> has been accepted by JPDC (SCI Q1)</li>
+        </ul>
+        -->
 
         <div class="row" id="education">
             <br>
@@ -183,10 +216,10 @@
                         <strong>Jiashu Wu</strong>, Jingpan Xiong, Hao Dai, Yang Wang✉, Chengzhong Xu<br>
                         <em>Tsinghua Science and Technology (<a href="http://tst.tsinghuajournals.com/EN/1007-0214/home.shtml" target="_blank"><strong>TST</strong></a>)</em>, 2021<br>
                         SCI Q2
-                        [ <img src="https://jiashuwu.github.io/Resource/pdf.png" alt="" width="15.2" height="19">&nbsp;<a href="" target="_blank" rel="noopener noreferrer">PDF (Online Soon)</a> ]
-                        [ <img src="https://jiashuwu.github.io/Resource/link.png" alt="" width="16" height="16">&nbsp;<a href="" target="_blank">Link (Online Soon)</a> ]
-                        [ <img src="https://jiashuwu.github.io/Resource/file.png" alt="" width="16" height="16">&nbsp;<a href="" download>BibTex (Online Soon)</a> ]
-                        [ <img src="https://jiashuwu.github.io/Resource/doi.png" alt="" width="16" height="16">&nbsp;<a href="" target="_blank">DOI (Online Soon)</a> ]
+                        [ <img src="https://jiashuwu.github.io/Resource/pdf.png" alt="" width="15.2" height="19">&nbsp;<a href="https://jiashuwu.github.io/Publication/MIX-RS A Multi-Indexing System Based on HDFS for Remote Sensing Data Storage.pdf" target="_blank" rel="noopener noreferrer">PDF</a> ]
+                        [ <img src="https://jiashuwu.github.io/Resource/link.png" alt="" width="16" height="16">&nbsp;<a href="https://ieeexplore.ieee.org/document/9802898" target="_blank">Link</a> ]
+                        [ <img src="https://jiashuwu.github.io/Resource/file.png" alt="" width="16" height="16">&nbsp;<a href="https://jiashuwu.github.io/Resource/wu2022tst.bib" download>BibTex</a> ]
+                        [ <img src="https://jiashuwu.github.io/Resource/doi.png" alt="" width="16" height="16">&nbsp;<a href="https://doi.org/10.26599/TST.2021.9010082" target="_blank">doi.org/10.26599/TST.2021.9010082</a> ]
                     </p>
                     <br style="line-height: 10px"/>
                 </li>
@@ -327,6 +360,34 @@
         <h3 name="cv">Curriculum Vitae</h3><hr>
         Please feel free to download my CV <img src="https://jiashuwu.github.io/Resource/pdf.png" alt="" width="15.2" height="19">&nbsp;<a href="" target="_blank" rel="noopener noreferrer">here (Online Soon)</a>. 
 
+        <div class="row" id="assortment">
+            <br>
+        </div>
+        <h3 name="cv">Assortment</h3><hr>
+        <strong>Android</strong> <img src="https://jiashuwu.github.io/Resource/android.png" alt="" width="16" height="16">
+        <br>
+        I developed several Android apps during my time in Australia, including a meeting participation analysis app <a href="https://github.com/JiashuWu/MeetingTracker" target="_blank" >MeetingTracker</a> developed for Melbourne eResearch Group and a drawing pattern collector to facilitate Parkinson diagnosis named as <a href="https://github.com/JiashuWu/NeuroGraph">NeuroGraph</a>. These apps were made available to several app markets including Google Play, Huawei App Store, Samsung Galaxy Store, etc. 
+        <br>
+        <br>
+        <strong>Voyage</strong> 🌏
+        <br>
+        I enjoy travelling around the world, and have been to many countries in 5 continents: 
+        <ul>
+            <li>Asia: China <img src="https://jiashuwu.github.io/Resource/cn.png" alt="" width="21" height="21"> (Beijing (my hometown), Tianjin, Shanghai, Hebei, Henan, Shandong, Inner Mongolia, Shaanxi, Liaoning, Jilin, Zhejiang, Fujian, Jiangxi, Guangdong, Guangxi, Yunnan, Guizhou, Hong Kong, Macau, Taiwan); Japan <img src="https://jiashuwu.github.io/Resource/japan.png" alt="" width="21" height="21"> (Osaka, Kyoto, Aichi, Toyama, Gifu, Ishikawa); Indonesia <img src="https://jiashuwu.github.io/Resource/indonesia.png" alt="" width="21" height="21">; Vietnam <img src="https://jiashuwu.github.io/Resource/vietnam.png" alt="" width="21" height="21">; Qatar <img src="https://jiashuwu.github.io/Resource/qatar.png" alt="" width="21" height="21">; Singapore <img src="https://jiashuwu.github.io/Resource/singapore.png" alt="" width="21" height="21"></li>
+            <li>North America: United States <img src="https://jiashuwu.github.io/Resource/united-states.png" alt="" width="21" height="21"> (CA, CO, DE, DC, ID, IL, MD, MT, NV, NJ, NY, PA, UT, WY)</li>
+            <li>Europe: Spain <img src="https://jiashuwu.github.io/Resource/spain.png" alt="" width="21" height="21">; Netherlands <img src="https://jiashuwu.github.io/Resource/netherlands.png" alt="" width="21" height="21"></li>
+            <li>Oceania: Australia <img src="https://jiashuwu.github.io/Resource/au.png" alt="" width="21" height="21"> (QLD, NSW, VIC, TAS, WA, NT)</li>
+            <li>Africa: Tunisia <img src="https://jiashuwu.github.io/Resource/tunisia.png" alt="" width="21" height="21"></li>
+        </ul>
+        <br style="line-height: 10px"/>
+        <strong>Language</strong> <img src="https://jiashuwu.github.io/Resource/language.png" alt="" width="16" height="16">
+        <br>
+        I am a native speaker of Mandarin Chinese <img src="https://jiashuwu.github.io/Resource/cn.png" alt="" width="21" height="21"> and can competently communicate in English <img src="https://jiashuwu.github.io/Resource/united-kingdom.png" alt="" width="21" height="21">. I got 7 in IELTS (Academic) and 665 in CET-4. I lived and studied in Australia <img src="https://jiashuwu.github.io/Resource/au.png" alt="" width="21" height="21"> for 5 years. 
+
+        <br><br><br>
+
+        
+
         <div class="row">
             <br>
         </div>
@@ -340,4 +401,5 @@
         &emsp;
         <span>Copyright Ⓒ Jiashu Wu 2022</span>
 
-</body></html>
+</body>
+</html>
