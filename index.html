@@ -28,6 +28,10 @@
                 document.getElementById("theme-button").src = "https://jiashuwu.github.io/Resource/dark-mode.png";
             }
         }
+        function copyAndAlert(textString) {
+            navigator.clipboard.writeText(textString);
+            alert("Copied");
+        }
     </script>
     <style>
         a {
@@ -75,7 +79,7 @@
                 &emsp;&emsp;
                 <span class="heading"><font size="4"><a href="#contact" class="link_navigation">Contact</a></font></span>
                 &emsp;&emsp;
-                <span class="heading"><img src="https://jiashuwu.github.io/Resource/dark-mode.png" alt="" width="18" height="18" id="theme-button" onclick="darkTheme()"></span>
+                <span class="heading"><img src="https://jiashuwu.github.io/Resource/dark-mode.png" alt="" width="18" height="18" id="theme-button" onclick=darkTheme()></span>
             </div>
         </div>
         <div class="row">
