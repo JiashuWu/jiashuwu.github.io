@@ -4,30 +4,44 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 
 <url>
-      <loc>https://jiashuwu.github.io/</loc>
-      <lastmod>2022-06-22T18:07:15+01:00</lastmod>
-      <priority>1.0</priority>
+  <loc>https://jiashuwu.github.io/</loc>
+  <lastmod>2022-07-05T07:53:52+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-      <loc>https://jiashuwu.github.io/Publication/Towards%20Scalable%20and%20Efficient%20Deep-RL%20in%20Edge%20Computing%20A%20Game-based%20Partition%20Approach.pdf</loc>
-      <lastmod>2022-06-22T18:07:15+01:00</lastmod>
-      <priority>0.8</priority>
+  <loc>https://jiashuwu.github.io/Publication/Towards%20Scalable%20and%20Efficient%20Deep-RL%20in%20Edge%20Computing%20A%20Game-based%20Partition%20Approach.pdf</loc>
+  <lastmod>2022-07-05T07:53:51+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-      <loc>https://jiashuwu.github.io/Publication/Toward%20fast%20theta%E2%80%90join%20A%20prefiltering%20and%20amalgamated%20partitioning%20approach.pdf</loc>
-      <lastmod>2022-06-22T18:07:15+01:00</lastmod>
-      <priority>0.8</priority>
+  <loc>https://jiashuwu.github.io/Publication/Toward%20fast%20theta%E2%80%90join%20A%20prefiltering%20and%20amalgamated%20partitioning%20approach.pdf</loc>
+  <lastmod>2022-07-05T07:53:51+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-      <loc>https://jiashuwu.github.io/Publication/A%20self-contained%20and%20self-explanatory%20DNA%20storage%20system.pdf</loc>
-      <lastmod>2022-06-22T18:07:15+01:00</lastmod>
-      <priority>0.8</priority>
+  <loc>https://jiashuwu.github.io/Publication/A%20self-contained%20and%20self-explanatory%20DNA%20storage%20system.pdf</loc>
+  <lastmod>2022-07-05T07:53:51+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-      <loc>https://jiashuwu.github.io/Publication/Simultaneous%20Semantic%20Alignment%20Network%20for%20Heterogeneous%20Domain%20Adaptation.pdf</loc>
-      <lastmod>2022-06-22T18:07:15+01:00</lastmod>
-      <priority>0.8</priority>
+  <loc>https://jiashuwu.github.io/Publication/MIX-RS%20A%20Multi-Indexing%20System%20Based%20on%20HDFS%20for%20Remote%20Sensing%20Data%20Storage.pdf</loc>
+  <lastmod>2022-07-05T07:53:51+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://jiashuwu.github.io/Publication/Simultaneous%20Semantic%20Alignment%20Network%20for%20Heterogeneous%20Domain%20Adaptation.pdf</loc>
+  <lastmod>2022-07-05T07:53:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jiashuwu.github.io/Publication/Learning%20to%20Rank%20with%20Small%20Set%20of%20Ground%20Truth%20Data.pdf</loc>
+  <lastmod>2022-07-05T07:53:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
