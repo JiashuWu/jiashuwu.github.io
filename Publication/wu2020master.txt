@@ -1,0 +1,10 @@
+@misc{https://doi.org/10.48550/arxiv.2207.01188,
+  doi = {10.48550/ARXIV.2207.01188},
+  url = {https://arxiv.org/abs/2207.01188},
+  author = {Wu, Jiashu},
+  keywords = {Information Retrieval (cs.IR), Artificial Intelligence (cs.AI), Databases (cs.DB), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Learning to Rank with Small Set of Ground Truth Data},
+  publisher = {arXiv},
+  year = {2022},  
+  copyright = {Creative Commons Attribution 4.0 International}
+}
