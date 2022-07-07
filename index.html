@@ -25,10 +25,10 @@
             element.classList.toggle("dark-theme");
             var abstract = document.getElementsByClassName("abs_section");
             for (var i = 0; i < abstract.length; i++) {
-                if (abstract[i].style.backgroundColor==="#f1f1f1" || abstract[i].style.backgroundColor==="") {
-                    abstract[i].style.backgroundColor="#616161";
+                if (abstract[i].style.backgroundColor==="" || abstract[i].style.backgroundColor==="rgb(241, 241, 241)") {
+                    abstract[i].style.backgroundColor="rgb(97, 97, 97)";
                 } else {
-                    abstract[i].style.backgroundColor="#f1f1f1";
+                    abstract[i].style.backgroundColor="rgb(241, 241, 241)";
                 }
             }
             if (document.getElementById("theme-button").src == "https://jiashuwu.github.io/Resource/dark-mode.png"){
