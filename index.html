@@ -12,8 +12,8 @@
     <link rel="icon" href="https://jiashuwu.github.io/Resource/cas.png">
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     <script>
-        function showHide() {
-            var x = document.getElementById("publication_paper_under_review");
+        function showHide(idString) {
+            var x = document.getElementById(idString);
             if (x.style.display=="none") {
                 x.style.display="block";
             }else{
@@ -267,7 +267,7 @@
 
             <br>
 
-            <img src="https://jiashuwu.github.io/Resource/loading.png" alt="" width="16" height="16">&nbsp;Paper under review: <a onclick=showHide()>5 papers</a>
+            <img src="https://jiashuwu.github.io/Resource/loading.png" alt="" width="16" height="16">&nbsp;Paper under review: <a onclick=showHide("publication_paper_under_review")>5 papers</a>
 
             <div id="publication_paper_under_review" style="display:none">
                 <br>
