@@ -1,0 +1,13 @@
+@ARTICLE{9833301,
+  author={Wu, Jiashu and Dai, Hao and Wang, Yang and Zhang, Yong and Huang, Dong and Xu, Chengzhong},
+  journal={IEEE Transactions on Computers}, 
+  title={PackCache: An Online Cost-Driven Data Caching Algorithm in the Cloud}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-8},
+  abstract={In this paper, we study a data caching problem in the cloud environment, where multiple frequently co-utilised data items could be packed as a single item being transferred to serve a sequence of data requests dynamically with reduced cost. To this end, we propose an online algorithm with respect to a homogeneous cost model, called <i>PackCache</i>, that can leverage the FP-Tree technique to mine those frequently co-utilised data items for packing whereby the incoming requests could be cost-effectively served online by exploiting the concept of anticipatory caching. We show the algorithm is <inline-formula><tex-math notation="LaTeX">$2/\alpha$</tex-math></inline-formula> competitive, reaching the lower bound of the competitive ratio for any deterministic online algorithm on the studied caching problem, and also time and space efficient to serve the requests. Finally, we evaluate the performance of the algorithm via experimental studies to show its actual cost-effectiveness and scalability.},
+  keywords={},
+  doi={10.1109/TC.2022.3191969},
+  ISSN={1557-9956},
+  month={},}
