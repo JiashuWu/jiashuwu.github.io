@@ -41,6 +41,11 @@
             navigator.clipboard.writeText(textString);
             alert("Copied");
         }
+        function convertDate(dateString) {
+            const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+            const d = new Date(dateString)
+            return d.getDate() + " " + monthNames[d.getMonth()] + " " + d.getFullYear()
+        }
     </script>
     <style>
         a {
@@ -541,7 +546,7 @@
         </div>
         <hr>
         <footer>
-        <p><img src="https://jiashuwu.github.io/Resource/updated.png" alt="" width="16" height="16">&nbsp;Last updated: <script type="text/javascript">document.write(document.lastModified);</script>
+        <p><img src="https://jiashuwu.github.io/Resource/updated.png" alt="" width="16" height="16">&nbsp;Last updated: <script type="text/javascript">document.write(convertDate(document.lastModified));</script>
 
         &emsp;
         <span id="busuanzi_container_site_pv">Totol Visits: <span id="busuanzi_value_site_pv"></span></span>
