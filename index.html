@@ -44,7 +44,7 @@
         function convertDate(dateString) {
             const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
             const d = new Date(dateString)
-            return d.getDate() + " " + monthNames[d.getMonth()] + " " + d.getFullYear()
+            return d.getDate() + " " + monthNames[d.getMonth()] + " " + d.getFullYear() + " " + String(d.getHours()).padStart(2, "0") + ":" + String(d.getMinutes()).padStart(2, "0") + ":" + String(d.getSeconds()).padStart(2, "0")
         }
     </script>
     <style>
