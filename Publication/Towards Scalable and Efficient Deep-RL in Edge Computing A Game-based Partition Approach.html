@@ -49,36 +49,35 @@
 <td>
 <b>Title:</b>
 
-<value>Toward fast theta-join: A prefiltering and amalgamated partitioning approach</value>
+<value>Towards scalable and efficient Deep-RL in edge computing: A game-based partition approach</value>
 </td>
 </tr>
 
 <tr>
 <td>
 <b>Author(s):</b>
-Wu, JS (Wu, Jiashu); Wang, Y (Wang, Yang); Fan, XP (Fan, Xiaopeng); Ye, KJ (Ye, Kejiang); Xu, CZ (Xu, Chengzhong)</td>
+Dai, H (Dai, Hao); Wu, JS (Wu, Jiashu); Wang, Y (Wang, Yang); Xu, CZ (Xu, Chengzhong)</td>
 </tr>
 
 <tr xmlns:bean="http://ts.thomson.com/ua/bean" xmlns:exsl="http://exslt.org/common" xmlns:set="http://exslt.org/sets">
 <td><b>Source:</b> 
-<value>CONCURRENCY AND COMPUTATION-PRACTICE &amp; EXPERIENCE</value>&nbsp;&nbsp;<b>Volume:</b> 
-<value>34</value>&nbsp;&nbsp;<b>Issue:</b> 
-<value>17</value>&nbsp;&nbsp;<b>Article Number:</b> 
-<value>e6996</value>&nbsp;&nbsp;<b>DOI:</b> 
-<value>10.1002/cpe.6996</value>&nbsp;&nbsp;<b>Early Access Date:</b> APR 2022 &nbsp;&nbsp;<b>Published:</b> 
-<value>AUG 1 2022</value>&nbsp;&nbsp;</td>
+<value>JOURNAL OF PARALLEL AND DISTRIBUTED COMPUTING</value>&nbsp;&nbsp;<b>Volume:</b> 
+<value>168</value>&nbsp;&nbsp;<b>Pages:</b> 
+<value>108-119</value>&nbsp;&nbsp;<b>DOI:</b> 
+<value>10.1016/j.jpdc.2022.06.006</value>&nbsp;&nbsp;<b>Published:</b> 
+<value>OCT 2022</value>&nbsp;&nbsp;</td>
 </tr>
 <tr>
 <td>
 <b>Abstract:</b>
-As one of the most useful online processing techniques, the theta-join operation has been utilized by many applications to fully excavate the relationships between data streams in various scenarios. As such, constant research efforts have been put to optimize its performance in the distributed environment, which is typically characterized by reducing the number of Cartesian products as much as possible. In this article, we design and implement a novel fast theta-join algorithm, called Prefap, by developing two distinct techniques-prefiltering and amalgamated partitioning-based on the state-of-the-art FastThetaJoin algorithm to optimize the efficiency of the theta-join operation. Firstly, we develop a prefiltering strategy before data streams are partitioned to reduce the amount of data to be involved and benefit a more fine-grained partitioning. Secondly, to avoid the data streams being partitioned in a coarse-grained isolated manner and improve the quality of the partition-level filtering, we introduce an amalgamated partitioning mechanism that can amalgamate the partitioning boundaries of two data streams to assist a fine-grained partitioning. With the integration of these two techniques into the existing FastThetaJoin algorithm, we design and implement a new framework to achieve a decreased number of Cartesian products and a higher theta-join efficiency. By comparing with existing algorithms, FastThetaJoin in particular, we evaluate the performance of Prefap on both synthetic and real data streams from two-way to multiway theta-join to demonstrate its superiority.</td>
+Currently, most edge-based Deep Reinforcement Learning (Deep-RL) applications have been deployed in the edge network, however, their mainstream studies are still short of adequate considerations on its limited compute and bandwidth resources. In this paper, we investigate the near on-policy of actions taking in distributed Deep-RL architecture, and propose a "hybrid near on-policy " Deep-RL framework, called Coknight, by leveraging a game-theory based DNN partition approach. We first formulate the partition problem into a variant of knapsack problem in device-edge setting, and then transform it into a potential game with a formal proof. Finally, we show the problem is NP-complete whereby an efficient distributed algorithm based on the potential game theory is developed from device perspective to achieve fast and dynamic partitioning. Coknight not only significantly improves the resource efficiency of the Deep-RL but also allows the inference to enforce the scalability of the actor policy. We prototype the framework with extensive experiments to validate our findings. The experimental results show that with the premise of a rapid convergence guarantee, Coknight, compared with Seed-RL, can reduce GPU utilization by 30% while providing large-scale scalability. (C) 2022 Elsevier Inc.</td>
 </tr>
 
 <tr>
 <td>
 <b>Accession Number:</b>
 
-<value>WOS:000779988000001</value>
+<value>WOS:000826304000005</value>
 </td>
 </tr>
 
@@ -97,33 +96,27 @@ Article</td>
 <tr>
 <td>
 <b>Author Keywords:</b>
-amalgamated data stream partitioning; cartesian product reduction; online data stream; prefiltering; theta-join (theta-join)</td>
-</tr>
-
-<tr>
-<td>
-<b>KeyWords Plus:</b>
-BIG DATA; ARCHITECTURE</td>
+Mobile edge computing; Deep reinforcement learning; DNN partition; Game theory</td>
 </tr>
 
 <tr>
 <td>
 <b>Addresses:</b>
-[Wu, Jiashu; Wang, Yang; Fan, Xiaopeng; Ye, Kejiang] Chinese Acad Sci, Shenzhen Inst Adv Technol, Shenzhen 518055, Peoples R China. <br>
-[Wu, Jiashu] Univ Chinese Acad Sci, Beijing, Peoples R China. <br>
-[Xu, Chengzhong] Univ Macau, Macau, Peoples R China. </td>
+[Dai, Hao; Wu, Jiashu; Wang, Yang] Chinese Acad Sci, Shenzhen Inst Adv Technol, Shenzhen 518055, Guangdong, Peoples R China. <br>
+[Dai, Hao; Wu, Jiashu; Wang, Yang] Univ Chinese Acad Sci, Beijing 100049, Peoples R China. <br>
+[Xu, Chengzhong] Univ Macau, Fac Sci &amp; Technol, Taipa, Macau, Peoples R China. </td>
 </tr>
 
 <tr>
 <td>
 <b>Corresponding Address:</b>
-Wang, Y (corresponding author), Chinese Acad Sci, Shenzhen Inst Adv Technol, Shenzhen 518055, Peoples R China.</td>
+Wang, Y (corresponding author), Chinese Acad Sci, Shenzhen Inst Adv Technol, Shenzhen 518055, Guangdong, Peoples R China.</td>
 </tr>
 
 <tr>
 <td>
 <b>E-mail Addresses:</b>
-yang.wang1@siat.ac.cn</td>
+hao.dai@siat.ac.cn; js.wu@siat.ac.cn; yang.wang1@siat.ac.cn; czxu@um.mo.edu</td>
 </tr>
 
 <tr>
@@ -143,6 +136,10 @@ Chinese Academy of Sciences; Shenzhen Institute of Advanced Technology, CAS; Chi
 </tr>
 <tr class="fr_data_row">
 <td>
+<display_name>Wu, Jiashu</display_name>&nbsp;</td><td>&nbsp;</td><td>0000-0002-1347-1974&nbsp;</td>
+</tr>
+<tr class="fr_data_row">
+<td>
 <display_name>Wang, Yang</display_name>&nbsp;</td><td>&nbsp;</td><td>0000-0001-9438-6060&nbsp;</td>
 </tr>
 </table>
@@ -152,7 +149,7 @@ Chinese Academy of Sciences; Shenzhen Institute of Advanced Technology, CAS; Chi
 <td>
 <b>Publisher:</b>
 
-<value>WILEY</value>
+<value>ACADEMIC PRESS INC ELSEVIER SCIENCE</value>
 </td>
 </tr>
 
@@ -160,7 +157,7 @@ Chinese Academy of Sciences; Shenzhen Institute of Advanced Technology, CAS; Chi
 <td>
 <b>Publisher Address:</b>
 
-<value>111 RIVER ST, HOBOKEN 07030-5774, NJ USA</value>
+<value>525 B ST, STE 1900, SAN DIEGO, CA 92101-4495 USA</value>
 </td>
 </tr>
 
@@ -175,7 +172,7 @@ Chinese Academy of Sciences; Shenzhen Institute of Advanced Technology, CAS; Chi
 <tr>
 <td>
 <b>Web of Science Categories:</b>
-Computer Science, Software Engineering; Computer Science, Theory &amp; Methods</td>
+Computer Science, Theory &amp; Methods</td>
 </tr>
 
 <tr>
@@ -186,9 +183,17 @@ Computer Science</td>
 
 <tr>
 <td>
+<b>IDS Number:</b>
+
+<value>2Z0VE</value>
+</td>
+</tr>
+
+<tr>
+<td>
 <b>ISSN:</b>
 
-<value>1532-0626</value>
+<value>0743-7315</value>
 </td>
 </tr>
 
@@ -196,7 +201,7 @@ Computer Science</td>
 <td>
 <b>eISSN:</b>
 
-<value>1532-0634</value>
+<value>1096-0848</value>
 </td>
 </tr>
 
@@ -204,7 +209,7 @@ Computer Science</td>
 <td>
 <b>29-char Source Abbrev.:</b>
 
-<value>CONCURR COMP-PRACT E</value>
+<value>J PARALLEL DISTR COM</value>
 </td>
 </tr>
 
@@ -212,7 +217,7 @@ Computer Science</td>
 <td>
 <b>ISO Source Abbrev.:</b>
 
-<value>Concurr. Comput.-Pract. Exp.</value>
+<value>J. Parallel Distrib. Comput.</value>
 </td>
 </tr>
 
@@ -220,7 +225,7 @@ Computer Science</td>
 <td>
 <b>Source Item Page Count:</b>
 
-<value>19</value>
+<value>12</value>
 </td>
 </tr>
 
@@ -241,9 +246,14 @@ Computer Science</td>
 </tr>
 <tr class="fr_data_row">
 <td>
-<grant_agency>Shenzhen Basic Research Program</grant_agency>&nbsp;</td><td>
-<div>JCYJ20170818153016513&nbsp;</div>
-<div>JCYJ20200109115418592&nbsp;</div>
+<grant_agency>Science and Technology Development Fund of Macao S.A.R (FDCT)</grant_agency>&nbsp;</td><td>
+<div>0015/2019/AKP&nbsp;</div>
+</td>
+</tr>
+<tr class="fr_data_row">
+<td>
+<grant_agency>National Natural Science Foun-dation of China</grant_agency>&nbsp;</td><td>
+<div>61672513&nbsp;</div>
 </td>
 </tr>
 </table>
@@ -251,7 +261,7 @@ Computer Science</td>
 </tr>
 <tr>
 <td class="fr_data_row"><span name="show_fund_blurb" id="show_fund_blurb">
-<p>Key-Area Research and Development Program of Guangdong Province, Grant/Award Number: 2020B010164002; Shenzhen Basic Research Program, Grant/Award Numbers: JCYJ20170818153016513, JCYJ20200109115418592</p>
+<p>Acknowledgments This work was supported in part by Key-Area Research and Development Program of Guangdong Province (2020B010164002) , Science and Technology Development Fund of Macao S.A.R (FDCT) under number 0015/2019/AKP, and National Natural Science Foun-dation of China (61672513) .</p>
 </span></td>
 </tr>
 </table><hr>
