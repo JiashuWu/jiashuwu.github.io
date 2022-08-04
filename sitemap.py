@@ -100,7 +100,7 @@ htmls = """
 for link in soup.find_all('a'):
     if link.get('href') != "None" and link.get('href') is not None and link.get('href')[0:4] == "http":
         url = link.get('href').replace(" ", "%20")
-        atag = "<a href=\"" + url + "\">" + url + "</a>"
+        atag = "<a href=\"" + url + "\" target=\"_blank\">" + url + "</a>"
         htmls += atag + "\n<br>\n<br>\n"
 htmls += """
             </div>
