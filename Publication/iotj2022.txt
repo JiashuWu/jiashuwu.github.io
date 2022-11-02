@@ -1,0 +1,10 @@
+@ARTICLE{9933783,
+  author={Wu, Jiashu and Wang, Yang and Xie, Binhui and Li, Shuang and Dai, Hao and Ye, Kejiang and Xu, Chengzhong},
+  journal={IEEE Internet of Things Journal}, 
+  title={Joint Semantic Transfer Network for IoT Intrusion Detection}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/JIOT.2022.3218339}
+}
