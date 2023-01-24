@@ -142,6 +142,7 @@
         </div>
         <h3 name="updates">Updates</h3><hr>
         <ul>
+            <li>🎉 [Jan 2023] The paper <strong>Heterogeneous Domain Adaptation for IoT Intrusion Detection: A Geometric Graph Alignment Approach</strong> has been accepted by IEEE Internet of Things Journal (SCI Q1, <font color="#f06292">IF=10.24</font>)</li>
             <li>🎉 [Dec 2022] The patent CN202011438337.2 has been granted. </li>
             <li>🎉 [Oct 2022] The paper <strong>Joint Semantic Transfer Network for IoT Intrusion Detection</strong> has been accepted by IEEE Internet of Things Journal (SCI Q1, <font color="#f06292">IF=10.24</font>)</li>
             <li>🎉 [Oct 2022] The paper <strong>Multi-Scenario Bimetric-Balanced IoT Resource Allocation: An Evolutionary Approach</strong> has been accepted by IEEE HPCC 2022 (CCF-C)</li>
@@ -199,14 +200,32 @@
         <h3 name="publication">Publication</h3>
         (* <em>Equal Contribution</em>, ✉ <em>Corresponding Author</em>, IF: Impact Factor, WOS: Web of Science, PDF & BibTex are downloadable)
         <hr>
+            <h4>IoT Intrusion Detection and Domain Adaptation</h4>
             <div class="alert alert-success" role="alert">
                 <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                ✅&nbsp;CCF-A & SCI Q1: 5 papers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                ✅&nbsp;CCF-B & SCI Q2: 3 papers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                ✅&nbsp;CCF-C: 1 paper
+                ✅&nbsp;CCF-A & SCI Q1: 4 papers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </b>
             </div>
             <ol>
+                <li>
+                    <p>
+                        <strong>Heterogeneous Domain Adaptation for IoT Intrusion Detection: A Geometric Graph Alignment Approach</strong><br>
+                        <strong>Jiashu Wu</strong>, Hao Dai, Yang Wang✉, Kejiang Ye, Chengzhong Xu<br>
+                        <em>IEEE Internet of Things Journal (<a href="https://ieee-iotj.org/" target="_blank"><strong>IEEE IoT Journal</strong></a>)</em>, 2023<br>
+                        SCI Q1, <font color="#f06292">IF: 10.24</font><br>
+                        [ <img src="https://jiashuwu.github.io/Resource/docs.png" alt="" width="20" height="19">&nbsp;<a onclick=showHide("abstract_ieeeiotj_gga")>Abstract</a> ]
+                        [ <img src="https://jiashuwu.github.io/Resource/pdf.png" alt="" width="15.2" height="19">&nbsp;<a href="https://jiashuwu.github.io/Publication/Heterogeneous Domain Adaptation for IoT Intrusion Detection A Geometric Graph Alignment Approach.pdf" target="_blank" rel="noopener noreferrer">PDF</a> ]
+                        [ <img src="https://jiashuwu.github.io/Resource/link.png" alt="" width="16" height="16">&nbsp;<a href="" target="_blank">Link (Online Soon)</a> ]
+                        [ <img src="https://jiashuwu.github.io/Resource/file.png" alt="" width="16" height="16">&nbsp;<a href="" target="_blank">BibTex (Online Soon)</a> ]
+                        [ <img src="https://jiashuwu.github.io/Resource/doi.png" alt="" width="16" height="16">&nbsp;<a href="" target="_blank">DOI (Online Soon)</a> ]
+                    </p>
+                    <div class="abs_section" id="abstract_ieeeiotj_gga" style="display:none">
+                        <p>Data scarcity hinders the usability of data-dependent algorithms when tackling IoT intrusion detection (IID). To address this, we utilise the data rich network intrusion detection (NID) domain to facilitate more accurate intrusion detection for IID domains. In this paper, a Geometric Graph Alignment (GGA) approach is leveraged to mask the geometric heterogeneities between domains for better intrusion knowledge transfer. Specifically, each intrusion domain is formulated as a graph where vertices and edges represent intrusion categories and category-wise interrelationships, respectively. The overall shape is preserved via a confused discriminator incapable to identify adjacency matrices between different intrusion domain graphs. A rotation avoidance mechanism and a centre point matching mechanism is used to avoid graph misalignment due to rotation and symmetry, respectively. Besides, category-wise semantic knowledge is transferred to act as vertex-level alignment. To exploit the target data, a pseudo-label election mechanism that jointly considers network prediction, geometric property and neighbourhood information is used to produce fine-grained pseudo-label assignment. Upon aligning the intrusion graphs geometrically from different granularities, the transferred intrusion knowledge can boost IID performance. Comprehensive experiments on several intrusion datasets demonstrate state-of-the-art performance of the GGA approach and validate the usefulness of GGA constituting components. </p>
+                    </div>
+                    <br style="line-height: 10px"/>
+                </li>
+
+
                 <li>
                     <p>
                         <strong>Joint Semantic Transfer Network for IoT Intrusion Detection</strong><br>
@@ -228,25 +247,6 @@
 
                 <li>
                     <p>
-                        <strong>Multi-Scenario Bimetric-Balanced IoT Resource Allocation: An Evolutionary Approach</strong><br>
-                        <strong>Jiashu Wu</strong>, Hao Dai, Yang Wang✉, Zhiying Tu<br>
-                        <em>The 24th IEEE International Conference on High Performance Computing and Communications (<a href="http://www.ieee-hpcc.org/2022/index.html" target="_blank"><strong>IEEE HPCC</strong></a>)</em>, 2022<br>
-                        CCF-C, EI<br>
-                        [ <img src="https://jiashuwu.github.io/Resource/docs.png" alt="" width="20" height="19">&nbsp;<a onclick=showHide("abstract_ieeehpcc")>Abstract</a> ]
-                        [ <img src="https://jiashuwu.github.io/Resource/pdf.png" alt="" width="15.2" height="19">&nbsp;<a href="" target="_blank" rel="noopener noreferrer">PDF (Online Soon)</a> ]
-                        [ <img src="https://jiashuwu.github.io/Resource/link.png" alt="" width="16" height="16">&nbsp;<a href="" target="_blank">Link (Online Soon)</a> ]
-                        [ <img src="https://jiashuwu.github.io/Resource/file.png" alt="" width="16" height="16">&nbsp;<a href="" target="_blank">BibTex (Online Soon)</a> ]
-                        [ <img src="https://jiashuwu.github.io/Resource/doi.png" alt="" width="16" height="16">&nbsp;<a href="" target="_blank">DOI (Online Soon)</a> ]
-                    </p>
-                    <div class="abs_section" id="abstract_ieeehpcc" style="display:none">
-                        <p>In this paper, we allocate IoT devices as resources for smart services with time-constrained resource requirements. The allocation method named as BRAD can work under multiple resource scenarios with diverse resource richnesses, availabilities and costs, such as the intelligent healthcare system deployed by Harbin Institute of Technology (HIT-IHC). The allocation aims for bimetric-balancing under the multi-scenario case, i.e., the profit and cost associated with service satisfaction are jointly optimised and balanced wisely. Besides, we abstract IoT devices as digital objects (DO) to make them easier to interact with during resource allocation. Considering that the problem is NP-Hard and the optimisation objective is not differentiable, we utilise Grey Wolf Optimisation (GWO) algorithm as the model optimiser. Specifically, we tackle the deficiencies of GWO and significantly improve its performance by introducing three new mechanisms to form the BRAD-GWA algorithm. Comprehensive experiments are conducted on realistic HIT-IHC IoT testbeds and several algorithms are compared, including the allocation method originally used by HIT-IHC system to verify the effectiveness of the BRAD-GWA. The BRAD-GWA achieves a 3.14 times and 29.6% objective reduction compared with the HIT-IHC and the original GWO algorithm, respectively. </p>
-                    </div>
-                    <br style="line-height: 10px"/>
-                </li>
-
-
-                <li>
-                    <p>
                         <strong>PackCache: An Online Cost-driven Data Caching Algorithm in the Cloud</strong><br>
                         <strong>Jiashu Wu</strong>, Hao Dai, Yang Wang✉, Yong Zhang, Dong Huang, Chengzhong Xu<br>
                         <em>IEEE Transactions on Computers (<a href="https://www.computer.org/csdl/journal/tc" target="_blank"><strong>IEEE TC</strong></a>)</em>, 2022<br>
@@ -259,6 +259,56 @@
                     </p>
                     <div class="abs_section" id="abstract_ieeetc" style="display:none">
                         <p>In this paper, we study a data caching problem in the cloud environment, where multiple frequently co-utilised data items could be packed as a single item being transferred to serve a sequence of data requests dynamically with reduced cost. To this end, we propose an online algorithm with respect to a homogeneous cost model, called PackCache, that can leverage the FP-Tree technique to mine those frequently co-utilised data items for packing whereby the incoming requests could be cost-effectively served online by exploiting the concept of anticipatory caching. We show the algorithm is 2\alpha competitive, reaching the lower bound of the competitive ratio for any deterministic online algorithm on the studied caching problem, and also time and space efficient to serve the requests. Finally, we evaluate the performance of the algorithm via experimental studies to show its actual cost-effectiveness and scalability. </p>
+                    </div>
+                    <br style="line-height: 10px"/>
+                </li>
+
+
+                <li>
+                    <p>
+                        <strong>Simultaneous Semantic Alignment Network for Heterogeneous Domain Adaptation</strong><br>
+                        Shuang Li, Binhui Xie, <strong>Jiashu Wu</strong>, Ying Zhao, Chi Harold Liu✉, Zhengming Ding<br>
+                        <em>ACMMM20 Proceedings of the 28th ACM International Conference on Multimedia (<a href="https://2020.acmmm.org/" target="_blank"><strong>ACM MM</strong></a>)</em>, 2020<br>
+                        CCF-A, EI, IS: 12.90<br>
+                        [ <img src="https://jiashuwu.github.io/Resource/docs.png" alt="" width="20" height="19">&nbsp;<a onclick=showHide("abstract_acmmm")>Abstract</a> ]
+                        [ <img src="https://jiashuwu.github.io/Resource/pdf.png" alt="" width="15.2" height="19">&nbsp;<a href="https://jiashuwu.github.io/Publication/Simultaneous Semantic Alignment Network for Heterogeneous Domain Adaptation.pdf" target="_blank" rel="noopener noreferrer">PDF</a> ]
+                        [ <img src="https://jiashuwu.github.io/Resource/github.png" alt="" width="16" height="16">&nbsp;<a href="https://github.com/BIT-DA/SSAN" target="_blank">Code</a> ]
+                        [ <img src="https://jiashuwu.github.io/Resource/link.png" alt="" width="16" height="16">&nbsp;<a href="https://dl.acm.org/doi/abs/10.1145/3394171.3413995" target="_blank">Link</a> ]
+                        [ <img src="https://jiashuwu.github.io/Resource/file.png" alt="" width="16" height="16">&nbsp;<a href="https://jiashuwu.github.io/Publication/acm_3394171.3413995.txt" target="_blank">BibTex</a> ]
+                        [ <img src="https://jiashuwu.github.io/Resource/doi.png" alt="" width="16" height="16">&nbsp;<a href="https://doi.org/10.1145/3394171.3413995" target="_blank">10.1145/3394171.3413995</a> ]
+                        [ <img src="https://jiashuwu.github.io/Resource/doi.png" alt="" width="16" height="16">&nbsp;<a href="https://jiashuwu.github.io/Publication/Simultaneous Semantic Alignment Network for Heterogeneous Domain Adaptation.html" target="_blank">WOS:000810735003101</a> ]
+                    </p>
+                    <div class="abs_section" id="abstract_acmmm" style="display:none">
+                        <p>Heterogeneous domain adaptation (HDA) transfers knowledge across source and target domains that present heterogeneities e.g., distinct domain distributions and difference in feature type or dimension. Most previous HDA methods tackle this problem through learning a domain-invariant feature subspace to reduce the discrepancy between domains. However, the intrinsic semantic properties contained in data are under-explored in such alignment strategy, which is also indispensable to achieve promising adaptability. In this paper, we propose a Simultaneous Semantic Alignment Network (SSAN) to simultaneously exploit correlations among categories and align the centroids for each category across domains. In particular, we propose an implicit semantic correlation loss to transfer the correlation knowledge of source categorical prediction distributions to target domain. Meanwhile, by leveraging target pseudo-labels, a robust triplet-centroid alignment mechanism is explicitly applied to align feature representations for each category. Notably, a pseudo-label refinement procedure with geometric similarity involved is introduced to enhance the target pseudo-label assignment accuracy. Comprehensive experiments on various HDA tasks across text-to-image, image-to-image and text-to-text successfully validate the superiority of our SSAN against state-of-the-art HDA methods. The code is publicly available at https://github.com/BIT-DA/SSAN. </p>
+                    </div>
+                    <br style="line-height: 10px"/>
+                </li>
+            </ol>
+
+            <br>
+            <h4>Miscellaneous Topics (Data Processing and Data Storage, etc. )</h4>
+            <div class="alert alert-success" role="alert">
+                <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                ✅&nbsp;CCF-A & SCI Q1: 2 papers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                ✅&nbsp;CCF-B & SCI Q2: 3 papers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                ✅&nbsp;CCF-C: 1 paper
+                </b>
+            </div>
+            <ol>
+                <li>
+                    <p>
+                        <strong>Multi-Scenario Bimetric-Balanced IoT Resource Allocation: An Evolutionary Approach</strong><br>
+                        <strong>Jiashu Wu</strong>, Hao Dai, Yang Wang✉, Zhiying Tu<br>
+                        <em>The 24th IEEE International Conference on High Performance Computing and Communications (<a href="http://www.ieee-hpcc.org/2022/index.html" target="_blank"><strong>IEEE HPCC</strong></a>)</em>, 2022<br>
+                        CCF-C, EI<br>
+                        [ <img src="https://jiashuwu.github.io/Resource/docs.png" alt="" width="20" height="19">&nbsp;<a onclick=showHide("abstract_ieeehpcc")>Abstract</a> ]
+                        [ <img src="https://jiashuwu.github.io/Resource/pdf.png" alt="" width="15.2" height="19">&nbsp;<a href="" target="_blank" rel="noopener noreferrer">PDF (Online Soon)</a> ]
+                        [ <img src="https://jiashuwu.github.io/Resource/link.png" alt="" width="16" height="16">&nbsp;<a href="" target="_blank">Link (Online Soon)</a> ]
+                        [ <img src="https://jiashuwu.github.io/Resource/file.png" alt="" width="16" height="16">&nbsp;<a href="" target="_blank">BibTex (Online Soon)</a> ]
+                        [ <img src="https://jiashuwu.github.io/Resource/doi.png" alt="" width="16" height="16">&nbsp;<a href="" target="_blank">DOI (Online Soon)</a> ]
+                    </p>
+                    <div class="abs_section" id="abstract_ieeehpcc" style="display:none">
+                        <p>In this paper, we allocate IoT devices as resources for smart services with time-constrained resource requirements. The allocation method named as BRAD can work under multiple resource scenarios with diverse resource richnesses, availabilities and costs, such as the intelligent healthcare system deployed by Harbin Institute of Technology (HIT-IHC). The allocation aims for bimetric-balancing under the multi-scenario case, i.e., the profit and cost associated with service satisfaction are jointly optimised and balanced wisely. Besides, we abstract IoT devices as digital objects (DO) to make them easier to interact with during resource allocation. Considering that the problem is NP-Hard and the optimisation objective is not differentiable, we utilise Grey Wolf Optimisation (GWO) algorithm as the model optimiser. Specifically, we tackle the deficiencies of GWO and significantly improve its performance by introducing three new mechanisms to form the BRAD-GWA algorithm. Comprehensive experiments are conducted on realistic HIT-IHC IoT testbeds and several algorithms are compared, including the allocation method originally used by HIT-IHC system to verify the effectiveness of the BRAD-GWA. The BRAD-GWA achieves a 3.14 times and 29.6% objective reduction compared with the HIT-IHC and the original GWO algorithm, respectively. </p>
                     </div>
                     <br style="line-height: 10px"/>
                 </li>
@@ -362,26 +412,16 @@
                     </div>
                     <br style="line-height: 10px"/>
                 </li>
+            </ol>
 
-
+            <br>
+            <h4>Thesis</h4>
+            <ol>
                 <li>
                     <p>
-                        <strong>Simultaneous Semantic Alignment Network for Heterogeneous Domain Adaptation</strong><br>
-                        Shuang Li, Binhui Xie, <strong>Jiashu Wu</strong>, Ying Zhao, Chi Harold Liu✉, Zhengming Ding<br>
-                        <em>ACMMM20 Proceedings of the 28th ACM International Conference on Multimedia (<a href="https://2020.acmmm.org/" target="_blank"><strong>ACM MM</strong></a>)</em>, 2020<br>
-                        CCF-A, EI, IS: 12.90<br>
-                        [ <img src="https://jiashuwu.github.io/Resource/docs.png" alt="" width="20" height="19">&nbsp;<a onclick=showHide("abstract_acmmm")>Abstract</a> ]
-                        [ <img src="https://jiashuwu.github.io/Resource/pdf.png" alt="" width="15.2" height="19">&nbsp;<a href="https://jiashuwu.github.io/Publication/Simultaneous Semantic Alignment Network for Heterogeneous Domain Adaptation.pdf" target="_blank" rel="noopener noreferrer">PDF</a> ]
-                        [ <img src="https://jiashuwu.github.io/Resource/github.png" alt="" width="16" height="16">&nbsp;<a href="https://github.com/BIT-DA/SSAN" target="_blank">Code</a> ]
-                        [ <img src="https://jiashuwu.github.io/Resource/link.png" alt="" width="16" height="16">&nbsp;<a href="https://dl.acm.org/doi/abs/10.1145/3394171.3413995" target="_blank">Link</a> ]
-                        [ <img src="https://jiashuwu.github.io/Resource/file.png" alt="" width="16" height="16">&nbsp;<a href="https://jiashuwu.github.io/Publication/acm_3394171.3413995.txt" target="_blank">BibTex</a> ]
-                        [ <img src="https://jiashuwu.github.io/Resource/doi.png" alt="" width="16" height="16">&nbsp;<a href="https://doi.org/10.1145/3394171.3413995" target="_blank">10.1145/3394171.3413995</a> ]
-                        [ <img src="https://jiashuwu.github.io/Resource/doi.png" alt="" width="16" height="16">&nbsp;<a href="https://jiashuwu.github.io/Publication/Simultaneous Semantic Alignment Network for Heterogeneous Domain Adaptation.html" target="_blank">WOS:000810735003101</a> ]
+                        <strong>[PhD Thesis] Research on IoT Intrusion Detection via Domain Adaptation Approach</strong><br>
+                        <em>PhD Thesis at University of Chinese Academy of Sciences</em> (Progressing)<br>
                     </p>
-                    <div class="abs_section" id="abstract_acmmm" style="display:none">
-                        <p>Heterogeneous domain adaptation (HDA) transfers knowledge across source and target domains that present heterogeneities e.g., distinct domain distributions and difference in feature type or dimension. Most previous HDA methods tackle this problem through learning a domain-invariant feature subspace to reduce the discrepancy between domains. However, the intrinsic semantic properties contained in data are under-explored in such alignment strategy, which is also indispensable to achieve promising adaptability. In this paper, we propose a Simultaneous Semantic Alignment Network (SSAN) to simultaneously exploit correlations among categories and align the centroids for each category across domains. In particular, we propose an implicit semantic correlation loss to transfer the correlation knowledge of source categorical prediction distributions to target domain. Meanwhile, by leveraging target pseudo-labels, a robust triplet-centroid alignment mechanism is explicitly applied to align feature representations for each category. Notably, a pseudo-label refinement procedure with geometric similarity involved is introduced to enhance the target pseudo-label assignment accuracy. Comprehensive experiments on various HDA tasks across text-to-image, image-to-image and text-to-text successfully validate the superiority of our SSAN against state-of-the-art HDA methods. The code is publicly available at https://github.com/BIT-DA/SSAN. </p>
-                    </div>
-                    <br style="line-height: 10px"/>
                 </li>
 
 
@@ -404,7 +444,7 @@
 
             <br>
 
-            <img src="https://jiashuwu.github.io/Resource/loading.png" alt="" width="16" height="16">&nbsp;Paper under review: <a onclick=showHide("publication_paper_under_review")>5 papers</a>
+            <img src="https://jiashuwu.github.io/Resource/loading.png" alt="" width="16" height="16">&nbsp;Paper under review: <a onclick=showHide("publication_paper_under_review")>4 papers</a>
 
             <div id="publication_paper_under_review" style="display:none">
                 <br>
@@ -412,15 +452,6 @@
                     <li>
                         <p>
                             <strong>Adaptive Bi-Recommendation and Self-improving Network for Heterogeneous Domain Adaptation-assisted IoT Intrusion Detection</strong><br>
-                            Submitted to <em>IEEE Internet of Things Journal</em> (SCI Q1)<br>
-                        </p>
-                        <br style="line-height: 10px"/>
-                    </li>
-
-
-                    <li>
-                        <p>
-                            <strong>Heterogeneous Domain Adaptation for IoT Intrusion Detection: A Geometric Graph Alignment Approach</strong><br>
                             Submitted to <em>IEEE Internet of Things Journal</em> (SCI Q1)<br>
                         </p>
                         <br style="line-height: 10px"/>
