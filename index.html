@@ -20,6 +20,19 @@
                 x.style.display="none";
             }
         }
+        function updateButton(idString) {
+            var x = document.getElementById(idString);
+            if (x.style.display=="none") {
+                x.style.display="block";
+            }else{
+                x.style.display="none";
+            }
+            if (document.getElementById("update_button").textContent=="Read More") {
+                document.getElementById("update_button").textContent = "Read Less";
+            }else{
+                document.getElementById("update_button").textContent = "Read More";
+            }
+        }
         function darkTheme() {
             var element = document.body;
             element.classList.toggle("dark-theme");
@@ -147,9 +160,12 @@
             <li>🎉 [Oct 2022] The paper <strong>Joint Semantic Transfer Network for IoT Intrusion Detection</strong> has been accepted by IEEE Internet of Things Journal (SCI Q1, <font color="#f06292">IF=10.24</font>)</li>
             <li>🎉 [Oct 2022] The paper <strong>Multi-Scenario Bimetric-Balanced IoT Resource Allocation: An Evolutionary Approach</strong> has been accepted by IEEE HPCC 2022 (CCF-C)</li>
             <li>🎉 [Jul 2022] The paper <strong>PackCache: An Online Cost-driven Data Caching Algorithm in the Cloud</strong> has been accepted by IEEE Transactions on Computers (CCF-A)</li>
+        </ul>
+        <ul id="update_more" style="display:none; margin-top:-10px;">
             <li>🎉 [Jun 2022] The paper <strong>Towards Scalable and Efficient Deep-RL in Edge Computing : A Game-based Partition Approach</strong> has been accepted by JPDC (SCI Q1)</li>
             <li>🎉 [Apr 2022] The patent CN202110331197.7 has been granted. </li>
         </ul>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onclick=updateButton("update_more") id="update_button">Read More</a>
 
 
         <div class="row" id="education">
@@ -203,7 +219,7 @@
             <h4>IoT Intrusion Detection and Domain Adaptation</h4>
             <div class="alert alert-success" role="alert">
                 <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                ✅&nbsp;CCF-A & SCI Q1: 4 papers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                ✅&nbsp;CCF-A & SCI Q1: 4 papers&nbsp;
                 </b>
             </div>
             <ol>
@@ -420,7 +436,7 @@
                 <li>
                     <p>
                         <strong>[PhD Thesis] Research on IoT Intrusion Detection via Domain Adaptation Approach</strong><br>
-                        <em>PhD Thesis at University of Chinese Academy of Sciences</em> (Progressing)<br>
+                        <em>PhD Thesis at University of Chinese Academy of Sciences</em> (En route)<br>
                     </p>
                 </li>
 
