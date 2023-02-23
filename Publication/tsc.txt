@@ -1,0 +1,9 @@
+@ARTICLE{10049541,
+  author={Dai, Hao and Wu, Jiashu and Wang, Yang and Yen, Jerome and Zhang, Yong and Xu, Chengzhong},
+  journal={IEEE Transactions on Services Computing}, 
+  title={Cost-Efficient Sharing Algorithms for DNN Model Serving in Mobile Edge Networks}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-14},
+  doi={10.1109/TSC.2023.3247049}}
