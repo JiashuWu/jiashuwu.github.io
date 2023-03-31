@@ -1,0 +1,10 @@
+@INPROCEEDINGS{10074824,
+  author={Wu, Jiashu and Dai, Hao and Wang, Yang and Tu, Zhiying},
+  booktitle={2022 IEEE 24th Int Conf on High Performance Computing & Communications; 8th Int Conf on Data Science & Systems; 20th Int Conf on Smart City; 8th Int Conf on Dependability in Sensor, Cloud & Big Data Systems & Application (HPCC/DSS/SmartCity/DependSys)}, 
+  title={Multi-Scenario Bimetric-balanced IoT Resource Allocation: An Evolutionary Approach}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={428-437},
+  doi={10.1109/HPCC-DSS-SmartCity-DependSys57074.2022.00086}
+}
