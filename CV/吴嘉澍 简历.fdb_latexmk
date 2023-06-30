@@ -1,12 +1,12 @@
 # Fdb version 3
-["xdvipdfmx"] 1688109512 "吴嘉澍 简历.xdv" "吴嘉澍 简历.pdf" "吴嘉澍 简历" 1688109512
-  "吴嘉澍 简历.xdv" 1688109512 48352 ee1a5146e2140b6709c005c64b900cb6 "xelatex"
+["xdvipdfmx"] 1688114432 "吴嘉澍 简历.xdv" "吴嘉澍 简历.pdf" "吴嘉澍 简历" 1688114433
+  "吴嘉澍 简历.xdv" 1688114432 47176 b2da7a30619cbd088a197e500719abfe "xelatex"
   (generated)
   "吴嘉澍 简历.pdf"
-["xelatex"] 1688109511 "/Users/jiashu/jiashuwu.github.io/CV/吴嘉澍 简历.tex" "吴嘉澍 简历.xdv" "吴嘉澍 简历" 1688109512
+["xelatex"] 1688114432 "/Users/jiashu/jiashuwu.github.io/CV/吴嘉澍 简历.tex" "吴嘉澍 简历.xdv" "吴嘉澍 简历" 1688114433
   "/System/Library/Fonts/Menlo.ttc" 1686823709 2156036 ec05dfca6821d85440da0899493002c3 ""
   "/System/Library/Fonts/PingFang.ttc" 1686823709 77871956 3d22e380c15f04df909e9b516b18342c ""
-  "/Users/jiashu/jiashuwu.github.io/CV/吴嘉澍 简历.tex" 1688107678 7117 08579a1bcb7722d3ebb2f4ab82d64cef ""
+  "/Users/jiashu/jiashuwu.github.io/CV/吴嘉澍 简历.tex" 1688114427 7261 dd44f23d48127af3cf4dbc754829408d ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -100,9 +100,9 @@
   "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/usr/local/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt" 1678931322 5419896 dabdf50ecc735d49db4a3f01f39fcacb ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "吴嘉澍 简历.aux" 1688109512 1315 8efa90a08d2279bad5b12de57580e85b "xelatex"
-  "吴嘉澍 简历.out" 1688109512 474 f650dcf26d083ea4d682690d5df00ce2 "xelatex"
-  "吴嘉澍 简历.tex" 1688107678 7117 08579a1bcb7722d3ebb2f4ab82d64cef ""
+  "吴嘉澍 简历.aux" 1688114432 1315 8efa90a08d2279bad5b12de57580e85b "xelatex"
+  "吴嘉澍 简历.out" 1688114432 474 f650dcf26d083ea4d682690d5df00ce2 "xelatex"
+  "吴嘉澍 简历.tex" 1688114427 7261 dd44f23d48127af3cf4dbc754829408d ""
   (generated)
   "吴嘉澍 简历.aux"
   "吴嘉澍 简历.log"
