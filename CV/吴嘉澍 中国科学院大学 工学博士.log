@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.16)  1 JUL 2023 13:00
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.16)  1 JUL 2023 13:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/jiashu/jiashuwu.github.io/CV/吴嘉澍 简历.tex"
-(/Users/jiashu/jiashuwu.github.io/CV/吴嘉澍 简历.tex
+**"/Users/jiashu/jiashuwu.github.io/CV/吴嘉澍 中国科学院大学 工学博士.tex"
+(/Users/jiashu/jiashuwu.github.io/CV/吴嘉澍 中国科学院大学 工学博士.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -397,8 +397,8 @@ Package fontspec Info: Font family 'STSongti-SC-Regular(0)' created for font
 (fontspec)             <->"STSongti-SC-Regular/BI/OT:language=dflt;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-(./吴嘉澍 简历.aux)
-\openout1 = `"吴嘉澍 简历.aux"'.
+(./吴嘉澍 中国科学院大学 工学博士.aux)
+\openout1 = `"吴嘉澍 中国科学院大学 工学博士.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
@@ -490,9 +490,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 31.
 LaTeX Info: Redefining \pageref on input line 31.
 LaTeX Info: Redefining \nameref on input line 31.
- (./吴嘉澍 简历.out) (./吴嘉澍 简历.out)
+ (./吴嘉澍 中国科学院大学 工学博士.out) (./吴嘉澍 中国科学院大学 工学博士.out)
 \@outlinefile=\write3
-\openout3 = `"吴嘉澍 简历.out"'.
+\openout3 = `"吴嘉澍 中国科学院大学 工学博士.out"'.
 
 
 *geometry* driver: auto-detecting
@@ -542,20 +542,20 @@ LaTeX Font Warning: Font shape `TU/STSongti-SC-Regular(0)/m/sc' undefined
 LaTeX Font Info:    Trying to load font information for U+mvs on input line 93.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/marvosym/umvs.fd) [1
 
-] [2] (./吴嘉澍 简历.aux)
+] [2] (./吴嘉澍 中国科学院大学 工学博士.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `"吴嘉澍 简历".out' has not changed.
+Package rerunfilecheck Info: File `"吴嘉澍 中国科学院大学 工学博士".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
  14699 strings out of 476179
- 319047 string characters out of 5809544
- 675990 words of memory out of 5000000
+ 319237 string characters out of 5809544
+ 676040 words of memory out of 5000000
  35238 multiletter control sequences out of 15000+600000
  474939 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,7n,97p,404b,431s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,7n,97p,414b,431s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 吴嘉澍 简历.xdv (2 pages, 48116 bytes).
+Output written on 吴嘉澍 中国科学院大学 工学博士.xdv (2 pages, 48116 bytes).

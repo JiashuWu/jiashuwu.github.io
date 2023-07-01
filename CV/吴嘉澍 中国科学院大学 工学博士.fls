@@ -2,8 +2,8 @@ PWD /Users/jiashu/jiashuwu.github.io/CV
 INPUT /usr/local/texlive/2022/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt
-INPUT /Users/jiashu/jiashuwu.github.io/CV/吴嘉澍 简历.tex
-OUTPUT 吴嘉澍 简历.log
+INPUT /Users/jiashu/jiashuwu.github.io/CV/吴嘉澍 中国科学院大学 工学博士.tex
+OUTPUT 吴嘉澍 中国科学院大学 工学博士.log
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
@@ -649,10 +649,10 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/setspace/setspace.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/setspace/setspace.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/setspace/setspace.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/setspace/setspace.sty
-INPUT ./吴嘉澍 简历.aux
-INPUT 吴嘉澍 简历.aux
-INPUT 吴嘉澍 简历.aux
-OUTPUT 吴嘉澍 简历.aux
+INPUT ./吴嘉澍 中国科学院大学 工学博士.aux
+INPUT 吴嘉澍 中国科学院大学 工学博士.aux
+INPUT 吴嘉澍 中国科学院大学 工学博士.aux
+OUTPUT 吴嘉澍 中国科学院大学 工学博士.aux
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -690,15 +690,15 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestri
 INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-INPUT ./吴嘉澍 简历.out
-INPUT 吴嘉澍 简历.out
-INPUT ./吴嘉澍 简历.out
-INPUT 吴嘉澍 简历.out
-INPUT ./吴嘉澍 简历.out
-INPUT 吴嘉澍 简历.out
-INPUT ./吴嘉澍 简历.out
-INPUT 吴嘉澍 简历.out
-OUTPUT 吴嘉澍 简历.out
+INPUT ./吴嘉澍 中国科学院大学 工学博士.out
+INPUT 吴嘉澍 中国科学院大学 工学博士.out
+INPUT ./吴嘉澍 中国科学院大学 工学博士.out
+INPUT 吴嘉澍 中国科学院大学 工学博士.out
+INPUT ./吴嘉澍 中国科学院大学 工学博士.out
+INPUT 吴嘉澍 中国科学院大学 工学博士.out
+INPUT ./吴嘉澍 中国科学院大学 工学博士.out
+INPUT 吴嘉澍 中国科学院大学 工学博士.out
+OUTPUT 吴嘉澍 中国科学院大学 工学博士.out
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
@@ -716,5 +716,5 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/marvosym/umvs.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/marvosym/umvs.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/marvosym/umvs.fd
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/marvosym/umvs.tfm
-OUTPUT 吴嘉澍 简历.xdv
-INPUT 吴嘉澍 简历.aux
+OUTPUT 吴嘉澍 中国科学院大学 工学博士.xdv
+INPUT 吴嘉澍 中国科学院大学 工学博士.aux
