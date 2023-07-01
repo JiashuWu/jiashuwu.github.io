@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.16)  30 JUN 2023 16:40
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.16)  1 JUL 2023 13:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -530,16 +530,16 @@ LaTeX Info: Redefining \nameref on input line 31.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 33.
+(Font)              <10.95> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 33.
+(Font)              <8> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 33.
+(Font)              <6> on input line 35.
 
 LaTeX Font Warning: Font shape `TU/STSongti-SC-Regular(0)/m/sc' undefined
-(Font)              using `TU/STSongti-SC-Regular(0)/m/n' instead on input line 41.
+(Font)              using `TU/STSongti-SC-Regular(0)/m/n' instead on input line 47.
 
-LaTeX Font Info:    Trying to load font information for U+mvs on input line 80.
+LaTeX Font Info:    Trying to load font information for U+mvs on input line 93.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/marvosym/umvs.fd) [1
 
 ] [2] (./吴嘉澍 简历.aux)
@@ -550,12 +550,12 @@ Package rerunfilecheck Info: File `"吴嘉澍 简历".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 14690 strings out of 476179
- 318337 string characters out of 5809544
- 676990 words of memory out of 5000000
- 35229 multiletter control sequences out of 15000+600000
+ 14699 strings out of 476179
+ 319047 string characters out of 5809544
+ 675990 words of memory out of 5000000
+ 35238 multiletter control sequences out of 15000+600000
  474939 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,7n,97p,404b,431s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 吴嘉澍 简历.xdv (2 pages, 47176 bytes).
+Output written on 吴嘉澍 简历.xdv (2 pages, 48116 bytes).
