@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.16)  4 JUL 2023 14:16
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.16)  4 JUL 2023 14:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -449,8 +449,13 @@ Package fontspec Info: Could not resolve font "STSongti-SC-Regular/I" (it
 (fontspec)             probably doesn't exist).
 
 
+Package fontspec Info: Could not resolve font "STSongti-SC-Regular/I" (it
+(fontspec)             probably doesn't exist).
+
+
 Package fontspec Info: Font family 'STSongti-SC-Regular(0)' created for font
-(fontspec)             'STSongti-SC-Regular' with options [Script={CJK}].
+(fontspec)             'STSongti-SC-Regular' with options
+(fontspec)             [Script={CJK},AutoFakeBold={4}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
@@ -459,7 +464,7 @@ Package fontspec Info: Font family 'STSongti-SC-Regular(0)' created for font
 (fontspec)             <->"STSongti-SC-Regular/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"STSongti-SC-Regular/B/OT:language=dflt;"
+(fontspec)             <->"STSongti-SC-Regular/OT:language=dflt;embolden=4;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
 (fontspec)             <->"STSongti-SC-Regular/BI/OT:language=dflt;"
@@ -619,11 +624,11 @@ Package rerunfilecheck Info: File `"吴嘉澍 中国科学院大学 工学博士
  ) 
 Here is how much of TeX's memory you used:
  14856 strings out of 476179
- 322597 string characters out of 5809544
- 682003 words of memory out of 5000000
+ 322613 string characters out of 5809544
+ 682205 words of memory out of 5000000
  35387 multiletter control sequences out of 15000+600000
  474963 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,7n,97p,414b,431s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 吴嘉澍 中国科学院大学 工学博士.xdv (2 pages, 54372 bytes).
+Output written on 吴嘉澍 中国科学院大学 工学博士.xdv (2 pages, 54380 bytes).
