@@ -3,6 +3,9 @@
 % Website: jiashuwu.github.io %
 %*****************************%
 
+% For highlighted version, compile on OVERLEAF
+% For plain version, compile on MAC
+
 \documentclass[UTF8,letterpaper,11pt]{article}
 
 \usepackage[UTF8]{ctex}
@@ -18,7 +21,7 @@
 \usepackage{multicol}
 \geometry{margin=39pt}
 \singlespacing
-\setCJKmainfont{STSongti-SC-Regular}
+\setCJKmainfont{STSongti-SC-Regular}%MAC, REMOVE ON OVERLEAF
 
 \raggedright
 \setlength{\tabcolsep}{0in}
@@ -27,11 +30,10 @@
   \vspace{-4pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
-\newcommand{\RNum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
-
 \begin{document}
+%\begin{CJK}%OVERLEAF, REMOVE ON MAC
 
-%===================
+% ********* MAIN CONTENT ********* %
 
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \huge \textbf{吴嘉澍} & 手机/微信：\href{tel:8617801323125}{+86-17801323125}\vspace{2pt}\\
@@ -194,4 +196,6 @@
 
 语言能力：英语雅思学术类7.0分，大学四级考试665分（阅读部分满分），拥有澳洲五年学习生活经历，适应全英文环境，可熟练进行英文写作与交流。
 
+% ********* END OF THE DOCUMENT ********* %
+%\end{CJK}%OVERLEAF, REMOVE ON MAC
 \end{document}
