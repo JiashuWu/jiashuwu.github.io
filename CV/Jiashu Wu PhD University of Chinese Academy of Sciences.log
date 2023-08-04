@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.16)  4 AUG 2023 14:15
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.16)  4 AUG 2023 15:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -8,8 +8,8 @@ entering extended mode
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count181
 \c@section=\count182
@@ -269,7 +269,12 @@ File: l3backend-xetex.def 2022-02-07 L3 backend support: XeTeX
 \g__pdf_backend_object_int=\count284
 \g__pdf_backend_annotation_int=\count285
 \g__pdf_backend_link_int=\count286
-) (./Jiashu Wu PhD University of Chinese Academy of Sciences.aux)
+)
+
+LaTeX Warning: Unused global option(s):
+    [10.9pt].
+
+(./Jiashu Wu PhD University of Chinese Academy of Sciences.aux)
 \openout1 = `"Jiashu Wu PhD University of Chinese Academy of Sciences.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
@@ -333,12 +338,12 @@ LaTeX Info: Redefining \nameref on input line 28.
 * \topmargin=-33.26999pt
 * \headheight=0.0pt
 * \headsep=0.0pt
-* \topskip=11.0pt
+* \topskip=10.0pt
 * \footskip=0.0pt
-* \marginparwidth=59.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -349,31 +354,37 @@ LaTeX Info: Redefining \nameref on input line 28.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 30.
+(Font)              <7> on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 30.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 30.
+(Font)              <5> on input line 30.
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 30.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+mvs on input line 83.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/marvosym/umvs.fd) [1
+
+LaTeX Font Warning: Font shape `TU/lmr/bx/sc' undefined
+(Font)              using `TU/lmr/bx/n' instead on input line 42.
+
+LaTeX Font Info:    Trying to load font information for U+mvs on input line 90.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/marvosym/umvs.fd) [1
 
 ]
 Missing character: There is no ， (U+FF0C) in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ， (U+FF0C) in font [lmroman10-bold]:mapping=tex-text;!
 [2] (./Jiashu Wu PhD University of Chinese Academy of Sciences.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `"Jiashu Wu PhD University of Chinese Academy of Sciences".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 9366 strings out of 476179
- 149595 string characters out of 5809544
- 470395 words of memory out of 5000000
- 30002 multiletter control sequences out of 15000+600000
- 473169 words of font info for 51 fonts, out of 8000000 for 9000
+ 9355 strings out of 476179
+ 149483 string characters out of 5809544
+ 472602 words of memory out of 5000000
+ 29996 multiletter control sequences out of 15000+600000
+ 470438 words of font info for 43 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 60i,10n,64p,443b,411s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,10n,64p,445b,411s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Jiashu Wu PhD University of Chinese Academy of Sciences.xdv (2 pages, 59228 bytes).
+Output written on Jiashu Wu PhD University of Chinese Academy of Sciences.xdv (2 pages, 76028 bytes).

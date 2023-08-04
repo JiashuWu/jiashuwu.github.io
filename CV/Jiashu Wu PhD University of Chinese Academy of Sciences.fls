@@ -15,10 +15,10 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/size11.clo
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/size11.clo
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/size11.clo
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/size11.clo
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/size10.clo
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/latexsym.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/latexsym.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/latexsym.sty
@@ -506,22 +506,13 @@ INPUT Jiashu Wu PhD University of Chinese Academy of Sciences.out
 INPUT ./Jiashu Wu PhD University of Chinese Academy of Sciences.out
 INPUT Jiashu Wu PhD University of Chinese Academy of Sciences.out
 OUTPUT Jiashu Wu PhD University of Chinese Academy of Sciences.out
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/ulasy.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/ulasy.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/ulasy.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/ulasy.fd
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/latex-fonts/lasy8.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/latex-fonts/lasy7.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/marvosym/umvs.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/marvosym/umvs.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/marvosym/umvs.fd
