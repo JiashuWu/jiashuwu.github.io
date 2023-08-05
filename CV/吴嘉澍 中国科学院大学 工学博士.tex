@@ -6,7 +6,9 @@
 % For highlighted version, compile on OVERLEAF
 % For plain version, compile on MAC
 
-\documentclass[UTF8,letterpaper,11pt]{article}
+%\documentclass[UTF8,letterpaper,11pt]{article}
+% Use this for photo version
+\documentclass[UTF8,letterpaper,10.9pt]{article}
 
 \usepackage[UTF8]{ctex}
 \usepackage{latexsym}
@@ -19,6 +21,8 @@
 \usepackage{geometry}
 \usepackage{setspace}
 \usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{multirow}
 \geometry{margin=39pt}
 \singlespacing
 \setCJKmainfont{STSongti-SC-Regular}%MAC, REMOVE ON OVERLEAF
@@ -35,11 +39,25 @@
 
 % ********* MAIN CONTENT ********* %
 
+% Non photo version
+\iffalse
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \huge \textbf{吴嘉澍} & 手机/微信：\href{tel:17801323125}{17801323125}\vspace{2pt}\\
   \Large 中国科学院大学工学博士 & 邮箱：\href{mailto:wujiashu21@mails.ucas.ac.cn}{wujiashu21@mails.ucas.ac.cn}\vspace{2pt}\\
   性别：男\hspace{5mm}生日：1997年6月13日\hspace{5mm}籍贯/生源地：北京市海淀区 & 个人主页：\href{https://jiashuwu.github.io}{jiashuwu.github.io}\\
 \end{tabular*}
+\fi
+
+% Photo version
+\iftrue
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  & \multirow{4}{*}{\includegraphics[width=2cm,keepaspectratio]{WUJIASHU.jpg}}\\
+  \huge \textbf{吴嘉澍}\vspace{2pt}\\
+  \Large 中国科学院大学工学博士\vspace{2pt}\\
+  性别：男\hspace{5mm}生日：1997年6月13日\hspace{5mm}籍贯/生源地：北京市海淀区\\
+  手机/微信：\href{tel:17801323125}{17801323125}，邮箱：\href{mailto:wujiashu21@mails.ucas.ac.cn}{wujiashu21@mails.ucas.ac.cn}，个人主页：\href{https://jiashuwu.github.io}{jiashuwu.github.io}
+\end{tabular*}
+\fi
 
 \vspace{1pt}
 
