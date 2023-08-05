@@ -562,9 +562,6 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/ulasy.fd
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/latex-fonts/lasy7.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm
-INPUT ./WUJIASHU.jpg
-INPUT ./WUJIASHU.jpg
-INPUT WUJIASHU.jpg
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/marvosym/umvs.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/marvosym/umvs.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/marvosym/umvs.fd

@@ -6,9 +6,9 @@
 % For highlighted version, compile on OVERLEAF
 % For plain version, compile on MAC
 
-%\documentclass[UTF8,letterpaper,11pt]{article}
+\documentclass[UTF8,letterpaper,11pt]{article}
 % Use this for photo version
-\documentclass[UTF8,letterpaper,10.9pt]{article}
+%\documentclass[UTF8,letterpaper,10.9pt]{article}
 
 \usepackage[UTF8]{ctex}
 \usepackage{latexsym}
@@ -40,7 +40,7 @@
 % ********* MAIN CONTENT ********* %
 
 % Non photo version
-\iffalse
+\iftrue
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \huge \textbf{吴嘉澍} & 手机/微信：\href{tel:17801323125}{17801323125}\vspace{2pt}\\
   \Large 中国科学院大学工学博士 & 邮箱：\href{mailto:wujiashu21@mails.ucas.ac.cn}{wujiashu21@mails.ucas.ac.cn}\vspace{2pt}\\
@@ -49,7 +49,7 @@
 \fi
 
 % Photo version
-\iftrue
+\iffalse
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   & \multirow{4}{*}{\includegraphics[width=2cm,keepaspectratio]{WUJIASHU.jpg}}\\
   \huge \textbf{吴嘉澍}\vspace{2pt}\\
