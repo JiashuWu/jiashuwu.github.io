@@ -1,10 +1,10 @@
 # Fdb version 3
-["xdvipdfmx"] 1691231428 "Jiashu Wu PhD University of Chinese Academy of Sciences.xdv" "Jiashu Wu PhD University of Chinese Academy of Sciences.pdf" "Jiashu Wu PhD University of Chinese Academy of Sciences" 1691231428
-  "Jiashu Wu PhD University of Chinese Academy of Sciences.xdv" 1691231428 78404 5aa353e42ef411d0bb56a32bfb079358 "xelatex"
+["xdvipdfmx"] 1691236355 "Jiashu Wu PhD University of Chinese Academy of Sciences.xdv" "Jiashu Wu PhD University of Chinese Academy of Sciences.pdf" "Jiashu Wu PhD University of Chinese Academy of Sciences" 1691236355
+  "Jiashu Wu PhD University of Chinese Academy of Sciences.xdv" 1691236355 78532 e45844f1fe77f1c37907404c3cb3cb89 "xelatex"
   (generated)
   "Jiashu Wu PhD University of Chinese Academy of Sciences.pdf"
-["xelatex"] 1691231428 "/Users/jiashu/jiashuwu.github.io/CV/Jiashu Wu PhD University of Chinese Academy of Sciences.tex" "Jiashu Wu PhD University of Chinese Academy of Sciences.xdv" "Jiashu Wu PhD University of Chinese Academy of Sciences" 1691231428
-  "/Users/jiashu/jiashuwu.github.io/CV/Jiashu Wu PhD University of Chinese Academy of Sciences.tex" 1691231426 10009 7e2bb8bbc37588bcb23a915236d3873d ""
+["xelatex"] 1691236355 "/Users/jiashu/jiashuwu.github.io/CV/Jiashu Wu PhD University of Chinese Academy of Sciences.tex" "Jiashu Wu PhD University of Chinese Academy of Sciences.xdv" "Jiashu Wu PhD University of Chinese Academy of Sciences" 1691236355
+  "/Users/jiashu/jiashuwu.github.io/CV/Jiashu Wu PhD University of Chinese Academy of Sciences.tex" 1691236353 10629 30cccc545bdaf4360ff39526b43fc195 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm" 1136768653 520 82a3d37183f34b6eb363a161dfc002c2 ""
@@ -39,10 +39,14 @@
   "/usr/local/texlive/2022/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1612734021 17086 7ed8cbc4d361ec87392817e0dd4f65ec ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/xetex.def" 1616189247 15263 06bfc49e20bdfcb827e011063ecb4ae6 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/color.sty" 1639603921 7197 eb6c1ebf41667a05cb50c23c19d5e8bc ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/dvipsnam.def" 1622581934 4995 8040f614c8de8318a0b5b2dea8a3fcef ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty" 1622581934 18399 7e40f80366dffb22c0e7b70517db5cb4 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty" 1636758526 7996 a8fb260d598dcaf305a7ae7b9c3e3229 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty" 1622581934 2671 4de6781a30211fe0ea4c672e4a2a8166 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty" 1636758526 4009 187ea2dc3194cd5a76cd99a8d7a6c4d0 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty" 1580250785 17914 4c28a13fc3d975e6e81c9bea1d697276 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hxetex.def" 1645564115 45016 0a35faa45750bcb80114f8df2443e9c1 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty" 1645564115 220999 6145ea83914c186e178d1d31c50b37df ""
@@ -54,6 +58,7 @@
   "/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty" 1575499565 5766 13a9e8766c47f30327caf893ece86ac8 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/marvosym/marvosym.sty" 1333989323 9393 ceaf2ea8eb2c81fdb168323fc5fffc89 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/marvosym/umvs.fd" 1169658918 111 395c88825a74c0d7a4afff69645f4d03 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty" 1615845910 6149 2398eec4faa1ee24ff761581e580ecf1 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/preprint/fullpage.sty" 1137110595 2789 05b418f78b224ec872f5b11081138605 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1575674187 9715 b051d5b493d9fe5f4bc251462d039e5f ""
@@ -64,9 +69,10 @@
   "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/usr/local/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt" 1678931322 5419896 dabdf50ecc735d49db4a3f01f39fcacb ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "Jiashu Wu PhD University of Chinese Academy of Sciences.aux" 1691231428 1404 d46ac484015fbfbd685bea6fa2f33a23 "xelatex"
-  "Jiashu Wu PhD University of Chinese Academy of Sciences.out" 1691231428 799 929f7e2d3192b63062e7567278a05ea8 "xelatex"
-  "Jiashu Wu PhD University of Chinese Academy of Sciences.tex" 1691231426 10009 7e2bb8bbc37588bcb23a915236d3873d ""
+  "Jiashu Wu PhD University of Chinese Academy of Sciences.aux" 1691236355 1404 d46ac484015fbfbd685bea6fa2f33a23 "xelatex"
+  "Jiashu Wu PhD University of Chinese Academy of Sciences.out" 1691236355 799 929f7e2d3192b63062e7567278a05ea8 "xelatex"
+  "Jiashu Wu PhD University of Chinese Academy of Sciences.tex" 1691236353 10629 30cccc545bdaf4360ff39526b43fc195 ""
+  "WUJIASHU.jpg" 1690698019 1001786 e34ab90727053ac6b06e2010e0a602a9 ""
   (generated)
   "Jiashu Wu PhD University of Chinese Academy of Sciences.aux"
   "Jiashu Wu PhD University of Chinese Academy of Sciences.log"

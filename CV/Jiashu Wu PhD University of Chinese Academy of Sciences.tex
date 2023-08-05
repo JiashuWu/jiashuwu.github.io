@@ -15,6 +15,8 @@
 \usepackage{geometry}
 \usepackage{setspace}
 \usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{multirow}
 \geometry{margin=39pt}
 \singlespacing
 
@@ -27,13 +29,25 @@
 
 \begin{document}
 
+% Non photo version
+\iffalse
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \huge \textbf{Jiashu Wu} & Phone/WeChat: \href{tel:17801323125}{17801323125}\vspace{2pt}\\
   \Large Ph.D. University of Chinese Academy of Sciences & Email: \href{mailto:wujiashu21@mails.ucas.ac.cn}{wujiashu21@mails.ucas.ac.cn}\vspace{2pt}\\
   DoB: 13\textsuperscript{th} Jun 1997, Hometown: Beijing, China & Homepage: \href{https://jiashuwu.github.io}{jiashuwu.github.io}\\
 \end{tabular*}
+\fi
 
-%\vspace{1pt}
+% Photo version
+\iftrue
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+   & \multirow{4}{*}{\includegraphics[width=2cm,keepaspectratio]{WUJIASHU.jpg}}\\
+  \huge \textbf{Jiashu Wu}\vspace{2pt}\\
+  \Large Ph.D. University of Chinese Academy of Sciences\vspace{2pt}\\
+  DoB: 13\textsuperscript{th} Jun 1997, Hometown: Beijing, China\\
+  Phone/WeChat: \href{tel:17801323125}{17801323125}, Email: \href{mailto:wujiashu21@mails.ucas.ac.cn}{wujiashu21@mails.ucas.ac.cn}, Homepage: \href{https://jiashuwu.github.io}{jiashuwu.github.io}\\
+\end{tabular*}
+\fi
 
 
 
