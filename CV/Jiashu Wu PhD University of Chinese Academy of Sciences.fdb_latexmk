@@ -1,16 +1,15 @@
 # Fdb version 3
-["xdvipdfmx"] 1692014055 "Jiashu Wu PhD University of Chinese Academy of Sciences.xdv" "Jiashu Wu PhD University of Chinese Academy of Sciences.pdf" "Jiashu Wu PhD University of Chinese Academy of Sciences" 1692014055
-  "Jiashu Wu PhD University of Chinese Academy of Sciences.xdv" 1692014055 78600 98c3675da20bc7f5451f6f5eb055a2eb "xelatex"
+["xdvipdfmx"] 1692161643 "Jiashu Wu PhD University of Chinese Academy of Sciences.xdv" "Jiashu Wu PhD University of Chinese Academy of Sciences.pdf" "Jiashu Wu PhD University of Chinese Academy of Sciences" 1692161643
+  "Jiashu Wu PhD University of Chinese Academy of Sciences.xdv" 1692161643 76516 deae7f07549d4fda80fbca50c5061c19 "xelatex"
   (generated)
   "Jiashu Wu PhD University of Chinese Academy of Sciences.pdf"
-["xelatex"] 1692014055 "/Users/jiashu/jiashuwu.github.io/CV/Jiashu Wu PhD University of Chinese Academy of Sciences.tex" "Jiashu Wu PhD University of Chinese Academy of Sciences.xdv" "Jiashu Wu PhD University of Chinese Academy of Sciences" 1692014055
-  "/Users/jiashu/jiashuwu.github.io/CV/Jiashu Wu PhD University of Chinese Academy of Sciences.tex" 1692014053 10652 1b6229611adf3f3b054a4bb234cc6a5b ""
+["xelatex"] 1692161642 "/Users/jiashu/jiashuwu.github.io/CV/Jiashu Wu PhD University of Chinese Academy of Sciences.tex" "Jiashu Wu PhD University of Chinese Academy of Sciences.xdv" "Jiashu Wu PhD University of Chinese Academy of Sciences" 1692161643
+  "/Users/jiashu/jiashuwu.github.io/CV/Jiashu Wu PhD University of Chinese Academy of Sciences.tex" 1692161641 10253 8c59c279001a6f10c03d467f014fa244 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm" 1136768653 520 82a3d37183f34b6eb363a161dfc002c2 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm" 1136768653 520 d082ac03a1087bc1ec2a06e24a9f68c0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/latex-fonts/lasy7.tfm" 1136768653 520 a74c6ed8cb48679fdc3ea874d9d34a7e ""
-  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/marvosym/umvs.tfm" 1313968873 1772 135d23849cb646acc6bb1ae8d73e3f78 ""
   "/usr/local/texlive/2022/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1576625341 40635 c40361e206be584d448876bba8a64a3b ""
   "/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty" 1576016050 33961 6b5c75130e435b2bfdb9f480a09a39f9 ""
@@ -57,7 +56,6 @@
   "/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-xetex.def" 1644269979 37342 b51153c40d53583f92f15327233c15d1 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty" 1575499565 5766 13a9e8766c47f30327caf893ece86ac8 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/marvosym/marvosym.sty" 1333989323 9393 ceaf2ea8eb2c81fdb168323fc5fffc89 ""
-  "/usr/local/texlive/2022/texmf-dist/tex/latex/marvosym/umvs.fd" 1169658918 111 395c88825a74c0d7a4afff69645f4d03 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty" 1615845910 6149 2398eec4faa1ee24ff761581e580ecf1 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/preprint/fullpage.sty" 1137110595 2789 05b418f78b224ec872f5b11081138605 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
@@ -69,9 +67,9 @@
   "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/usr/local/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt" 1678931322 5419896 dabdf50ecc735d49db4a3f01f39fcacb ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "Jiashu Wu PhD University of Chinese Academy of Sciences.aux" 1692014055 1404 d46ac484015fbfbd685bea6fa2f33a23 "xelatex"
-  "Jiashu Wu PhD University of Chinese Academy of Sciences.out" 1692014055 799 929f7e2d3192b63062e7567278a05ea8 "xelatex"
-  "Jiashu Wu PhD University of Chinese Academy of Sciences.tex" 1692014053 10652 1b6229611adf3f3b054a4bb234cc6a5b ""
+  "Jiashu Wu PhD University of Chinese Academy of Sciences.aux" 1692161643 1404 fa68d1b16a87f4ac38faa09f8fa0b707 "xelatex"
+  "Jiashu Wu PhD University of Chinese Academy of Sciences.out" 1692161643 799 76d7b777da4aaaf895cee9db4aa34c06 "xelatex"
+  "Jiashu Wu PhD University of Chinese Academy of Sciences.tex" 1692161641 10253 8c59c279001a6f10c03d467f014fa244 ""
   (generated)
   "Jiashu Wu PhD University of Chinese Academy of Sciences.aux"
   "Jiashu Wu PhD University of Chinese Academy of Sciences.log"

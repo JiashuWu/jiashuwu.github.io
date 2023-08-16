@@ -771,10 +771,5 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/marvosym/umvs.fd
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/marvosym/umvs.fd
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/marvosym/umvs.fd
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/marvosym/umvs.fd
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/marvosym/umvs.tfm
 OUTPUT 吴嘉澍 中国科学院大学 工学博士.xdv
 INPUT 吴嘉澍 中国科学院大学 工学博士.aux

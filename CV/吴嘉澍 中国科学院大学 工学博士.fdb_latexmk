@@ -1,12 +1,12 @@
 # Fdb version 3
-["xdvipdfmx"] 1692012955 "吴嘉澍 中国科学院大学 工学博士.xdv" "吴嘉澍 中国科学院大学 工学博士.pdf" "吴嘉澍 中国科学院大学 工学博士" 1692012955
-  "吴嘉澍 中国科学院大学 工学博士.xdv" 1692012955 60048 a7921fff0361f5203abfc55e5767458a "xelatex"
+["xdvipdfmx"] 1692159008 "吴嘉澍 中国科学院大学 工学博士.xdv" "吴嘉澍 中国科学院大学 工学博士.pdf" "吴嘉澍 中国科学院大学 工学博士" 1692159009
+  "吴嘉澍 中国科学院大学 工学博士.xdv" 1692159008 55232 34b468ae99b492847ecc51b535f88a28 "xelatex"
   (generated)
   "吴嘉澍 中国科学院大学 工学博士.pdf"
-["xelatex"] 1692012954 "/Users/jiashu/jiashuwu.github.io/CV/吴嘉澍 中国科学院大学 工学博士.tex" "吴嘉澍 中国科学院大学 工学博士.xdv" "吴嘉澍 中国科学院大学 工学博士" 1692012955
+["xelatex"] 1692159007 "/Users/jiashu/jiashuwu.github.io/CV/吴嘉澍 中国科学院大学 工学博士.tex" "吴嘉澍 中国科学院大学 工学博士.xdv" "吴嘉澍 中国科学院大学 工学博士" 1692159009
   "/System/Library/Fonts/Menlo.ttc" 1689065782 2156036 ec05dfca6821d85440da0899493002c3 ""
   "/System/Library/Fonts/PingFang.ttc" 1689065782 77871956 3d22e380c15f04df909e9b516b18342c ""
-  "/Users/jiashu/jiashuwu.github.io/CV/吴嘉澍 中国科学院大学 工学博士.tex" 1692012951 11389 1f157a42b51305db816a2145d4d0f95a ""
+  "/Users/jiashu/jiashuwu.github.io/CV/吴嘉澍 中国科学院大学 工学博士.tex" 1692159004 10756 941ac6c18ba45fc7c93d7befb0ddffcd ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -21,7 +21,6 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm" 1136768653 520 82a3d37183f34b6eb363a161dfc002c2 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1136768653 520 4889cce2180234b97cad636b6039c722 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/latex-fonts/lasy8.tfm" 1136768653 520 7bb3abb160b19e0ed6ac404bb59052b7 ""
-  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/marvosym/umvs.tfm" 1313968873 1772 135d23849cb646acc6bb1ae8d73e3f78 ""
   "/usr/local/texlive/2022/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1576625341 40635 c40361e206be584d448876bba8a64a3b ""
   "/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty" 1576016050 33961 6b5c75130e435b2bfdb9f480a09a39f9 ""
@@ -88,7 +87,6 @@
   "/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty" 1642022539 47954 630a20f4097c4a058a3cd46693f91d20 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty" 1575499565 5766 13a9e8766c47f30327caf893ece86ac8 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/marvosym/marvosym.sty" 1333989323 9393 ceaf2ea8eb2c81fdb168323fc5fffc89 ""
-  "/usr/local/texlive/2022/texmf-dist/tex/latex/marvosym/umvs.fd" 1169658918 111 395c88825a74c0d7a4afff69645f4d03 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty" 1615845910 6149 2398eec4faa1ee24ff761581e580ecf1 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/preprint/fullpage.sty" 1137110595 2789 05b418f78b224ec872f5b11081138605 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
@@ -106,9 +104,9 @@
   "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/usr/local/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt" 1678931322 5419896 dabdf50ecc735d49db4a3f01f39fcacb ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "吴嘉澍 中国科学院大学 工学博士.aux" 1692012955 1396 5e6c5bd0d3f1c867def798690ee0f632 "xelatex"
-  "吴嘉澍 中国科学院大学 工学博士.out" 1692012955 514 383768c4e87bcec30934c2b0ec8ef96d "xelatex"
-  "吴嘉澍 中国科学院大学 工学博士.tex" 1692012951 11389 1f157a42b51305db816a2145d4d0f95a ""
+  "吴嘉澍 中国科学院大学 工学博士.aux" 1692159008 1396 a47496b13cf86d1c7cfa1dec0d509d37 "xelatex"
+  "吴嘉澍 中国科学院大学 工学博士.out" 1692159008 514 ccfbbc4d1f7698fb28e011fb6201e856 "xelatex"
+  "吴嘉澍 中国科学院大学 工学博士.tex" 1692159004 10756 941ac6c18ba45fc7c93d7befb0ddffcd ""
   (generated)
   "吴嘉澍 中国科学院大学 工学博士.aux"
   "吴嘉澍 中国科学院大学 工学博士.log"
