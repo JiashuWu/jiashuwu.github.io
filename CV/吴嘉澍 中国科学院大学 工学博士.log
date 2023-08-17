@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.16)  17 AUG 2023 08:34
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.16)  17 AUG 2023 09:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -640,12 +640,12 @@ Package rerunfilecheck Info: File `"吴嘉澍 中国科学院大学 工学博士
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 15200 strings out of 476179
- 329753 string characters out of 5809544
- 697467 words of memory out of 5000000
- 35718 multiletter control sequences out of 15000+600000
+ 15222 strings out of 476179
+ 331465 string characters out of 5809544
+ 698467 words of memory out of 5000000
+ 35740 multiletter control sequences out of 15000+600000
  474550 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,7n,97p,414b,412s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 吴嘉澍 中国科学院大学 工学博士.xdv (2 pages, 56160 bytes).
+Output written on 吴嘉澍 中国科学院大学 工学博士.xdv (2 pages, 56140 bytes).
