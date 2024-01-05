@@ -1,7 +1,7 @@
 PWD /Users/jiashu/jiashuwu.github.io/CV
 INPUT /usr/local/texlive/2022/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
-INPUT /usr/local/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt
+INPUT /usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
 INPUT /Users/jiashu/jiashuwu.github.io/CV/Jiashu Wu PhD University of Chinese Academy of Sciences.tex
 OUTPUT Jiashu Wu PhD University of Chinese Academy of Sciences.log
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
@@ -67,10 +67,10 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/xetex.def
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/xetex.def
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/xetex.def
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/xetex.def
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/graphics/dvipsnam.def
@@ -268,8 +268,6 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
@@ -311,24 +309,26 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hxetex.def
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hxetex.def
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hxetex.def
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hxetex.def
-INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/stringenc/stringenc.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/stringenc/stringenc.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/stringenc/stringenc.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/stringenc/stringenc.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/stringenc/stringenc.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/stringenc/stringenc.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/stringenc/stringenc.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/stringenc/stringenc.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/stringenc/stringenc.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/stringenc/stringenc.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/stringenc/stringenc.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/atveryend/atveryend.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/atveryend/atveryend.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/atveryend/atveryend.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/atveryend/atveryend.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/atveryend/atveryend.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/atveryend/atveryend.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/atveryend/atveryend.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/atveryend/atveryend.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/atveryend/atveryend.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
@@ -344,21 +344,6 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/atveryend/atveryend.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/atveryend/atveryend.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/atveryend/atveryend.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/atveryend/atveryend.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/atveryend/atveryend.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/atveryend/atveryend.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/atveryend/atveryend.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/atveryend/atveryend.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/atveryend/atveryend.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -489,26 +474,40 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-INPUT extractbb --version
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT ./Jiashu Wu PhD University of Chinese Academy of Sciences.aux
 INPUT Jiashu Wu PhD University of Chinese Academy of Sciences.aux
 INPUT Jiashu Wu PhD University of Chinese Academy of Sciences.aux
 OUTPUT Jiashu Wu PhD University of Chinese Academy of Sciences.aux
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
+INPUT /usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT /usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT /usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT /usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -554,13 +553,36 @@ INPUT ./Jiashu Wu PhD University of Chinese Academy of Sciences.out
 INPUT Jiashu Wu PhD University of Chinese Academy of Sciences.out
 INPUT ./Jiashu Wu PhD University of Chinese Academy of Sciences.out
 INPUT Jiashu Wu PhD University of Chinese Academy of Sciences.out
+OUTPUT Jiashu Wu PhD University of Chinese Academy of Sciences.pdf
+INPUT ./Jiashu Wu PhD University of Chinese Academy of Sciences.out
+INPUT ./Jiashu Wu PhD University of Chinese Academy of Sciences.out
 OUTPUT Jiashu Wu PhD University of Chinese Academy of Sciences.out
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/ulasy.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/ulasy.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/ulasy.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/ulasy.fd
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/latex-fonts/lasy7.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm
-OUTPUT Jiashu Wu PhD University of Chinese Academy of Sciences.xdv
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
+INPUT /usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT Jiashu Wu PhD University of Chinese Academy of Sciences.aux
+INPUT ./Jiashu Wu PhD University of Chinese Academy of Sciences.out
+INPUT ./Jiashu Wu PhD University of Chinese Academy of Sciences.out
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
